@@ -5,7 +5,6 @@
 project: dynedge
 frozen_date: "2026-07-28"
 paper: "IEEE Internet of Things Journal (under review)"
-manuscript_id_author_portal: "ce3dfb57"
 
 gpu_server:
   os: "Ubuntu 22.04"
@@ -41,12 +40,15 @@ esp32_s3:
   hardware: "ESP32-S3 (16MB flash class)"
   esp_idf: "5.5.x"
   esp_dl: "3.x"
+  # Tooling entry: PlatformIO env esp32s3_espdl with framework=espidf (stack = ESP-IDF, not Arduino).
+  build_env: esp32s3_espdl
   deploy: dynedge/deploy/esp32
 
 esp32_p4:
   hardware: "ESP32-P4 (16MB flash class)"
   esp_idf: "5.5.x"
   esp_dl: "3.x"
+  build_env: esp32p4_espdl
   deploy: dynedge/deploy/esp32
 
 energy_meter:

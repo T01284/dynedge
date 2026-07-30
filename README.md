@@ -10,7 +10,7 @@ Li Zhao (Heilongjiang Jiaotong Polytechnic),
 Ming Zhao (Harbin Cambridge University),
 Shu Wang (Heilongjiang Tianyouwei Technology Co., Ltd.; corresponding author)
 
-> Status: submitted to **IEEE Internet of Things Journal** (Author Portal id `ce3dfb57`).  
+> Status: Under review at **IEEE Internet of Things Journal**.  
 > arXiv pre-print link: *placeholder — will be filled when posted*.
 
 <p align="center">
@@ -61,7 +61,7 @@ cp dynedge/configs/config.example.yaml config.local.yaml
 # edit BOARD_* placeholders, then:
 #   H618/T527: dynedge/deploy/h618|t527 + shared dynedge/deploy/ncnn_edge
 #   Orin:      dynedge/deploy/orin
-#   ESP32:     dynedge/deploy/esp32  (S3 / P4 dual PlatformIO envs)
+#   ESP32:     dynedge/deploy/esp32  (ESP-IDF 5.5.x + ESP-DL; S3/P4 targets)
 
 # 5) bench / energy
 python -m dynedge.bench.p5s1.capture --help
@@ -121,7 +121,7 @@ Until the first Release is cut, rebuild from your own distillates with the scrip
   author  = {Zhao, Li and Zhao, Ming and Wang, Shu},
   journal = {IEEE Internet of Things Journal},
   year    = {2026},
-  note    = {Under review; Author Portal id ce3dfb57. Code: https://github.com/T01284/dynedge}
+  note    = {Under review. Code: https://github.com/T01284/dynedge}
 }
 ```
 
