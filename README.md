@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12-green.svg)](requirements.txt)
-[![arXiv](https://img.shields.io/badge/arXiv-coming_soon-lightgrey.svg)](https://arxiv.org/)
+[![IEEE IoT-J](https://img.shields.io/badge/IEEE_IoT--J-under_review-orange.svg)](https://ieee-iotj.org/)
 
 **DynEdge: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices: A Hardware-in-the-Loop Approach from GPU to Microcontroller**
 
@@ -10,8 +10,7 @@ Li Zhao (Heilongjiang Jiaotong Polytechnic),
 Ming Zhao (Harbin Cambridge University),
 Shu Wang (Heilongjiang Tianyouwei Technology Co., Ltd.; corresponding author)
 
-> Status: Under review at **IEEE Internet of Things Journal**.  
-> arXiv pre-print link: *placeholder — will be filled when posted*.
+> Status: Under review at **IEEE Internet of Things Journal**.
 
 <p align="center">
   <img src="docs/figures/fig2_overview.png" width="92%" alt="DynEdge framework overview (Fig. 2)" />
