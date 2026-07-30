@@ -1,0 +1,25 @@
+# FER class maps — datasets are trained separately (never merged).
+
+ferplus:
+  num_classes: 8
+  names:
+    - neutral
+    - happiness
+    - surprise
+    - sadness
+    - anger
+    - disgust
+    - fear
+    - contempt
+  # majority-vote index order matches microsoft/FERPlus generate_training_data.py
+
+expw:
+  num_classes: 7
+  names:
+    - angry      # 0
+    - disgust    # 1
+    - fear       # 2
+    - happy      # 3
+    - sad        # 4
+    - surprise   # 5
+    - neutral    # 6

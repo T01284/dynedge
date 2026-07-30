@@ -1,0 +1,32 @@
+# H618 / OrangePi Zero3 — official linux_cpu tier (Cortex-A53)
+# Same MobileNetV3-Small probe as T527 ncnn_cpu for cross-device CSV.
+device: h618
+isa: aarch64
+cpu: cortex-a53
+board: orangepi-zero3
+npu: null
+backends:
+  - ncnn_cpu  # A53: no SDOT; contrast vs T527 A55 in §4.5
+input:
+  height: 112
+  width: 112
+  channels: 3
+  layout: nchw
+num_classes: 7
+bench:
+  warmup: 50
+  iters: 200
+  threads: 4
+lock:
+  governor: performance
+power:
+  method: usb_meter
+ncnn:
+  build: "-DNCNN_VULKAN=OFF -DNCNN_OPENMP=ON"
+  int8: true  # FP32 + INT8 matrix collected
+ssh:
+  host: root@BOARD_IP_REDACTED
+notes: >
+  Armbian 25.5.1 noble; WiFi static IP BOARD_IP_REDACTED.
+  Replaces former T113 slot in the six-device matrix.
+  Same model weights as T527 ncnn_cpu rows when INT8 path is enabled.

@@ -1,0 +1,32 @@
+# T527 — Allwinner A55 + NPU (Linux edge)
+# Probe: MobileNetV3-Small via NCNN CPU (always) and ACUITY NPU (primary path).
+device: t527
+isa: aarch64
+cpu: cortex-a55
+npu: vip9000  # confirm 2TOPS SKU with vendor
+backends:
+  - ncnn_cpu      # SDOT INT8 expected
+  - acuity_npu    # primary; see deploy/t527/acuity/
+input:
+  height: 112
+  width: 112
+  channels: 3
+  layout: nchw
+num_classes: 7
+bench:
+  warmup: 50
+  iters: 1000
+  threads: 4
+lock:
+  governor: performance
+  note: "echo performance | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor"
+power:
+  method: p5s1  # bench/p5s1; high-side on board supply; ≥100Hz during BENCH window
+ncnn:
+  build: "-DNCNN_VULKAN=OFF -DNCNN_OPENMP=ON"
+  int8: true
+npu:
+  sdk: public_acuity_viplite  # 公开 ACUITY→NBG；非必须厂商私有包
+  runtime: viplite  # /dev/vipcore + libVIPlite
+  checklist: deploy/t527/docs/npu_ops_checklist.md
+  paper_os: linux  # 正式数字在 Linux 重测；Android 为 transitional

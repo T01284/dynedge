@@ -1,0 +1,23 @@
+# ExpW train/val/test split — freeze once generated; cite in paper §4.1.
+# Method: stratified 8:1:1 by expression_label, seed=2026.
+# Official ExpW has no canonical split; we document this choice explicitly.
+
+source: official_expw
+label_file: data/label/label.lst
+split_method: stratified_811
+seed: 2026
+ratios:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+min_bbox_confidence: 0.0
+# Filled after prepare_expw.py:
+n_total_labeled: null
+n_after_confidence_filter: null
+n_align_ok: null
+n_align_skip: null
+skip_rate: null
+split_file: configs/expw_split_lists.json
+notes: >
+  Final N (align_ok) must be reported in paper §4.1.
+  MTCNN skip rate target 1–3%; investigate if outside band.

@@ -1,0 +1,10 @@
+.pio/
+managed_components/
+sdkconfig
+sdkconfig.esp32p4_espdl
+sdkconfig.esp32s3_espdl
+build_log.txt
+main/model_espdl_data.c
+main/ref_images.c
+main/*.espdl
+main/wifi_secrets.h

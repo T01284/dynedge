@@ -1,0 +1,6 @@
+# Name,   Type, SubType, Offset,  Size, Flags
+# ESP32-S3 (T-Camera S3 / S3FN16R8) and ESP32-P4 (Tab5): physical flash 16MB.
+# factory app expanded 4MB -> 12MB so w0.5 deeper .espdl embeds fit.
+nvs,      data, nvs,     0x9000,  0x6000,
+phy_init, data, phy,     0xf000,  0x1000,
+factory,  app,  factory, 0x10000, 0xC00000,

@@ -1,0 +1,110 @@
+{
+  "n": 6,
+  "pearson_r": 0.5870322677844411,
+  "mape_pct": 42.367864445105916,
+  "pass_mape": false,
+  "pass_r": false,
+  "pass": false,
+  "fit": {
+    "global": {
+      "a": 1.0772333375543104,
+      "b": 35319.38181250323,
+      "n": 6
+    }
+  },
+  "note": "6 MCU e2e points (d2222+d3333 \u00d7 P4/S3); gemm mined as 1x1 conv; add/gap proxied; prefer --fit-affine (global) or --fit-per-device (\u22652 pts/device)",
+  "rows": [
+    {
+      "device": "esp32p4",
+      "measured_us": 19699.75,
+      "sum_ops_us": 5354.0,
+      "pred_us": 41086.889101769004,
+      "n_ops": 49,
+      "n_missing": 0,
+      "missing": [],
+      "fit_scale": 1.0772333375543104,
+      "fit_bias": 35319.38181250323
+    },
+    {
+      "device": "esp32s3",
+      "measured_us": 58824.625,
+      "sum_ops_us": 30482.5,
+      "pred_us": 68156.14702450248,
+      "n_ops": 49,
+      "n_missing": 0,
+      "missing": [],
+      "fit_scale": 1.0772333375543104,
+      "fit_bias": 35319.38181250323
+    },
+    {
+      "device": "esp32p4",
+      "measured_us": 28039.0,
+      "sum_ops_us": 7171.5,
+      "pred_us": 43044.76069277396,
+      "n_ops": 73,
+      "n_missing": 0,
+      "missing": [],
+      "fit_scale": 1.0772333375543104,
+      "fit_bias": 35319.38181250323
+    },
+    {
+      "device": "esp32s3",
+      "measured_us": 86642.0,
+      "sum_ops_us": 46263.0,
+      "pred_us": 85155.42770777829,
+      "n_ops": 73,
+      "n_missing": 0,
+      "missing": [],
+      "fit_scale": 1.0772333375543104,
+      "fit_bias": 35319.38181250323
+    },
+    {
+      "device": "esp32p4",
+      "measured_us": 31300.0,
+      "sum_ops_us": 2490.0,
+      "pred_us": 38001.69282301346,
+      "n_ops": 49,
+      "n_missing": 34,
+      "missing": [
+        "ir_pw_proj_s0_b0",
+        "ir_pw_exp_s0_b1",
+        "ir_dw_s0_b1",
+        "ir_pw_proj_s0_b1",
+        "ir_pw_exp_s1_b0",
+        "ir_dw_s1_b0",
+        "ir_pw_proj_s1_b0",
+        "ir_pw_exp_s1_b1",
+        "ir_dw_s1_b1",
+        "se_down_s1_b1",
+        "se_up_s1_b1",
+        "ir_pw_proj_s1_b1"
+      ],
+      "fit_scale": 1.0772333375543104,
+      "fit_bias": 35319.38181250323
+    },
+    {
+      "device": "esp32s3",
+      "measured_us": 95870.0,
+      "sum_ops_us": 8922.0,
+      "pred_us": 44930.45765016278,
+      "n_ops": 49,
+      "n_missing": 34,
+      "missing": [
+        "ir_pw_proj_s0_b0",
+        "ir_pw_exp_s0_b1",
+        "ir_dw_s0_b1",
+        "ir_pw_proj_s0_b1",
+        "ir_pw_exp_s1_b0",
+        "ir_dw_s1_b0",
+        "ir_pw_proj_s1_b0",
+        "ir_pw_exp_s1_b1",
+        "ir_dw_s1_b1",
+        "se_down_s1_b1",
+        "se_up_s1_b1",
+        "ir_pw_proj_s1_b1"
+      ],
+      "fit_scale": 1.0772333375543104,
+      "fit_bias": 35319.38181250323
+    }
+  ]
+}

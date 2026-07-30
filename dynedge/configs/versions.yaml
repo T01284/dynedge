@@ -1,0 +1,60 @@
+# Frozen software stack for reported DynEdge numbers
+# (sanitized; aligns with Supplementary Material Table I).
+# Local board endpoints live ONLY in config.local.yaml (gitignored).
+
+project: dynedge
+frozen_date: "2026-07-28"
+paper: "IEEE Internet of Things Journal (under review)"
+manuscript_id_author_portal: "ce3dfb57"
+
+gpu_server:
+  os: "Ubuntu 22.04"
+  gpu: "NVIDIA CUDA GPU (server class)"
+  cuda: "12.8"
+  pytorch: "2.11.0+cu128"
+  torchvision: "0.26.0+cu128"
+  python: "3.12"
+
+orin_nano:
+  board: "NVIDIA Jetson Orin Nano 8GB"
+  jetpack: "6.2"
+  l4t: "36.4.3"
+  cuda: "12.6"
+  tensorrt: "10.3"
+  nvpmodel: "MAXN_SUPER"
+  deploy: dynedge/deploy/orin
+
+t527:
+  board: "Allwinner T527 (Cortex-A55 @1.416 GHz)"
+  bsp: "Buildroot Linux"
+  npu: "VIPLite 1.13"
+  ncnn: true
+  deploy: dynedge/deploy/t527
+
+h618:
+  board: "OrangePi Zero3 (Allwinner H618, Cortex-A53)"
+  bsp: "Armbian"
+  ncnn_threads: 4
+  deploy: dynedge/deploy/h618
+
+esp32_s3:
+  hardware: "ESP32-S3 (16MB flash class)"
+  esp_idf: "5.5.x"
+  esp_dl: "3.x"
+  deploy: dynedge/deploy/esp32
+
+esp32_p4:
+  hardware: "ESP32-P4 (16MB flash class)"
+  esp_idf: "5.5.x"
+  esp_dl: "3.x"
+  deploy: dynedge/deploy/esp32
+
+energy_meter:
+  model: "P5S1 shunt meter"
+  sample_hz: 100
+  current_range: "±3.3 A"
+  current_resolution: "0.01 mA"
+
+notes: >
+  Mid-project toolchain upgrades invalidate cross-time latency comparisons.
+  Board IP / serial ports / SSH credentials must never appear in this file.

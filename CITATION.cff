@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use DynEdge, please cite the following."
+title: "DynEdge: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices"
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Li
+  - family-names: Zhao
+    given-names: Ming
+  - family-names: Wang
+    given-names: Shu
+repository-code: "https://github.com/T01284/dynedge"
+license: Apache-2.0
+version: "0.1.0"
+date-released: "2026-07-30"
+preferred-citation:
+  type: article
+  title: "DynEdge: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices: A Hardware-in-the-Loop Approach from GPU to Microcontroller"
+  authors:
+    - family-names: Zhao
+      given-names: Li
+    - family-names: Zhao
+      given-names: Ming
+    - family-names: Wang
+      given-names: Shu
+  journal: "IEEE Internet of Things Journal"
+  year: 2026
+  notes: "Under review; Author Portal id ce3dfb57"

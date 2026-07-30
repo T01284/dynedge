@@ -1,0 +1,68 @@
+# Local secrets / board endpoints (never commit)
+config.local.yaml
+**/config.local.yaml
+.env
+.env.*
+!.env.example
+**/wifi_secrets.h
+**/access_token
+**/kaggle.json
+.kaggle/
+credentials.*
+*.pem
+*.key
+
+# Checkpoints & deploy binaries (ship via GitHub Releases)
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
+*.nb
+*.bin
+*.espdl
+*.param
+
+# Datasets (license forbids redistribution of images)
+datasets/FERPlus/
+datasets/fer2013/
+datasets/expw/
+datasets/ck+/
+data/
+**/aligned/
+**/raw/
+
+# Large / internal result dumps
+results/raw/
+**/SUMMARY.md
+**/from_autodl/
+
+# Logs & caches
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.cache/
+
+# Native / firmware build trees
+.pio/
+**/managed_components/
+**/build*/
+**/cmake-build*/
+
+# IDE / OS
+.idea/
+.vscode/
+.cursor/
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.7z
+*.tar.gz
+*.tgz

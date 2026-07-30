@@ -1,0 +1,7 @@
+device,tier,isa,backend,model,fw,input,kind,warmup,iters,latency_us_mean,latency_us_p50,latency_us_p95,latency_us_p99,pred,class,conf,heap_free,psram_free,psram_ok,weights_bytes,act_bytes,rss_kb,vms_kb,power_w_mean,power_w_idle,energy_mj_per_infer,energy_mj_per_infer_gross,n_power_samples,power_meter
+orin,jetson,aarch64,trt_int8,subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,orin_trt_1,64x64x3,bench,50,1000,1029.3,1082.0,1097.9,1111.8,0,neutral,0.8845,,,,,,551536,11441700,,,,,,
+orin,jetson,aarch64,trt_int8,subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,orin_trt_1,64x64x3,bench,50,1000,1175.5,1120.8,1326.7,1339.4,0,neutral,0.874,,,,,,553852,11445376,,,,,,
+orin,jetson,aarch64,trt_int8,subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,orin_trt_1,96x96x3,bench,50,1000,1015.7,1012.9,1042.0,1056.7,0,neutral,0.9847,,,,,,551124,11439384,,,,,,
+orin,jetson,aarch64,trt_int8,subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,orin_trt_1,112x112x3,bench,50,1000,1363.1,1317.6,1505.8,1530.6,0,neutral,0.8221,,,,,,546964,11440680,,,,,,
+orin,jetson,aarch64,trt_int8,subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,orin_trt_1,112x112x3,bench,50,1000,1477.7,1419.4,1582.9,1600.6,0,neutral,0.7989,,,,,,549168,11440876,,,,,,
+orin,jetson,aarch64,trt_int8,subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,orin_trt_1,112x112x3,bench,50,1000,1745.3,1741.6,1770.7,1789.5,0,neutral,0.541,,,,,,548656,11435400,,,,,,

@@ -1,0 +1,13 @@
+{
+  "n_cfg": 17,
+  "n_device_cfg": 34,
+  "n_have": 34,
+  "n_missing": 0,
+  "pct": 100.0,
+  "op_wallclock_share": {
+    "esp32p4": 0.2718,
+    "esp32s3": 0.5182
+  },
+  "method": "exhaustive_e2e_truth_table",
+  "note": "MCU LUT is ground-truth e2e; no affine fit. Op-level ESP-DL mining retained only as \u00a74.5 evidence (ops\u224827\u201352% of wall-clock)."
+}

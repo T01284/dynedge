@@ -1,0 +1,35 @@
+# =============================================================================
+# DynEdge example board / path template.
+# Copy to config.local.yaml and fill REAL values locally (gitignored).
+# =============================================================================
+
+project_root: /path/to/dynedge
+data_root: /path/to/datasets
+artifact_root: ./artifacts
+
+ssh:
+  # Never commit real IPs, hostnames, or passwords.
+  h618:
+    host: BOARD_H618_IP_OR_HOSTNAME
+    user: root
+    # Prefer SSH keys; password auth is discouraged.
+    port: 22
+  t527:
+    host: BOARD_T527_IP_OR_HOSTNAME
+    user: root
+    port: 22
+  orin:
+    host: BOARD_ORIN_IP_OR_HOSTNAME
+    user: ubuntu
+    port: 22
+
+serial:
+  # USB CDC / UART device nodes — machine-specific
+  p5s1_meter: SERIAL_PORT_P5S1   # e.g. COMx on Windows, /dev/ttySERIAL on Linux
+  esp32_s3: SERIAL_PORT_ESP32S3
+  esp32_p4: SERIAL_PORT_ESP32P4
+  baud: 921600
+
+paths:
+  ncnn_prefix: /opt/ncnn/install
+  release_assets: /path/to/downloaded/github-release-assets

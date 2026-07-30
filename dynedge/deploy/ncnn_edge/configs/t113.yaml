@@ -1,0 +1,29 @@
+# T113 — ABANDONED (replaced by h618 as official linux_cpu tier)
+# Keep for legacy stub CSV only. Do not use for new benches.
+# Probe: same MobileNetV3-Small param/bin as T527 CPU path (historical).
+device: t113
+isa: armv7  # or aarch64 if board is T113-i 64-bit SKU — set after BSP confirm
+cpu: cortex-a7
+npu: null
+backends:
+  - ncnn_cpu  # no SDOT; INT8 speedup vs T527 A55 is a §4.5 data point
+input:
+  height: 112
+  width: 112
+  channels: 3
+  layout: nchw
+num_classes: 7
+bench:
+  warmup: 50
+  iters: 1000
+  threads: 2  # typical dual-A7; override after nproc
+lock:
+  governor: performance
+power:
+  method: usb_meter
+ncnn:
+  build: "-DNCNN_VULKAN=OFF -DNCNN_OPENMP=ON"
+  int8: true
+notes: >
+  Same model weights as T527 ncnn_cpu row. Report whether INT8 uses
+  neon/v7 or falls back; contrast with A55 SDOT on T527.

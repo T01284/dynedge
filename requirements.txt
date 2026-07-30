@@ -1,0 +1,35 @@
+# Training / host-side Python stack (aligned with Supplementary Table I).
+# CUDA wheel index is environment-specific; pin the same major.minor as below.
+
+# Core training
+torch==2.11.0
+torchvision==0.26.0
+numpy==1.26.4
+Pillow==10.4.0
+tqdm==4.66.5
+PyYAML==6.0.2
+scipy==1.14.1
+pandas==2.2.2
+einops==0.8.0
+timm==1.0.9
+
+# ExpW MTCNN align (facenet-pytorch)
+facenet-pytorch==2.5.3
+
+# Search / logging helpers
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Board harness / energy meter (host)
+pyserial==3.5
+paramiko==3.4.1
+scp==0.15.0
+
+# ONNX export / PTQ tooling (optional boards)
+onnx==1.16.2
+onnxruntime==1.19.2
+
+# Notes:
+# - Jetson Orin uses the JetPack-bundled torch / TensorRT (see configs/versions.yaml).
+# - ESP-IDF / ESP-DL / NCNN are C++ toolchains — versions frozen in configs/versions.yaml,
+#   not pip packages.

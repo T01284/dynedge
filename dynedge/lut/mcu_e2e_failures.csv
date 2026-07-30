@@ -1,0 +1,25 @@
+device,model,reason,detail,ts
+esp32p4,v4_w0.75_d3333_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=5135616 app_image≈7663232 partition=4194304; upload succeeded but boot loop Image length doesn't fit,2026-07-21T12:36:00
+esp32s3,v4_w0.75_d3333_s64g_ferplus,skipped_after_p4_fail,not_attempted_same_size_risk,2026-07-21T12:36:00
+esp32p4,v4_w0.35_d2234_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T14:53:40
+esp32p4,v4_w0.35_d2334_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T14:59:47
+esp32p4,v4_w0.35_d2344_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:02:48
+esp32p4,v4_w0.35_d3334_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:10:12
+esp32p4,v4_w0.35_d3344_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:13:56
+esp32p4,v4_w0.35_d3444_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:17:27
+esp32p4,v4_w0.35_d4444_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:20:49
+esp32p4,v4_w0.5_d2223_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:24:07
+esp32p4,v4_w0.5_d2233_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:27:15
+esp32p4,v4_w0.5_d2234_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3053440 limit=2800000,2026-07-21T15:30:32
+esp32p4,v4_w0.5_d2333_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:34:24
+esp32p4,v4_w0.5_d2334_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3102576 limit=2800000,2026-07-21T15:37:12
+esp32p4,v4_w0.5_d2344_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3299120 limit=2800000,2026-07-21T15:38:47
+esp32s3,v4_w0.5_d2344_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3006256 limit=2800000,2026-07-21T15:39:37
+esp32p4,v4_w0.5_d3333_s64g_ferplus,no_ready_or_bench,after_upload,2026-07-21T15:41:23
+esp32p4,v4_w0.5_d3334_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3127712 limit=2800000,2026-07-21T15:44:37
+esp32p4,v4_w0.5_d3344_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3325536 limit=2800000,2026-07-21T15:46:45
+esp32s3,v4_w0.5_d3344_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3026112 limit=2800000,2026-07-21T15:47:44
+esp32p4,v4_w0.5_d3444_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3374128 limit=2800000,2026-07-21T15:48:44
+esp32s3,v4_w0.5_d3444_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3064432 limit=2800000,2026-07-21T15:49:37
+esp32p4,v4_w0.5_d4444_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3398592 limit=2800000,2026-07-21T15:50:41
+esp32s3,v4_w0.5_d4444_s64g_ferplus,espdl_too_large_for_4mb_partition,bytes=3085456 limit=2800000,2026-07-21T15:51:45
