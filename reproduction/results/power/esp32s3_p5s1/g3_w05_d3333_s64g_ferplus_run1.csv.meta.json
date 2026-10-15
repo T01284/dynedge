@@ -1,0 +1,13 @@
+{
+  "device": "esp32s3",
+  "port": "COM40",
+  "rate_hz": 100,
+  "started_host_s": 1784872431.7253962,
+  "meter_model": "P5S1",
+  "meter_version": "v2.2",
+  "v_range_v": 60.0,
+  "i_range_a": 3.3,
+  "sample_rate_hz": 100,
+  "n_samples": 900,
+  "ended_host_s": 1784872442.0077047
+}

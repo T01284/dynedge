@@ -1,0 +1,4 @@
+path,acc,n,correct,pred_match_vs_ncnn,verdict
+torch_supernet_force_final,0.9354838709677419,155,145,0.8193548387096774,DEPLOY_BAKE_GAP
+torch_predistill_force_final,0.9548387096774194,155,148,0.8064516129032258,DEPLOY_BAKE_GAP
+ncnn_bake_force_final,0.7870967741935484,155,122,1.0,DEPLOY_BAKE_GAP

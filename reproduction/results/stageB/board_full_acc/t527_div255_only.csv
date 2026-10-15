@@ -1,0 +1,4 @@
+board,arm,model,dtype,combo,n,n_nonfinite,acc,seconds
+t527,flops,subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64,fp32,64g,3153,0,0.371075,12.9
+t527,flops,subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64,int8,64g,3153,0,0.381541,15.9
+t527,flops,subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64,fp32,64g,3153,0,0.398034,14.2

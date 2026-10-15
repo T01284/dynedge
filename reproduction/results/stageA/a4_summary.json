@@ -1,0 +1,24 @@
+{
+  "space": "4 widths x 81 depth tuples x 3 resolutions = 972 subnets",
+  "reference": "affine operator-LUT latency (H618 affine = published fit; T527 affine fit on its 27 measured nets)",
+  "affine": {
+    "h618_fp32": [
+      0.8786167764789027,
+      1187.1673261297146
+    ],
+    "h618_int8": [
+      0.8055378987527299,
+      877.7509894135619
+    ],
+    "t527_fp32": [
+      1.3704482805682832,
+      -1964.1535566315995
+    ],
+    "t527_int8": [
+      1.1777302501094424,
+      -1065.8823681175593
+    ]
+  },
+  "models": "Ridge(alpha=1) and MLP(64,32,relu) on log latency, StandardScaler, 27 features",
+  "note_search": "candidate universes are the union of subnets actually evaluated by the evolutionary searches; accuracy is the search-time validation accuracy (supernet, not distilled)"
+}

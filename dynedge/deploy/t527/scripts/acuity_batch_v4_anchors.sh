@@ -12,7 +12,7 @@ ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
 if [[ "$ROOT" == /mnt/* ]]; then
   HOST_ROOT="$ROOT"
 else
-  HOST_ROOT="/mnt/d/paper/lane-edge"
+  HOST_ROOT="<repo>"
   if [[ -d "$HOST_ROOT" ]]; then ROOT="$HOST_ROOT"; fi
 fi
 

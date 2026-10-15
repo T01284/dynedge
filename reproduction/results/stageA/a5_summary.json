@@ -1,0 +1,14 @@
+{
+  "operator_protocol": {
+    "warmup": 10,
+    "iters": 80,
+    "threads": 4,
+    "source": "lut/mine_ops_h618_batch.py L263; SUMMARY.md 8.7"
+  },
+  "h618_operator_median_us": 164.95,
+  "t527_operator_median_us": 202.95,
+  "mcu_attempt_gap_s_median": 181.0,
+  "mcu_attempt_gap_s_n": 21,
+  "total_bench_hours": 3.02,
+  "note": "Bench hours count on-device measurement time only. Host-side export, PTQ and transfer are extra and not in these logs except the T527 pack+quant note."
+}

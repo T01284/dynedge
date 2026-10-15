@@ -1,0 +1,7 @@
+model,tag,input,npu_us_p50,npu_ms_p50,ncnn_fp32_ms,ncnn_int8_ms,speedup_vs_int8,speedup_vs_fp32
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,w035_d2222_s64g,64x64x3,1150,1.15,2.163,3.942,3.43,1.88
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,w035_d3333_s64g,64x64x3,1612,1.612,3.085,5.602,3.48,1.91
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,w05_d2222_s96c,96x96x3,2674,2.674,5.392,9.722,3.64,2.02
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,w05_d3333_s112c,112x112x3,4941,4.941,9.984,18.572,3.76,2.02
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,w075_d3333_s112c,112x112x3,7809,7.809,19.359,31.174,3.99,2.48
+subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,w1_d4444_s112c,112x112x3,13212,13.212,37.169,55.924,4.23,2.81

@@ -2,7 +2,7 @@
 # Cross-build ncnn + fer_ncnn_bench for T527 Buildroot (glibc aarch64).
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/../../.." && pwd)"
-WSL_ROOT="/mnt/d/paper/lane-edge"
+WSL_ROOT="<repo>"
 NCNN_SRC="${HOME}/src/ncnn"
 NCNN_PREFIX="${HOME}/opt/ncnn-aarch64"
 BUILD_NCNN="${HOME}/build/ncnn-aarch64"

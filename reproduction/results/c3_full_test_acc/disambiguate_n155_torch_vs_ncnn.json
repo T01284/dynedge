@@ -1,0 +1,12 @@
+{
+  "n": 155,
+  "class_hist": {"0": 56, "1": 45, "2": 16, "3": 21, "4": 13, "5": 1, "6": 2, "7": 1},
+  "torch_supernet_force_final": {"acc": 0.9354838709677419, "n": 155, "correct": 145},
+  "torch_predistill_force_final": {"acc": 0.9548387096774194, "n": 155, "correct": 148},
+  "ncnn_bake_mean0_norm": {"acc": 0.7870967741935484, "n": 155, "correct": 122, "note": "old host bug"},
+  "ncnn_bake_imagenet": {"acc": 0.9548387096774194, "n": 155, "correct": 148, "note": "matches torch predistill"},
+  "host_n155_after_fix": {"acc_force_final": 0.9548387096774194},
+  "autodl_full_test_ref": 0.866,
+  "verdict": "PREPROCESS_BUG_NOT_SAMPLE",
+  "note": "8pp gap was host NCNN missing ImageNet normalize (mean0+1/255). Same 155 with ImageNet: torch supernet 0.935 / predistill+NCNN 0.955. Not eval500 hardness; not bake weight loss."
+}

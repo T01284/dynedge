@@ -1,0 +1,149 @@
+{
+  "status": "ok_c2c3_joint_money_figure",
+  "note": "Host synthesis: C2 = Lat_lo\u2264B, max Acc then budget-fill among Acc within \u00b12% (formal FP32 + elastic C3 mid); C3 fine-tune = \u00a78.36 randB \u03bb=0.05. Single-subnet three-line plot demoted to mechanism_4_4/ (\u00a74.4).",
+  "c2_acc_slack": 0.015,
+  "B_range_ms": [
+    3.0,
+    30.0
+  ],
+  "catalog": {
+    "h618": [
+      {
+        "name": "static:w0.35_d3222_s64g",
+        "test_acc": 0.8287345385347288,
+        "lo_ms": 3.263,
+        "hi_ms": 3.263,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.5_d3332_s64g",
+        "test_acc": 0.8496669838249287,
+        "lo_ms": 4.997,
+        "hi_ms": 4.997,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.5_d3242_s96c",
+        "test_acc": 0.872185220424992,
+        "lo_ms": 9.508,
+        "hi_ms": 9.508,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.5_d3333_s96c",
+        "test_acc": 0.8705994291151284,
+        "lo_ms": 9.846,
+        "hi_ms": 9.846,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.75_d3333_s112c",
+        "test_acc": 0.8769425943545829,
+        "lo_ms": 24.2,
+        "hi_ms": 24.2,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w1_d4342_s112c",
+        "test_acc": 0.8804313352362829,
+        "lo_ms": 36.233,
+        "hi_ms": 36.233,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "elastic:w0.5_d3333_s112+C3",
+        "test_acc": 0.8609789618352892,
+        "lo_ms": 16.902999877929688,
+        "hi_ms": 27.874,
+        "elastic": true,
+        "n_c3_pts": 9
+      }
+    ],
+    "t527": [
+      {
+        "name": "static:w0.35_d3222_s64g",
+        "test_acc": 0.8287345385347288,
+        "lo_ms": 4.138,
+        "hi_ms": 4.138,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.5_d3332_s64g",
+        "test_acc": 0.8496669838249287,
+        "lo_ms": 6.977,
+        "hi_ms": 6.977,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.5_d3242_s96c",
+        "test_acc": 0.872185220424992,
+        "lo_ms": 13.285,
+        "hi_ms": 13.285,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.5_d3333_s96c",
+        "test_acc": 0.8705994291151284,
+        "lo_ms": 14.475,
+        "hi_ms": 14.475,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w0.75_d3333_s112c",
+        "test_acc": 0.8769425943545829,
+        "lo_ms": 38.946,
+        "hi_ms": 38.946,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "static:w1_d4342_s112c",
+        "test_acc": 0.8804313352362829,
+        "lo_ms": 61.692,
+        "hi_ms": 61.692,
+        "elastic": false,
+        "n_c3_pts": 0
+      },
+      {
+        "name": "elastic:w0.5_d3333_s112+C3",
+        "test_acc": 0.8598160482080559,
+        "lo_ms": 11.928999900817871,
+        "hi_ms": 20.047,
+        "elastic": true,
+        "n_c3_pts": 9
+      }
+    ]
+  },
+  "stats": {
+    "h618": {
+      "mae_joint_ms": 2.534,
+      "mae_c2_only_ms": 4.002,
+      "ols_slope_joint": 0.985,
+      "ols_slope_c2_only": 1.088,
+      "n": 396
+    },
+    "t527": {
+      "mae_joint_ms": 3.152,
+      "mae_c2_only_ms": 3.826,
+      "ols_slope_joint": 0.732,
+      "ols_slope_c2_only": 0.7,
+      "n": 383
+    }
+  },
+  "csv": "results/c2c3_joint_tracking/joint_tracking_sweep.csv",
+  "figures": [
+    "results/c2c3_joint_tracking/c2c3_joint_tracking.png",
+    "results/c2c3_joint_tracking/c2c3_joint_tracking_overlay.png"
+  ],
+  "mechanism_4_4": "results/c3_budget_tracking/mechanism_4_4/"
+}

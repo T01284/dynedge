@@ -1,0 +1,8 @@
+label,source,artifact,n_runs,e_net_mj,e_net_std_mj,p_idle_w,in_fig
+Orin TRT INT8,results\stageB\b5_energy_window\orin\summary.json,"w05_d3333_s112c trt_int8, slope of E_win on N",18,3.5277,0.03862244897959189,8.6979,True
+T527 NPU (ReLU NBG),results\stageB\b5_energy_window\t527\v4_npu_relu_fix\summary.json,w05_d3333_s112c v4_npu_relu_fix,4,1.56727,0.02455,2.28214,True
+T527 NPU (Hardswish NBG),results\stageB\b5_energy_window\t527\v4_npu_fix\summary.json,w05_d3333_s112c v4_npu_fix,4,3.04204,0.0458,2.27889,False
+T527 NCNN INT8,results/power/t527_p5s1/energy_matrix.csv,w05_d3333_s112c ncnn_int8,3,17.540272,0.301893,2.269751,True
+H618 NCNN INT8,results/power/h618_p5s1/energy_matrix.csv,w05_d3333_s112c ncnn_int8,3,23.347561,0.520282,0.938668,True
+ESP32-P4 ESP-DL,results\stageB\b5_energy_window\esp32p4_ppk2\summary.json,w0.35_d2222_s64g PPK2 30 s windows,8,2.71338,0.04557,0.31787,True
+ESP32-S3 ESP-DL,results\stageB\b5_energy_window\esp32s3_ppk2\summary.json,w0.35_d2222_s64g PPK2 30 s windows,8,9.19082,0.02651,0.15114,True

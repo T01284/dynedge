@@ -1,0 +1,16 @@
+{
+  "device": "t527",
+  "label": "p5s1_smoke",
+  "port": "COM40",
+  "baud": 921600,
+  "rate_hz": 100,
+  "started_host_s": 1784857352.7069519,
+  "meter_model": "P5S1",
+  "meter_version": "v2.2",
+  "v_range_v": 60.0,
+  "i_range_a": 3.3,
+  "digits": 5.5,
+  "sample_rate_hz": 100,
+  "n_samples": 900,
+  "ended_host_s": 1784857363.0554707
+}

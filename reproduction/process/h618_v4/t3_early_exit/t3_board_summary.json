@@ -1,0 +1,182 @@
+{
+  "status": "ok_h618_t3_suite",
+  "note": "Mirror T527 \u00a78.15: same multi-exit bake; \u03c4 sweep + force_final; forced e0..e2 + FF give board cum/seg for C3 budget-band calibration",
+  "device": "h618",
+  "threads": 4,
+  "n": 80,
+  "model": "results/t527_v4/t3_early_exit/ncnn (shared multi-exit)",
+  "board": {
+    "force_final": {
+      "raw": "RESULT n=80 tau=0.850 force_final=1 threads=4 e0=0.0000 e1=0.0000 e2=0.0000 e3=1.0000 p50_ms=27.874 p99_ms=28.471 mean_ms=27.961 fp16=off note=force_final",
+      "n": "80",
+      "tau": "0.850",
+      "force_final": "1",
+      "threads": "4",
+      "e0": "0.0000",
+      "e1": "0.0000",
+      "e2": "0.0000",
+      "e3": "1.0000",
+      "p50_ms": "27.874",
+      "p99_ms": "28.471",
+      "mean_ms": "27.961",
+      "fp16": "off",
+      "note": "force_final"
+    },
+    "tau_0.7": {
+      "raw": "RESULT n=80 tau=0.700 force_final=0 threads=4 e0=0.4375 e1=0.4125 e2=0.0500 e3=0.1000 p50_ms=21.694 p99_ms=28.556 mean_ms=20.759 fp16=off note=threshold_not_G5",
+      "n": "80",
+      "tau": "0.700",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "0.4375",
+      "e1": "0.4125",
+      "e2": "0.0500",
+      "e3": "0.1000",
+      "p50_ms": "21.694",
+      "p99_ms": "28.556",
+      "mean_ms": "20.759",
+      "fp16": "off",
+      "note": "threshold_not_G5"
+    },
+    "tau_0.8": {
+      "raw": "RESULT n=80 tau=0.800 force_final=0 threads=4 e0=0.3000 e1=0.4500 e2=0.0625 e3=0.1875 p50_ms=21.666 p99_ms=28.570 mean_ms=21.968 fp16=off note=threshold_not_G5",
+      "n": "80",
+      "tau": "0.800",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "0.3000",
+      "e1": "0.4500",
+      "e2": "0.0625",
+      "e3": "0.1875",
+      "p50_ms": "21.666",
+      "p99_ms": "28.570",
+      "mean_ms": "21.968",
+      "fp16": "off",
+      "note": "threshold_not_G5"
+    },
+    "tau_0.85": {
+      "raw": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=0.1750 e1=0.5125 e2=0.0625 e3=0.2500 p50_ms=21.994 p99_ms=29.024 mean_ms=23.229 fp16=off note=threshold_not_G5",
+      "n": "80",
+      "tau": "0.850",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "0.1750",
+      "e1": "0.5125",
+      "e2": "0.0625",
+      "e3": "0.2500",
+      "p50_ms": "21.994",
+      "p99_ms": "29.024",
+      "mean_ms": "23.229",
+      "fp16": "off",
+      "note": "threshold_not_G5"
+    },
+    "tau_0.9": {
+      "raw": "RESULT n=80 tau=0.900 force_final=0 threads=4 e0=0.1125 e1=0.4625 e2=0.0875 e3=0.3375 p50_ms=22.028 p99_ms=29.001 mean_ms=24.150 fp16=off note=threshold_not_G5",
+      "n": "80",
+      "tau": "0.900",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "0.1125",
+      "e1": "0.4625",
+      "e2": "0.0875",
+      "e3": "0.3375",
+      "p50_ms": "22.028",
+      "p99_ms": "29.001",
+      "mean_ms": "24.150",
+      "fp16": "off",
+      "note": "threshold_not_G5"
+    },
+    "force_exit_0": {
+      "raw": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=1.0000 e1=0.0000 e2=0.0000 e3=0.0000 p50_ms=16.903 p99_ms=17.834 mean_ms=16.958 fp16=off note=g5_forced_exits",
+      "n": "80",
+      "tau": "0.850",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "1.0000",
+      "e1": "0.0000",
+      "e2": "0.0000",
+      "e3": "0.0000",
+      "p50_ms": "16.903",
+      "p99_ms": "17.834",
+      "mean_ms": "16.958",
+      "fp16": "off",
+      "note": "g5_forced_exits"
+    },
+    "force_exit_1": {
+      "raw": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=0.0000 e1=1.0000 e2=0.0000 e3=0.0000 p50_ms=21.954 p99_ms=22.827 mean_ms=22.010 fp16=off note=g5_forced_exits",
+      "n": "80",
+      "tau": "0.850",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "0.0000",
+      "e1": "1.0000",
+      "e2": "0.0000",
+      "e3": "0.0000",
+      "p50_ms": "21.954",
+      "p99_ms": "22.827",
+      "mean_ms": "22.010",
+      "fp16": "off",
+      "note": "g5_forced_exits"
+    },
+    "force_exit_2": {
+      "raw": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=0.0000 e1=0.0000 e2=1.0000 e3=0.0000 p50_ms=27.933 p99_ms=28.595 mean_ms=28.027 fp16=off note=g5_forced_exits",
+      "n": "80",
+      "tau": "0.850",
+      "force_final": "0",
+      "threads": "4",
+      "e0": "0.0000",
+      "e1": "0.0000",
+      "e2": "1.0000",
+      "e3": "0.0000",
+      "p50_ms": "27.933",
+      "p99_ms": "28.595",
+      "mean_ms": "28.027",
+      "fp16": "off",
+      "note": "g5_forced_exits"
+    }
+  },
+  "speedup_p50_vs_force_final": {
+    "tau_0.7": 1.2849,
+    "tau_0.8": 1.2865,
+    "tau_0.85": 1.2673,
+    "tau_0.9": 1.2654
+  },
+  "segment_calibration": {
+    "lut_cum_exit_ms": [
+      9.607,
+      11.095,
+      12.379,
+      12.52
+    ],
+    "lut_seg_ms_approx": [
+      9.607,
+      1.488,
+      1.284,
+      0.141
+    ],
+    "board_cum_p50_ms": [
+      16.903,
+      21.954,
+      27.933,
+      27.874
+    ],
+    "board_seg_p50_ms": [
+      16.903,
+      5.051,
+      5.979,
+      -0.059
+    ],
+    "board_over_lut_cum": [
+      1.759,
+      1.979,
+      2.256,
+      2.226
+    ],
+    "exit_labels": [
+      "exit2",
+      "exit3",
+      "exit4",
+      "final"
+    ]
+  }
+}

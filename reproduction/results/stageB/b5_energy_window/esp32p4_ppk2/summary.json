@@ -1,0 +1,79 @@
+{
+  "by_anchor": {
+    "w035_d2222_s64g": {
+      "windows": {
+        "2": {
+          "n_reps": 8,
+          "n_infer": 94,
+          "active_s_mean": 1.992,
+          "samples_per_window": 1993.9,
+          "net_mean": 2.66204,
+          "net_sd": 0.01612,
+          "net_ci95": [
+            2.64856,
+            2.67552
+          ],
+          "cv": 0.0061,
+          "rel_to_longest": -0.0189
+        },
+        "5": {
+          "n_reps": 8,
+          "n_infer": 235,
+          "active_s_mean": 4.977,
+          "samples_per_window": 4972.9,
+          "net_mean": 2.69243,
+          "net_sd": 0.02127,
+          "net_ci95": [
+            2.67465,
+            2.71021
+          ],
+          "cv": 0.0079,
+          "rel_to_longest": -0.0077
+        },
+        "10": {
+          "n_reps": 8,
+          "n_infer": 471,
+          "active_s_mean": 9.98,
+          "samples_per_window": 9982,
+          "net_mean": 2.68878,
+          "net_sd": 0.02734,
+          "net_ci95": [
+            2.66592,
+            2.71164
+          ],
+          "cv": 0.0102,
+          "rel_to_longest": -0.0091
+        },
+        "30": {
+          "n_reps": 8,
+          "n_infer": 1413,
+          "active_s_mean": 29.959,
+          "samples_per_window": 29959.4,
+          "net_mean": 2.71338,
+          "net_sd": 0.04557,
+          "net_ci95": [
+            2.67528,
+            2.75148
+          ],
+          "cv": 0.0168,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 32,
+        "mean_w": 0.31787,
+        "sd_between_windows_w": 0.00173,
+        "mean_within_window_sample_sd_w": 0.00246
+      }
+    }
+  },
+  "protocol": {
+    "meter": "Nordic PPK2 source-meter 5.0 V, 100 kHz raw, 1 kHz block means",
+    "board": "USB-JTAG console, CMD RUN tight loop",
+    "model": "g3_w035_d2222_s64g_ferplus esp32p4",
+    "idle_s": 5.0,
+    "warmup_outside_window": 20,
+    "order": "shuffled, random.Random(7)",
+    "ci": "Student t over reps"
+  }
+}

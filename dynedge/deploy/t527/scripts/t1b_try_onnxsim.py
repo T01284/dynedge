@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parents[3]
 STEM = "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64"
 ONNX = ROOT / "results" / "h618_onnx_v4" / f"{STEM}.onnx"
 OUT = ROOT / "results" / "t527_v4" / "t1b_sim_ncnn"
-WSL_TOOLS = "/home/wang/opt/ncnn-x86-tools/bin"
+WSL_TOOLS = "<home>/opt/ncnn-x86-tools/bin"
 BIN_IN = next((ROOT / "results" / "t527_v4" / "eval500_bins" / "hw64").glob("*.bin"))
 
 

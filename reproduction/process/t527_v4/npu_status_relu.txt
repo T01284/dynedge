@@ -1,0 +1,8 @@
+===== NPU V4 RELU MATRIX START 2026-07-24T09:38:01 =====
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_relu_npu_img64 p50=511
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_relu_npu_img64 p50=803
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_relu_npu_img96 p50=1062
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_relu_npu_img112 p50=2076
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_relu_npu_img112 p50=3449
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_relu_npu_img112 p50=6593
+===== NPU V4 RELU MATRIX END 2026-07-24T09:38:23 rows=6 =====

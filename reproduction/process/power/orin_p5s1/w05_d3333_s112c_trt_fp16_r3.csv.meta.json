@@ -1,0 +1,20 @@
+{
+  "meter_model": "P5S1",
+  "meter_version": "v2.2",
+  "v_range_v": 60.0,
+  "i_range_a": 3.3,
+  "sample_rate_hz": 100,
+  "device": "orin",
+  "label": "w05_d3333_s112c_trt_fp16_r3",
+  "stem": "subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112",
+  "backend": "trt_fp16",
+  "run_id": 3,
+  "n_infer": 1000,
+  "warmup": 50,
+  "idle_s": 5.0,
+  "port": "COM40",
+  "host": "redacted",
+  "nvpmodel": "MAXN_SUPER",
+  "n_samples": 1410,
+  "board_log_tail": "READY device=orin fw=orin_trt_1 backend=trt_fp16 input=112x112x3 classes=8 trt=1\nRESULT kind=bench device=orin backend=trt_fp16 warmup=0 iters=1000 input=112x112x3 latency_us_mean=1329.7 latency_us_p50=1305.2 latency_us_p95=1346.9 latency_us_p99=1368.0 pred=0 class=neutral conf=0.8211\nMEM rss_kb=545416 vms_kb=11435956\nBENCH_DONE\n"
+}

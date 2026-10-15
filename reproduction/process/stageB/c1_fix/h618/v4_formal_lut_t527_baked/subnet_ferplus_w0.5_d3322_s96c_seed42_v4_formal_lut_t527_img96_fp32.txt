@@ -1,0 +1,7 @@
+READY device=h618 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=8 ncnn=1
+INFO threads=4 vulkan=0
+MEM rss_kb=9032 vms_kb=40528
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=h618 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=10292.9 latency_us_p50=8617.0 latency_us_p95=8951.4 latency_us_p99=58227.9 pred=3 class=sadness conf=0.9246
+MEM rss_kb=13000 vms_kb=44424
+BENCH_DONE

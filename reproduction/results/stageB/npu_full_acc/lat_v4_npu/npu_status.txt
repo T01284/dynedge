@@ -1,0 +1,8 @@
+===== NPU V4 MATRIX START 2026-10-11T10:53:02 =====
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 p50=1156
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 p50=1620
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 p50=2680
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 p50=4980
+===== NPU V4 MATRIX START 2026-10-11T11:12:50 =====
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 p50=13185
+===== NPU V4 MATRIX END 2026-10-11T11:12:56 rows=6 =====

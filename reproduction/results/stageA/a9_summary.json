@@ -1,0 +1,206 @@
+{
+  "per_arch_and_policies": [
+    {
+      "condition": "H618 INT8/FP32 per arch",
+      "n": 27,
+      "median": 1.2491125310614128,
+      "geomean": 1.27424866607371,
+      "ci_lo": 1.2101430948419303,
+      "ci_hi": 1.3232060019471967,
+      "min": 1.1035353790504288,
+      "max": 1.4797687861271678,
+      "frac_gt1": 1.0,
+      "wilcoxon_p": 1.4901161193847656e-08,
+      "sign_p": 1.4901161193847656e-08
+    },
+    {
+      "condition": "T527 INT8/FP32 per arch",
+      "n": 27,
+      "median": 1.1923000726408242,
+      "geomean": 1.1697751526144846,
+      "ci_lo": 1.0782208982820163,
+      "ci_hi": 1.2716212642158158,
+      "min": 0.9272503230128728,
+      "max": 1.4020114015273744,
+      "frac_gt1": 0.8888888888888888,
+      "wilcoxon_p": 2.518296241760254e-06,
+      "sign_p": 4.9233436584472656e-05
+    },
+    {
+      "condition": "ORIN INT8/FP16 per arch",
+      "n": 191,
+      "median": 0.975302584232908,
+      "geomean": 0.9781163831811988,
+      "ci_lo": 0.9681405289874432,
+      "ci_hi": 0.9879832460437986,
+      "min": 0.8910691259740988,
+      "max": 1.0432183536634625,
+      "frac_gt1": 0.33507853403141363,
+      "wilcoxon_p": 1.6205608864013628e-12,
+      "sign_p": 8.085986468266534e-06
+    },
+    {
+      "condition": "Route B as stated: FLOPs+INT8 vs LUT+dtype",
+      "n": 34,
+      "median": 1.2336899940914128,
+      "geomean": 1.3259243976896358,
+      "ci_lo": 1.108525535420099,
+      "ci_hi": 1.4572485207100594,
+      "min": 0.775098854824629,
+      "max": 2.608640483383686,
+      "frac_gt1": 0.7941176470588235,
+      "wilcoxon_p": 1.5514669939875603e-05,
+      "sign_p": 0.0008213953115046024
+    },
+    {
+      "condition": "  dtype only: same FLOPs subnets, INT8 vs FP32",
+      "n": 34,
+      "median": 1.1989835592090645,
+      "geomean": 1.18458831704528,
+      "ci_lo": 1.1355326512187782,
+      "ci_hi": 1.244207317073171,
+      "min": 0.9759222984002612,
+      "max": 1.4797687861271678,
+      "frac_gt1": 0.9705882352941176,
+      "wilcoxon_p": 3.8549710867480436e-07,
+      "sign_p": 4.0745362639427185e-09
+    },
+    {
+      "condition": "  fair baseline: FLOPs+FP32 (per-device rule) vs LUT+dtype",
+      "n": 34,
+      "median": 1.0103755248304718,
+      "geomean": 1.1193124046646776,
+      "ci_lo": 0.9586156405990017,
+      "ci_hi": 1.1380056600632595,
+      "min": 0.6151298456906286,
+      "max": 2.4358606033176566,
+      "frac_gt1": 0.5588235294117647,
+      "wilcoxon_p": 0.22142491699196398,
+      "sign_p": 0.6075913612730801
+    },
+    {
+      "condition": "  search only: both arms per-arch dtype (= A1 AUTO)",
+      "n": 34,
+      "median": 1.0103755248304718,
+      "geomean": 1.1185103325655639,
+      "ci_lo": 0.9586156405990017,
+      "ci_hi": 1.1380056600632595,
+      "min": 0.6151298456906286,
+      "max": 2.4358606033176566,
+      "frac_gt1": 0.5588235294117647,
+      "wilcoxon_p": 0.22142491699196398,
+      "sign_p": 0.6075913612730801
+    },
+    {
+      "condition": "  paper Table III: both arms INT8 (= A1 INT8)",
+      "n": 34,
+      "median": 1.0003866707027353,
+      "geomean": 1.1079847495780446,
+      "ci_lo": 0.9495292483407934,
+      "ci_hi": 1.233638634471274,
+      "min": 0.6606797378071669,
+      "max": 2.2621607424268957,
+      "frac_gt1": 0.5,
+      "wilcoxon_p": 0.35160549916327,
+      "sign_p": 1.0
+    },
+    {
+      "condition": "Route B as stated: FLOPs+INT8 vs LUT+dtype (cluster bootstrap, 17 LUT subnets)",
+      "n": 34,
+      "median": 1.2336899940914128,
+      "geomean": NaN,
+      "ci_lo": 1.0838767544941268,
+      "ci_hi": 1.514251151485669,
+      "min": NaN,
+      "max": NaN,
+      "frac_gt1": NaN,
+      "wilcoxon_p": NaN,
+      "sign_p": NaN
+    },
+    {
+      "condition": "fair baseline: FLOPs+FP32 (per-device rule) vs LUT+dtype (cluster bootstrap, 17 LUT subnets)",
+      "n": 34,
+      "median": 1.0103755248304718,
+      "geomean": NaN,
+      "ci_lo": 0.9241765071472965,
+      "ci_hi": 1.30143391521197,
+      "min": NaN,
+      "max": NaN,
+      "frac_gt1": NaN,
+      "wilcoxon_p": NaN,
+      "sign_p": NaN
+    }
+  ],
+  "device_rule_regret": [
+    {
+      "device": "h618",
+      "n": 27,
+      "n_int8_faster": 0,
+      "always_fp32_regret_median": 1.0,
+      "always_fp32_regret_max": 1.0,
+      "always_fp32_regret_geomean": 1.0,
+      "always_int8_penalty_geomean": 1.27424866607371,
+      "p_one_arch_bench_picks_fp32": 1.0,
+      "int8_faster_keys": [],
+      "int8_faster_gain": []
+    },
+    {
+      "device": "t527",
+      "n": 27,
+      "n_int8_faster": 3,
+      "always_fp32_regret_median": 1.0,
+      "always_fp32_regret_max": 1.0784574296515153,
+      "always_fp32_regret_geomean": 1.005916147387769,
+      "always_int8_penalty_geomean": 1.1766957148279016,
+      "p_one_arch_bench_picks_fp32": 0.8888888888888888,
+      "int8_faster_keys": [
+        "w1_d2222_s112c",
+        "w1_d2222_s96c",
+        "w1_d4444_s112c"
+      ],
+      "int8_faster_gain": [
+        1.078,
+        1.061,
+        1.025
+      ]
+    }
+  ],
+  "lut_dtype_decision": [
+    {
+      "device": "h618",
+      "n": 27,
+      "lut_decision_agrees": 27,
+      "lut_pred_int8_over_fp32_median": 1.3880105157922027,
+      "measured_int8_over_fp32_median": 1.2491125310614128
+    },
+    {
+      "device": "t527",
+      "n": 27,
+      "lut_decision_agrees": 24,
+      "lut_pred_int8_over_fp32_median": 1.2585940036036718,
+      "measured_int8_over_fp32_median": 1.1923000726408242
+    }
+  ],
+  "int8_vs_fp32_board_agreement": [
+    {
+      "dataset": "expw",
+      "n_subnets": 15,
+      "int8_minus_fp32_pp_mean": -0.21113333333333392,
+      "int8_minus_fp32_pp_min": -0.5828000000000055,
+      "int8_minus_fp32_pp_max": 0.12090000000000156,
+      "fp32_int8_agree_mean": 0.9640715333333334,
+      "fp32_int8_agree_min": 0.945678
+    },
+    {
+      "dataset": "ferplus",
+      "n_subnets": 11,
+      "int8_minus_fp32_pp_mean": 0.10958181818181725,
+      "int8_minus_fp32_pp_min": -0.5709000000000075,
+      "int8_minus_fp32_pp_max": 0.8564000000000016,
+      "fp32_int8_agree_mean": 0.9783179090909091,
+      "fp32_int8_agree_min": 0.971773
+    }
+  ],
+  "lut_arm_auto_picks_int8": 2,
+  "n_pairs": 34
+}

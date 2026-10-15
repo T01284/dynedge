@@ -1,0 +1,8 @@
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=10896 vms_kb=14164
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=64741.3 latency_us_p50=64732.0 latency_us_p95=65089.0 latency_us_p99=65385.2 pred=6 class=neutral conf=0.5244
+MEM rss_kb=17592 vms_kb=20544
+BENCH_DONE

@@ -1,0 +1,307 @@
+{
+  "port": "COM31",
+  "n": 8,
+  "pred_match": 8,
+  "pred_match_rate": 1.0,
+  "mean_cosine": 0.9999999999999666,
+  "mean_latency_us": 59736.625,
+  "samples": [
+    {
+      "index": 0,
+      "latency_us": 62718,
+      "out_exp": -4,
+      "raw_logits": [
+        -37,
+        -1,
+        -66,
+        -51,
+        11,
+        -22,
+        39
+      ],
+      "deq_logits": [
+        -2.3125,
+        -0.0625,
+        -4.125,
+        -3.1875,
+        0.6875,
+        -1.375,
+        2.4375
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -2.3125,
+        -0.0625,
+        -4.125,
+        -3.1875,
+        0.6875,
+        -1.375,
+        2.4375
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999755
+    },
+    {
+      "index": 1,
+      "latency_us": 59271,
+      "out_exp": -4,
+      "raw_logits": [
+        -50,
+        -20,
+        -82,
+        22,
+        -13,
+        -49,
+        30
+      ],
+      "deq_logits": [
+        -3.125,
+        -1.25,
+        -5.125,
+        1.375,
+        -0.8125,
+        -3.0625,
+        1.875
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -3.125,
+        -1.25,
+        -5.125,
+        1.375,
+        -0.8125,
+        -3.0625,
+        1.875
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999811
+    },
+    {
+      "index": 2,
+      "latency_us": 59330,
+      "out_exp": -4,
+      "raw_logits": [
+        -36,
+        -4,
+        -67,
+        -41,
+        11,
+        -25,
+        37
+      ],
+      "deq_logits": [
+        -2.25,
+        -0.25,
+        -4.1875,
+        -2.5625,
+        0.6875,
+        -1.5625,
+        2.3125
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -2.25,
+        -0.25,
+        -4.1875,
+        -2.5625,
+        0.6875,
+        -1.5625,
+        2.3125
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999732
+    },
+    {
+      "index": 3,
+      "latency_us": 59273,
+      "out_exp": -4,
+      "raw_logits": [
+        -32,
+        -28,
+        -24,
+        0,
+        -11,
+        7,
+        16
+      ],
+      "deq_logits": [
+        -2.0,
+        -1.75,
+        -1.5,
+        0.0,
+        -0.6875,
+        0.4375,
+        1.0
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -2.0,
+        -1.75,
+        -1.5,
+        0.0,
+        -0.6875,
+        0.4375,
+        1.0
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999089
+    },
+    {
+      "index": 4,
+      "latency_us": 59357,
+      "out_exp": -4,
+      "raw_logits": [
+        -40,
+        -3,
+        -70,
+        -41,
+        3,
+        -25,
+        42
+      ],
+      "deq_logits": [
+        -2.5,
+        -0.1875,
+        -4.375,
+        -2.5625,
+        0.1875,
+        -1.5625,
+        2.625
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -2.5,
+        -0.1875,
+        -4.375,
+        -2.5625,
+        0.1875,
+        -1.5625,
+        2.625
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999758
+    },
+    {
+      "index": 5,
+      "latency_us": 59275,
+      "out_exp": -4,
+      "raw_logits": [
+        -19,
+        -1,
+        -74,
+        -32,
+        -7,
+        -37,
+        42
+      ],
+      "deq_logits": [
+        -1.1875,
+        -0.0625,
+        -4.625,
+        -2.0,
+        -0.4375,
+        -2.3125,
+        2.625
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -1.1875,
+        -0.0625,
+        -4.625,
+        -2.0,
+        -0.4375,
+        -2.3125,
+        2.625
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999745
+    },
+    {
+      "index": 6,
+      "latency_us": 59383,
+      "out_exp": -4,
+      "raw_logits": [
+        -28,
+        4,
+        -59,
+        -59,
+        12,
+        -15,
+        36
+      ],
+      "deq_logits": [
+        -1.75,
+        0.25,
+        -3.6875,
+        -3.6875,
+        0.75,
+        -0.9375,
+        2.25
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -1.75,
+        0.25,
+        -3.6875,
+        -3.6875,
+        0.75,
+        -0.9375,
+        2.25
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999726
+    },
+    {
+      "index": 7,
+      "latency_us": 59286,
+      "out_exp": -4,
+      "raw_logits": [
+        -39,
+        -3,
+        -72,
+        -17,
+        -10,
+        -25,
+        36
+      ],
+      "deq_logits": [
+        -2.4375,
+        -0.1875,
+        -4.5,
+        -1.0625,
+        -0.625,
+        -1.5625,
+        2.25
+      ],
+      "board_pred": 6,
+      "host_pred_embedded": 6,
+      "host_int8_logits": [
+        -2.4375,
+        -0.1875,
+        -4.5,
+        -1.0625,
+        -0.625,
+        -1.5625,
+        2.25
+      ],
+      "host_int8_pred": 6,
+      "pred_match": true,
+      "cosine": 0.9999999999999716
+    }
+  ],
+  "stream_max_abs_dlogit": 0.0
+}

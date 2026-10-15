@@ -1,0 +1,26 @@
+===== V4 MATRIX START 2026-10-11T10:02:17 =====
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 fp32 p50=3635.0
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 int8 p50=4262.0
+OK subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64 fp32 p50=4316.0
+OK subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64 int8 p50=5436.0
+OK subnet_expw_w0.5_d3322_s96c_seed42_v4_flops_ctrl_img96 fp32 p50=12371.5
+OK subnet_expw_w0.5_d3322_s96c_seed42_v4_flops_ctrl_img96 int8 p50=16380.0
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_flops_ctrl_img112 fp32 p50=19589.0
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_flops_ctrl_img112 int8 p50=24449.0
+OK subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64 fp32 p50=9468.0
+OK subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64 int8 p50=9851.0
+OK subnet_expw_w1_d4342_s112c_seed42_v4_flops_ctrl_img112 fp32 p50=61798.0
+OK subnet_expw_w1_d4342_s112c_seed42_v4_flops_ctrl_img112 int8 p50=64732.0
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 fp32 p50=3638.0
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 int8 p50=4253.0
+OK subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64 fp32 p50=4069.0
+OK subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64 int8 p50=5019.0
+OK subnet_ferplus_w0.35_d2432_s96c_seed42_v4_flops_ctrl_img96 fp32 p50=8256.0
+OK subnet_ferplus_w0.35_d2432_s96c_seed42_v4_flops_ctrl_img96 int8 p50=11450.0
+OK subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64 fp32 p50=12252.0
+OK subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64 int8 p50=11957.0
+OK subnet_ferplus_w0.75_d3432_s96c_seed42_v4_flops_ctrl_img96 fp32 p50=26667.0
+OK subnet_ferplus_w0.75_d3432_s96c_seed42_v4_flops_ctrl_img96 int8 p50=30145.0
+OK subnet_ferplus_w1_d4342_s112c_seed42_v4_flops_ctrl_img112 fp32 p50=61668.5
+OK subnet_ferplus_w1_d4342_s112c_seed42_v4_flops_ctrl_img112 int8 p50=64579.0
+===== V4 MATRIX END 2026-10-11T10:11:25 rows=24 =====

@@ -36,7 +36,7 @@ from models.elastic_mbv3 import (  # noqa: E402
 from models.slimmable_bn import set_model_width, width_key  # noqa: E402
 from tools.export_subnet_onnx import StaticSubnet, remap_v1_stem_keys  # noqa: E402
 
-WSL_TOOLS = "/home/wang/opt/ncnn-x86-tools/bin"
+WSL_TOOLS = "<home>/opt/ncnn-x86-tools/bin"
 DEFAULT_CKPT = (
     ROOT
     / "results/from_autodl/subnets_v4_predistill"

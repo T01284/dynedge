@@ -1,0 +1,5 @@
+tier,unit,enumerated,measured_ok,failed,protocol,bench_minutes,extra
+H618 NCNN operator LUT,operator shape,706,618,88,"warmup 10 + iters 80, 4 threads",0.0,"pure timed-iteration sum; wall clock is dominated by per-shape ncnn2table/ncnn2int8 (INT8, KL calib) and process spawn, logged only as 'a few minutes' (SUMMARY 8.7). 88 add/gap unsupported (proxy in prediction)"
+T527 NCNN operator LUT,operator shape,706,706,0,"warmup 10 + iters 80, 4 threads",0.01,host pack+INT8 quant ~3.5 min; 88 int8 gemm/add/gap are fp32 proxies (SUMMARY 8.7)
+ESP32-P4 exhaustive e2e LUT,subnet (flash + bench),36,17,19,"per subnet: export, ESP-DL PTQ, flash, on-device bench",108.6,"~3.0 min/attempt (median gap between the 25 logged attempts, 07-21 14:53-15:51); includes failed flashes"
+ESP32-S3 exhaustive e2e LUT,subnet (flash + bench),24,20,4,"per subnet: export, ESP-DL PTQ, flash, on-device bench",72.4,"~3.0 min/attempt (median gap between the 25 logged attempts, 07-21 14:53-15:51); includes failed flashes"

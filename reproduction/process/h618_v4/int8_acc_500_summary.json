@@ -1,0 +1,20 @@
+{
+  "n_rows": 32,
+  "n_ok": 32,
+  "methods": [
+    "kl",
+    "aciq"
+  ],
+  "n_eval": 500,
+  "kl_dir": "<repo>/deploy/h618/models/v4_predistill_kl",
+  "aciq_dir": "deploy\\h618\\models\\v4_predistill_aciq",
+  "csv": "<repo>/results/h618_v4/int8_acc_500.csv",
+  "diff_csv": "<repo>/results/h618_v4/int8_acc_kl_vs_aciq.csv",
+  "imagelist": "<repo>/results/h618_v4/eval500_imagelist.txt",
+  "note": "H1: ONNX FP32 vs NCNN INT8 match@500; latency unchanged from matrix_summary.csv",
+  "kl_match_mean": 0.149125,
+  "aciq_match_mean": 0.149125,
+  "delta_match_mean": 0.0,
+  "delta_match_min": 0.0,
+  "delta_match_max": 0.0
+}

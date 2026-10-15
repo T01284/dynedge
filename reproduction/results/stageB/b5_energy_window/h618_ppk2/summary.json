@@ -1,0 +1,146 @@
+{
+  "by_anchor": {
+    "w035_d2222_s64g": {
+      "windows": {
+        "2": {
+          "n_reps": 8,
+          "n_infer": 474,
+          "active_s_mean": 2.535,
+          "samples_per_window": 2536.1,
+          "net_mean": 6.43581,
+          "net_sd": 0.2866,
+          "net_ci95": [
+            6.19621,
+            6.67541
+          ],
+          "cv": 0.0445,
+          "rel_to_longest": 0.2797
+        },
+        "5": {
+          "n_reps": 8,
+          "n_infer": 1176,
+          "active_s_mean": 5.518,
+          "samples_per_window": 5519.4,
+          "net_mean": 5.6868,
+          "net_sd": 0.16223,
+          "net_ci95": [
+            5.55117,
+            5.82243
+          ],
+          "cv": 0.0285,
+          "rel_to_longest": 0.1307
+        },
+        "10": {
+          "n_reps": 8,
+          "n_infer": 2351,
+          "active_s_mean": 10.464,
+          "samples_per_window": 10465.1,
+          "net_mean": 5.39149,
+          "net_sd": 0.31044,
+          "net_ci95": [
+            5.13196,
+            5.65102
+          ],
+          "cv": 0.0576,
+          "rel_to_longest": 0.072
+        },
+        "30": {
+          "n_reps": 8,
+          "n_infer": 7054,
+          "active_s_mean": 30.305,
+          "samples_per_window": 30307.6,
+          "net_mean": 5.02933,
+          "net_sd": 0.34277,
+          "net_ci95": [
+            4.74276,
+            5.31589
+          ],
+          "cv": 0.0682,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 32,
+        "mean_w": 0.97707,
+        "sd_between_windows_w": 0.0592,
+        "mean_within_window_sample_sd_w": 0.08666
+      }
+    },
+    "w05_d3333_s112c": {
+      "windows": {
+        "2": {
+          "n_reps": 8,
+          "n_infer": 113,
+          "active_s_mean": 2.587,
+          "samples_per_window": 2588.4,
+          "net_mean": 27.46797,
+          "net_sd": 0.51069,
+          "net_ci95": [
+            27.04103,
+            27.89491
+          ],
+          "cv": 0.0186,
+          "rel_to_longest": 0.1871
+        },
+        "5": {
+          "n_reps": 8,
+          "n_infer": 284,
+          "active_s_mean": 5.621,
+          "samples_per_window": 5623.6,
+          "net_mean": 23.6202,
+          "net_sd": 1.43542,
+          "net_ci95": [
+            22.42016,
+            24.82025
+          ],
+          "cv": 0.0608,
+          "rel_to_longest": 0.0208
+        },
+        "10": {
+          "n_reps": 8,
+          "n_infer": 568,
+          "active_s_mean": 10.659,
+          "samples_per_window": 10660.2,
+          "net_mean": 23.30597,
+          "net_sd": 1.64995,
+          "net_ci95": [
+            21.92658,
+            24.68537
+          ],
+          "cv": 0.0708,
+          "rel_to_longest": 0.0072
+        },
+        "30": {
+          "n_reps": 8,
+          "n_infer": 1704,
+          "active_s_mean": 30.753,
+          "samples_per_window": 30754,
+          "net_mean": 23.13951,
+          "net_sd": 0.98378,
+          "net_ci95": [
+            22.31705,
+            23.96197
+          ],
+          "cv": 0.0425,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 32,
+        "mean_w": 0.97865,
+        "sd_between_windows_w": 0.06688,
+        "mean_within_window_sample_sd_w": 0.09379
+      }
+    }
+  },
+  "protocol": {
+    "meter": "Nordic PPK2 source-meter 5.0 V, 100 kHz raw, 1 kHz block means (bench.ppk2.hold)",
+    "backend": "H618 NCNN INT8, fer_ncnn_bench 4 threads",
+    "governor": "performance",
+    "idle_s": 5.0,
+    "warmup_outside_window": 50,
+    "order": "shuffled, random.Random(7)",
+    "ci": "Student t over reps",
+    "idle_sample_sd": "SD of 10 ms bins (comparable to 100 Hz P5S1 samples)"
+  }
+}

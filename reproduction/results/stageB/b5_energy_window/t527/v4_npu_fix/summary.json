@@ -1,0 +1,269 @@
+{
+  "by_anchor": {
+    "w035_d2222_s64g": {
+      "windows": {
+        "5": {
+          "n_reps": 4,
+          "n_infer": 3776,
+          "active_s_mean": 5.015,
+          "samples_per_window": 502.5,
+          "net_mean": 0.87861,
+          "net_sd": 0.0092,
+          "net_ci95": [
+            0.86396,
+            0.89325
+          ],
+          "cv": 0.0105,
+          "rel_to_longest": 0.0529
+        },
+        "10": {
+          "n_reps": 4,
+          "n_infer": 7553,
+          "active_s_mean": 9.666,
+          "samples_per_window": 967.5,
+          "net_mean": 0.84267,
+          "net_sd": 0.00684,
+          "net_ci95": [
+            0.83178,
+            0.85356
+          ],
+          "cv": 0.0081,
+          "rel_to_longest": 0.0098
+        },
+        "30": {
+          "n_reps": 4,
+          "n_infer": 22658,
+          "active_s_mean": 28.493,
+          "samples_per_window": 2850,
+          "net_mean": 0.83449,
+          "net_sd": 0.02244,
+          "net_ci95": [
+            0.79878,
+            0.8702
+          ],
+          "cv": 0.0269,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 12,
+        "mean_w": 2.28298,
+        "sd_between_windows_w": 0.00684,
+        "mean_within_window_sample_sd_w": 0.04264
+      }
+    },
+    "w035_d3333_s64g": {
+      "windows": {
+        "10": {
+          "n_reps": 4,
+          "n_infer": 5821,
+          "active_s_mean": 10.016,
+          "samples_per_window": 1002.5,
+          "net_mean": 1.1193,
+          "net_sd": 0.01357,
+          "net_ci95": [
+            1.09772,
+            1.14089
+          ],
+          "cv": 0.0121,
+          "rel_to_longest": 0.0018
+        },
+        "30": {
+          "n_reps": 4,
+          "n_infer": 17462,
+          "active_s_mean": 29.843,
+          "samples_per_window": 2985,
+          "net_mean": 1.11728,
+          "net_sd": 0.02331,
+          "net_ci95": [
+            1.08019,
+            1.15436
+          ],
+          "cv": 0.0209,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 8,
+        "mean_w": 2.28166,
+        "sd_between_windows_w": 0.00617,
+        "mean_within_window_sample_sd_w": 0.03388
+      }
+    },
+    "w05_d2222_s96c": {
+      "windows": {
+        "10": {
+          "n_reps": 4,
+          "n_infer": 3523,
+          "active_s_mean": 10.166,
+          "samples_per_window": 1017.5,
+          "net_mean": 1.72781,
+          "net_sd": 0.02547,
+          "net_ci95": [
+            1.68728,
+            1.76834
+          ],
+          "cv": 0.0147,
+          "rel_to_longest": 0.0138
+        },
+        "30": {
+          "n_reps": 4,
+          "n_infer": 10568,
+          "active_s_mean": 29.843,
+          "samples_per_window": 2985,
+          "net_mean": 1.70428,
+          "net_sd": 0.02034,
+          "net_ci95": [
+            1.67191,
+            1.73665
+          ],
+          "cv": 0.0119,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 8,
+        "mean_w": 2.27877,
+        "sd_between_windows_w": 0.0037,
+        "mean_within_window_sample_sd_w": 0.03394
+      }
+    },
+    "w05_d3333_s112c": {
+      "windows": {
+        "5": {
+          "n_reps": 4,
+          "n_infer": 973,
+          "active_s_mean": 5.24,
+          "samples_per_window": 525,
+          "net_mean": 3.16349,
+          "net_sd": 0.05517,
+          "net_ci95": [
+            3.0757,
+            3.25128
+          ],
+          "cv": 0.0174,
+          "rel_to_longest": 0.0399
+        },
+        "10": {
+          "n_reps": 4,
+          "n_infer": 1947,
+          "active_s_mean": 10.241,
+          "samples_per_window": 1025,
+          "net_mean": 3.11075,
+          "net_sd": 0.02729,
+          "net_ci95": [
+            3.06733,
+            3.15417
+          ],
+          "cv": 0.0088,
+          "rel_to_longest": 0.0226
+        },
+        "30": {
+          "n_reps": 4,
+          "n_infer": 5841,
+          "active_s_mean": 30.046,
+          "samples_per_window": 3005,
+          "net_mean": 3.04204,
+          "net_sd": 0.0458,
+          "net_ci95": [
+            2.96916,
+            3.11492
+          ],
+          "cv": 0.0151,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 12,
+        "mean_w": 2.27889,
+        "sd_between_windows_w": 0.00611,
+        "mean_within_window_sample_sd_w": 0.02569
+      }
+    },
+    "w075_d3333_s112c": {
+      "windows": {
+        "10": {
+          "n_reps": 4,
+          "n_infer": 1245,
+          "active_s_mean": 10.216,
+          "samples_per_window": 1022.5,
+          "net_mean": 5.07828,
+          "net_sd": 0.04518,
+          "net_ci95": [
+            5.00639,
+            5.15017
+          ],
+          "cv": 0.0089,
+          "rel_to_longest": 0.0207
+        },
+        "30": {
+          "n_reps": 4,
+          "n_infer": 3736,
+          "active_s_mean": 29.993,
+          "samples_per_window": 3000,
+          "net_mean": 4.97542,
+          "net_sd": 0.01946,
+          "net_ci95": [
+            4.94446,
+            5.00638
+          ],
+          "cv": 0.0039,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 8,
+        "mean_w": 2.27852,
+        "sd_between_windows_w": 0.00492,
+        "mean_within_window_sample_sd_w": 0.03128
+      }
+    },
+    "w1_d4444_s112c": {
+      "windows": {
+        "10": {
+          "n_reps": 4,
+          "n_infer": 745,
+          "active_s_mean": 10.216,
+          "samples_per_window": 1022.5,
+          "net_mean": 8.10906,
+          "net_sd": 0.11536,
+          "net_ci95": [
+            7.92551,
+            8.29262
+          ],
+          "cv": 0.0142,
+          "rel_to_longest": 0.0234
+        },
+        "30": {
+          "n_reps": 4,
+          "n_infer": 2235,
+          "active_s_mean": 30.043,
+          "samples_per_window": 3005,
+          "net_mean": 7.92344,
+          "net_sd": 0.10532,
+          "net_ci95": [
+            7.75586,
+            8.09102
+          ],
+          "cv": 0.0133,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 8,
+        "mean_w": 2.28516,
+        "sd_between_windows_w": 0.00754,
+        "mean_within_window_sample_sd_w": 0.04763
+      }
+    }
+  },
+  "protocol": {
+    "meter": "P5S1 100 Hz, high side of the 12 V board input",
+    "backend": "T527 VIPLite NBG (vpm_run)",
+    "governor": "performance",
+    "idle_s": 5.0,
+    "warmup_outside_window": 50,
+    "order": "shuffled, random.Random(7)",
+    "ci": "Student t over reps"
+  }
+}

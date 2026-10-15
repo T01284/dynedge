@@ -1,0 +1,13 @@
+model,tag,backend,n_runs,energy_mj_per_infer_net_mean,energy_mj_per_infer_net_std,energy_mj_per_infer_gross_mean,p_active_w_mean,p_idle_w_mean
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,w035_d2222_s64g,ncnn_fp32,3,4.857462,0.057313,8.073706,2.228895,0.887875
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,w035_d2222_s64g,ncnn_int8,3,5.710704,0.033624,10.068729,2.058655,0.891089
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,w035_d3333_s64g,ncnn_fp32,3,6.039134,0.266682,10.194403,2.253055,0.918323
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,w035_d3333_s64g,ncnn_int8,3,6.617674,0.662597,12.75348,2.060352,0.990957
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,w05_d2222_s96c,ncnn_fp32,3,12.277156,0.345456,19.833073,2.450945,0.93405
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,w05_d2222_s96c,ncnn_int8,3,12.138206,0.176122,21.273843,2.157799,0.926718
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,w05_d3333_s112c,ncnn_fp32,3,21.806447,0.977398,35.142993,2.505838,0.951018
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,w05_d3333_s112c,ncnn_int8,3,23.347561,0.520282,40.579731,2.210217,0.938668
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,w075_d3333_s112c,ncnn_fp32,3,41.666301,0.793748,66.523926,2.650817,0.990469
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,w075_d3333_s112c,ncnn_int8,3,39.818578,0.436078,68.671638,2.284413,0.959859
+subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,w1_d4444_s112c,ncnn_fp32,3,75.015143,3.543566,123.441991,2.73064,1.071147
+subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,w1_d4444_s112c,ncnn_int8,3,65.399914,0.244765,119.481819,2.315715,1.048102

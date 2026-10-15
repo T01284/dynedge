@@ -28,7 +28,7 @@ ONNX (opset 17)
 | Item | 值 |
 |---|---|
 | ACUITY 来源 / 版本 | 全志公开包 → Docker `ubuntu-npu:v1.8.13`；ACUITY **6.45.8** + Vivante IDE **5.8.2** |
-| 容器 | `npu_v1.8.13_wang`；工作区 `/workspace/fer_mnv3`（宿主 `/home/wang/docker_data/fer_mnv3`） |
+| 容器 | `npu_v1.8.13_wang`；工作区 `/workspace/fer_mnv3`（宿主 `<home>/docker_data/fer_mnv3`） |
 | optimize | `VIP9000NANOSI_PLUS_PID0X10000016`（对齐板上 cid） |
 | 探路 NBG | `deploy/t527/models/mobilenetv3_small_fer_uint8.nb` |
 | 板上跑 | `scripts/run_linux_npu_mnv3_fer.py` → `results/t527_linux_npu_mnv3_fer_probe.csv`（p50≈1450 µs） |

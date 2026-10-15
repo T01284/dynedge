@@ -28,7 +28,7 @@ CKPT_DIR = ROOT / "results/from_autodl/subnets_v4_predistill"
 OUT_DIR = ROOT / "deploy/t527/models/v4_predistill"
 CALIB112 = ROOT / "data/calib/linux112/calib"
 CALIB64 = ROOT / "data/calib/ferplus_mcu64"
-WSL_TOOLS = "/home/wang/opt/ncnn-x86-tools/bin"
+WSL_TOOLS = "<home>/opt/ncnn-x86-tools/bin"
 BIN_ROOT = ROOT / "results/t527_v4/eval500_bins"
 
 _bake_spec = importlib.util.spec_from_file_location(

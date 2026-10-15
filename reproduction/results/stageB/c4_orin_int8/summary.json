@@ -1,0 +1,94 @@
+{
+  "onnx": "<gpu-workdir>/fer-dynedge/models/v4_predistill_onnx/subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112.onnx",
+  "trt": "10.3.0",
+  "calib_n": 256,
+  "calib_seed": 0,
+  "test_n": 3153,
+  "classes": [
+    "00_neutral",
+    "01_happiness",
+    "02_surprise",
+    "03_sadness",
+    "04_anger",
+    "05_disgust",
+    "06_fear",
+    "07_contempt"
+  ],
+  "uncalibrated": {
+    "engine": "<gpu-workdir>/fer-dynedge/models/v4_predistill_trt/subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112_int8.plan",
+    "acc": {
+      "n": 3153,
+      "correct": 2681,
+      "acc": 0.8503013003488741
+    },
+    "latency": {
+      "k": 10,
+      "p50_us": [
+        1316.3,
+        1315.5,
+        1320.5,
+        1319.4,
+        1487.6,
+        1339.5,
+        1325.1,
+        1319.6,
+        1323.7,
+        1303.9
+      ],
+      "p99_us": [
+        1544.8,
+        1524.2,
+        1510.2,
+        1369.8,
+        1533.8,
+        1525.9,
+        1514.5,
+        1523.8,
+        1500.4,
+        1350.5
+      ],
+      "p50_min_us": 1303.9,
+      "p50_median_us": 1320.05,
+      "p99_at_min_p50_us": 1350.5
+    }
+  },
+  "calibrated": {
+    "engine": "<gpu-workdir>/fer-dynedge/models/v4_predistill_trt/subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112_int8_calib.plan",
+    "acc": {
+      "n": 3153,
+      "correct": 2750,
+      "acc": 0.872185220424992
+    },
+    "latency": {
+      "k": 10,
+      "p50_us": [
+        1496.2,
+        1339.0,
+        1332.5,
+        1322.7,
+        1320.3,
+        1330.8,
+        1328.0,
+        1499.6,
+        1347.1,
+        1337.5
+      ],
+      "p99_us": [
+        1541.6,
+        1542.7,
+        1533.0,
+        1523.4,
+        1514.9,
+        1386.8,
+        1363.6,
+        1549.6,
+        1541.8,
+        1547.3
+      ],
+      "p50_min_us": 1320.3,
+      "p50_median_us": 1335.0,
+      "p99_at_min_p50_us": 1514.9
+    }
+  },
+  "p50_min_rel": 0.012577651660403255
+}

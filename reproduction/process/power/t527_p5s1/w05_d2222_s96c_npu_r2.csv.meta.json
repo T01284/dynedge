@@ -1,0 +1,19 @@
+{
+  "meter_model": "P5S1",
+  "meter_version": "v2.2",
+  "v_range_v": 60.0,
+  "i_range_a": 3.3,
+  "sample_rate_hz": 100,
+  "device": "t527",
+  "label": "w05_d2222_s96c_npu_r2",
+  "stem": "subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96",
+  "backend": "npu",
+  "run_id": 2,
+  "n_infer": 1000,
+  "warmup": 50,
+  "idle_s": 5.0,
+  "threads": 0,
+  "port": "COM40",
+  "n_samples": 1060,
+  "board_log_tail": "dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2851 us.\nrun network done...\nprofile inference time=2714us, cycle=1831670\ntask: 0, loop count: 995\nstart to run network=/root/fer-dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2850 us.\nrun network done...\nprofile inference time=2715us, cycle=1830896\ntask: 0, loop count: 996\nstart to run network=/root/fer-dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2850 us.\nrun network done...\nprofile inference time=2713us, cycle=1831249\ntask: 0, loop count: 997\nstart to run network=/root/fer-dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2815 us.\nrun network done...\nprofile inference time=2678us, cycle=1830512\ntask: 0, loop count: 998\nstart to run network=/root/fer-dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2812 us.\nrun network done...\nprofile inference time=2714us, cycle=1831690\ntask: 0, loop count: 999\nstart to run network=/root/fer-dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2856 us.\nrun network done...\nprofile inference time=2721us, cycle=1831301\ntask: 0, loop count: 1000\nstart to run network=/root/fer-dynedge/npu/v4/w05_d2222_s96c/network_binary.nb\nrun time for this network 0: 2849 us.\nrun network done...\nprofile inference time=2713us, cycle=1831521\ntask 0, profile avg inference time=2677us, cycle=1829590\ndestroy test resource task_count=1\nvpm run ret=0\n"
+}

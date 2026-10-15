@@ -7,7 +7,7 @@
   "pass_r": true,
   "pass_mape": true,
   "pass": true,
-  "lut_path": "D:\\paper\\lane-edge\\lut\\ops_h618_v4_full.csv",
+  "lut_path": "<repo>/lut/ops_h618_v4_full.csv",
   "rows": [
     {
       "model": "v4_w0.35_d2222_s64g_expw",

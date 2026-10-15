@@ -1,0 +1,5 @@
+board,arm,model,dtype,combo,n,n_nonfinite,acc,seconds
+h618,flops,subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64,fp32,64g,9094,0,0.699142,65.8
+h618,flops,subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64,int8,64g,9094,0,0.696943,73.4
+h618,flops,subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64,fp32,64g,9094,0,0.689576,60.4
+h618,flops,subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64,int8,64g,9094,0,0.688806,81.3

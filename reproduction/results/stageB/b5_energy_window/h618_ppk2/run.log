@@ -1,0 +1,74 @@
+w05_d3333_s112c: 17.608 ms/inf
+w035_d2222_s64g: 4.253 ms/inf
+OK w05_d3333_s112c_T5_r3 N=284 act=5.5723s net=22.7067 Pidle=0.9671 Pact=2.1243
+OK w05_d3333_s112c_T10_r5 N=568 act=10.6451s net=23.0654 Pidle=0.9131 Pact=2.1438
+OK w05_d3333_s112c_T5_r5 N=284 act=5.6267s net=24.1709 Pidle=0.9100 Pact=2.1300
+OK w05_d3333_s112c_T30_r8 N=1704 act=30.6221s net=23.9290 Pidle=0.9103 Pact=2.2419
+OK w035_d2222_s64g_T10_r3 N=2351 act=10.4578s net=5.1523 Pidle=0.9567 Pact=2.1149
+OK w035_d2222_s64g_T10_r8 N=2351 act=10.4419s net=5.4750 Pidle=0.9211 Pact=2.1538
+OK w05_d3333_s112c_T10_r4 N=568 act=10.7074s net=23.6543 Pidle=1.0885 Pact=2.3433
+OK w035_d2222_s64g_T30_r1 N=7054 act=30.259s net=5.1879 Pidle=0.9271 Pact=2.1365
+OK w035_d2222_s64g_T5_r4 N=1176 act=5.52s net=5.5563 Pidle=1.0245 Pact=2.2083
+OK w035_d2222_s64g_T5_r6 N=1176 act=5.546s net=5.6289 Pidle=0.9347 Pact=2.1283
+OK w05_d3333_s112c_T10_r6 N=568 act=10.6476s net=23.4685 Pidle=0.9313 Pact=2.1832
+OK w05_d3333_s112c_T2_r2 N=114 act=2.5931s net=27.4863 Pidle=0.9324 Pact=2.1408
+OK w05_d3333_s112c_T10_r1 N=568 act=10.6505s net=25.8301 Pidle=0.9291 Pact=2.3066
+OK w05_d3333_s112c_T5_r1 N=284 act=5.6262s net=23.8283 Pidle=0.9663 Pact=2.1691
+OK w05_d3333_s112c_T10_r7 N=568 act=10.7656s net=24.3272 Pidle=0.9311 Pact=2.2147
+OK w05_d3333_s112c_T5_r4 N=284 act=5.6352s net=25.4179 Pidle=0.9343 Pact=2.2153
+OK w035_d2222_s64g_T10_r7 N=2351 act=10.462s net=5.0515 Pidle=1.0139 Pact=2.1490
+OK w035_d2222_s64g_T10_r6 N=2351 act=10.4497s net=5.3455 Pidle=0.9350 Pact=2.1377
+OK w035_d2222_s64g_T5_r3 N=1176 act=5.4927s net=5.6198 Pidle=0.9361 Pact=2.1393
+OK w05_d3333_s112c_T30_r1 N=1704 act=30.5131s net=23.8691 Pidle=0.9343 Pact=2.2673
+OK w05_d3333_s112c_T30_r6 N=1704 act=30.8297s net=23.9289 Pidle=0.9750 Pact=2.2975
+OK w05_d3333_s112c_T10_r3 N=568 act=10.611s net=20.2512 Pidle=1.1309 Pact=2.2150
+OK w035_d2222_s64g_T2_r2 N=470 act=2.5669s net=6.8664 Pidle=0.9462 Pact=2.2034
+OK w05_d3333_s112c_T30_r7 N=1704 act=30.9438s net=24.0947 Pidle=0.9407 Pact=2.2676
+OK w05_d3333_s112c_T30_r5 N=1704 act=30.6904s net=21.5590 Pidle=1.0450 Pact=2.2420
+OK w035_d2222_s64g_T10_r2 N=2351 act=10.459s net=5.0744 Pidle=1.0442 Pact=2.1848
+OK w035_d2222_s64g_T30_r6 N=7054 act=30.4038s net=5.0149 Pidle=1.0085 Pact=2.1720
+OK w035_d2222_s64g_T5_r5 N=1176 act=5.5136s net=5.5176 Pidle=1.0224 Pact=2.1992
+OK w035_d2222_s64g_T5_r1 N=1176 act=5.5164s net=6.0071 Pidle=0.9465 Pact=2.2271
+OK w05_d3333_s112c_T10_r2 N=568 act=10.5947s net=21.9728 Pidle=1.0358 Pact=2.2138
+OK w035_d2222_s64g_T10_r1 N=2351 act=10.4659s net=5.4179 Pidle=0.9451 Pact=2.1622
+OK w035_d2222_s64g_T2_r7 N=470 act=2.5475s net=6.5002 Pidle=0.9489 Pact=2.1481
+OK w035_d2222_s64g_T30_r4 N=7054 act=30.2659s net=5.3686 Pidle=0.9391 Pact=2.1904
+OK w035_d2222_s64g_T30_r7 N=7054 act=30.3592s net=4.3626 Pidle=1.1749 Pact=2.1886
+OK w035_d2222_s64g_T2_r8 N=470 act=2.5302s net=5.8810 Pidle=1.0718 Pact=2.1643
+OK w05_d3333_s112c_T5_r7 N=284 act=5.5873s net=24.5613 Pidle=0.9453 Pact=2.1937
+OK w05_d3333_s112c_T2_r8 N=114 act=2.5864s net=27.4719 Pidle=0.9560 Pact=2.1668
+OK w035_d2222_s64g_T2_r5 N=470 act=2.5355s net=6.4856 Pidle=0.9476 Pact=2.1499
+OK w035_d2222_s64g_T10_r4 N=2351 act=10.4977s net=5.6578 Pidle=0.9478 Pact=2.2149
+OK w035_d2222_s64g_T5_r7 N=1176 act=5.5111s net=5.6476 Pidle=0.9473 Pact=2.1524
+OK w035_d2222_s64g_T2_r4 N=470 act=2.5116s net=6.4599 Pidle=0.9419 Pact=2.1507
+OK w035_d2222_s64g_T5_r8 N=1176 act=5.507s net=5.6682 Pidle=0.9367 Pact=2.1471
+OK w05_d3333_s112c_T5_r8 N=284 act=5.6764s net=24.7591 Pidle=0.9377 Pact=2.1765
+OK w035_d2222_s64g_T30_r2 N=7054 act=30.527s net=4.7834 Pidle=1.0628 Pact=2.1682
+OK w05_d3333_s112c_T30_r3 N=1704 act=30.9836s net=23.2303 Pidle=0.9804 Pact=2.2580
+OK w05_d3333_s112c_T30_r4 N=1704 act=30.5037s net=22.2070 Pidle=1.0128 Pact=2.2533
+OK w05_d3333_s112c_T2_r6 N=114 act=2.5822s net=26.2504 Pidle=1.0193 Pact=2.1782
+OK w05_d3333_s112c_T2_r3 N=114 act=2.5883s net=27.8350 Pidle=1.0410 Pact=2.2670
+OK w05_d3333_s112c_T5_r6 N=284 act=5.6113s net=21.0889 Pidle=1.1319 Pact=2.1993
+OK w035_d2222_s64g_T30_r3 N=7054 act=30.1499s net=5.2657 Pidle=0.9512 Pact=2.1831
+OK w035_d2222_s64g_T2_r6 N=470 act=2.5264s net=6.3556 Pidle=1.0443 Pact=2.2266
+OK w05_d3333_s112c_T10_r8 N=568 act=10.6498s net=23.8782 Pidle=0.9446 Pact=2.2181
+OK w05_d3333_s112c_T2_r7 N=114 act=2.5906s net=27.7467 Pidle=0.9470 Pact=2.1680
+OK w035_d2222_s64g_T2_r3 N=470 act=2.5324s net=6.6504 Pidle=0.9427 Pact=2.1769
+OK w035_d2222_s64g_T10_r5 N=2351 act=10.4783s net=5.9577 Pidle=0.9408 Pact=2.2775
+OK w05_d3333_s112c_T2_r5 N=114 act=2.5949s net=27.5603 Pidle=0.9440 Pact=2.1548
+OK w05_d3333_s112c_T2_r4 N=114 act=2.5957s net=27.6037 Pidle=0.9455 Pact=2.1578
+OK w035_d2222_s64g_T30_r8 N=7054 act=30.3037s net=5.3522 Pidle=0.9451 Pact=2.1909
+OK w05_d3333_s112c_T30_r2 N=1704 act=30.9362s net=22.2982 Pidle=1.0120 Pact=2.2402
+OK w05_d3333_s112c_T5_r2 N=284 act=5.6363s net=22.4286 Pidle=1.1260 Pact=2.2561
+OK w035_d2222_s64g_T30_r5 N=7054 act=30.174s net=4.8994 Pidle=1.0428 Pact=2.1882
+OK w035_d2222_s64g_T5_r2 N=1176 act=5.5397s net=5.8489 Pidle=1.0158 Pact=2.2574
+w035_d2222_s64g {"n": 32, "mean_w": 0.97707, "sd_between_windows_w": 0.0592, "mean_within_window_sample_sd_w": 0.08666}
+  T= 2s N=  474 samples= 2536.1 net=6.4358+-0.2866 CI[6.19621, 6.67541] cv=0.0445 rel=0.2797
+  T= 5s N= 1176 samples= 5519.4 net=5.6868+-0.1622 CI[5.55117, 5.82243] cv=0.0285 rel=0.1307
+  T=10s N= 2351 samples=10465.1 net=5.3915+-0.3104 CI[5.13196, 5.65102] cv=0.0576 rel=0.072
+  T=30s N= 7054 samples=30307.6 net=5.0293+-0.3428 CI[4.74276, 5.31589] cv=0.0682 rel=0.0
+w05_d3333_s112c {"n": 32, "mean_w": 0.97865, "sd_between_windows_w": 0.06688, "mean_within_window_sample_sd_w": 0.09379}
+  T= 2s N=  113 samples= 2588.4 net=27.4680+-0.5107 CI[27.04103, 27.89491] cv=0.0186 rel=0.1871
+  T= 5s N=  284 samples= 5623.6 net=23.6202+-1.4354 CI[22.42016, 24.82025] cv=0.0608 rel=0.0208
+  T=10s N=  568 samples=10660.2 net=23.3060+-1.6500 CI[21.92658, 24.68537] cv=0.0708 rel=0.0072
+  T=30s N= 1704 samples=  30754 net=23.1395+-0.9838 CI[22.31705, 23.96197] cv=0.0425 rel=0.0

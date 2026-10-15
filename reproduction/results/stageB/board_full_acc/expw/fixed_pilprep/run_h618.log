@@ -1,0 +1,5 @@
+[h618] upload 64g.tar
+[h618] subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 fp32 n=9094 bad=0 acc=0.6991 (66s)
+[h618] subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 int8 n=9094 bad=0 acc=0.6969 (73s)
+[h618] subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64 fp32 n=9094 bad=0 acc=0.6896 (60s)
+[h618] subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64 int8 n=9094 bad=0 acc=0.6888 (81s)

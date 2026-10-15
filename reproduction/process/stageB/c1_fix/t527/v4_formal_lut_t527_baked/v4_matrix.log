@@ -1,0 +1,40 @@
+##### subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=8 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=8928 vms_kb=12384
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=12398.2 latency_us_p50=12393.0 latency_us_p95=12499.1 latency_us_p99=12562.0 pred=3 class=sadness conf=0.9246
+MEM rss_kb=12900 vms_kb=16132
+BENCH_DONE
+
+##### subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=8 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=4948 vms_kb=8196
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=16325.4 latency_us_p50=16321.0 latency_us_p95=16412.0 latency_us_p99=16461.0 pred=0 class=neutral conf=0.6789
+MEM rss_kb=9064 vms_kb=11868
+BENCH_DONE
+
+##### subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=8 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=22832 vms_kb=26484
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=28555.5 latency_us_p50=28558.0 latency_us_p95=28787.0 latency_us_p99=28918.4 pred=0 class=neutral conf=0.7221
+MEM rss_kb=27332 vms_kb=30644
+BENCH_DONE
+
+##### subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=8 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=8624 vms_kb=12112
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=30412.8 latency_us_p50=30407.0 latency_us_p95=30554.1 latency_us_p99=30762.0 pred=0 class=neutral conf=0.6544
+MEM rss_kb=13268 vms_kb=16216
+BENCH_DONE
+

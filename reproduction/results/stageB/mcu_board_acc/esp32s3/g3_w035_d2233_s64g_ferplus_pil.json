@@ -1,0 +1,11 @@
+{
+  "model": "g3_w035_d2233_s64g_ferplus",
+  "target": "esp32s3",
+  "dataset": "ferplus",
+  "prep": "pil",
+  "norm": "rgb",
+  "n": 3153,
+  "acc": 0.826197272438947,
+  "median_latency_ms": 80.319,
+  "board": "READY device=esp32s3 fw=0.5.0-espdl-wifi model=embedded input=64x64x3 ref_n=8 model_bytes=1137264"
+}

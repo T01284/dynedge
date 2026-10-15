@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 MODEL = ROOT / "deploy" / "t527" / "models" / "v4_predistill"
-WSL_TOOLS = "/home/wang/opt/ncnn-x86-tools/bin"
+WSL_TOOLS = "<home>/opt/ncnn-x86-tools/bin"
 
 
 def wsl_path(p: Path) -> str:

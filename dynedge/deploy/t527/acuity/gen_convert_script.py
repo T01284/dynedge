@@ -2,11 +2,11 @@
 from pathlib import Path
 
 # Avoid directory names that can be mangled by escape handling.
-work = Path("/home/wang/docker_data/fer_mnv3")
+work = Path("<home>/docker_data/fer_mnv3")
 work.mkdir(parents=True, exist_ok=True)
 
 # Ensure onnx present
-src = Path("/mnt/d/paper/lane-edge/deploy/ncnn_edge/models/mobilenetv3_small.onnx")
+src = Path("<repo>/deploy/ncnn_edge/models/mobilenetv3_small.onnx")
 dst = work / "mobilenetv3_small.onnx"
 if not dst.exists():
     dst.write_bytes(src.read_bytes())

@@ -1,0 +1,7 @@
+model,tag,input,zp,loops_parsed,iters_used,latency_us_p50,latency_us_mean,latency_us_min,latency_us_max,backend,device
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,w035_d2222_s64g,64x64x3,128,200,190,1147,1147,1110,1186,viplite_npu,t527
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,w035_d3333_s64g,64x64x3,128,200,190,1548,1556,1544,1628,viplite_npu,t527
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,w05_d2222_s96c,96x96x3,128,200,190,2644,2656,2639,2717,viplite_npu,t527
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,w05_d3333_s112c,112x112x3,128,200,190,4949,4944,4910,4996,viplite_npu,t527
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,w075_d3333_s112c,112x112x3,128,200,190,7835,7823,7766,7868,viplite_npu,t527
+subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,w1_d4444_s112c,112x112x3,128,200,190,13161,13152,13117,13195,viplite_npu,t527

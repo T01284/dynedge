@@ -1,0 +1,31 @@
+{
+  "device": "t527",
+  "label": "w035_d2222_s64g_ncnn_fp32_r1",
+  "n_infer": 1000,
+  "sample_rate_hz": 100,
+  "active": {
+    "n_samples": 410,
+    "duration_s": 4.09,
+    "v_mean": 11.986346341463415,
+    "i_mean": 0.25651275609756097,
+    "i_mean_ma": 256.51275609756095,
+    "p_mean_w": 3.0746441337317076,
+    "energy_j": 12.576597816849997,
+    "energy_mj": 12576.597816849997
+  },
+  "idle": {
+    "n_samples": 510,
+    "duration_s": 5.09,
+    "v_mean": 11.990949019607843,
+    "i_mean": 0.1873268431372549,
+    "i_mean_ma": 187.32684313725488,
+    "p_mean_w": 2.246225413039216,
+    "energy_j": 11.433376199149997,
+    "energy_mj": 11433.376199149998
+  },
+  "energy_mj_gross": 12576.597816849997,
+  "energy_mj_net": 3389.464485902357,
+  "energy_mj_per_infer_gross": 12.576597816849997,
+  "energy_mj_per_infer_net": 3.389464485902357,
+  "notes": "t527_p5s1_matrix"
+}

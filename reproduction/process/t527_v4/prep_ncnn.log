@@ -1,0 +1,48 @@
+== subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64 64x64 ==
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64
+== subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64 64x64 ==
+WARN patched nonfinite scales in subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64.table
+OK subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64
+== subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96 96x96 ==
+WARN patched nonfinite scales in subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96.table
+OK subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96
+== subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112.table
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112
+== subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112.table
+OK subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112
+== subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112.table
+OK subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112
+== subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112.table
+OK subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112
+== subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112.table
+OK subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112
+== subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 64x64 ==
+WARN patched nonfinite scales in subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64.table
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64
+== subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 64x64 ==
+WARN patched nonfinite scales in subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64.table
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64
+== subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 96x96 ==
+WARN patched nonfinite scales in subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96.table
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96
+== subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112.table
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112
+== subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112.table
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112
+== subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112.table
+OK subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112
+== subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112.table
+OK subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112
+== subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 112x112 ==
+WARN patched nonfinite scales in subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112.table
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112
+DONE ok=16 fail=0 -> <repo>/deploy/t527/models/v4_predistill

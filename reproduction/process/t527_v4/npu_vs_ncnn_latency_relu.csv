@@ -1,0 +1,7 @@
+model,tag,input,npu_us_p50,npu_ms_p50,note
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_relu_npu_img64,w035_d2222_s64g,64x64x3,511,0.511,g4_relu_nbg; latency_only (T2b match shelved)
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_relu_npu_img64,w035_d3333_s64g,64x64x3,803,0.803,g4_relu_nbg; latency_only (T2b match shelved)
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_relu_npu_img96,w05_d2222_s96c,96x96x3,1062,1.062,g4_relu_nbg; latency_only (T2b match shelved)
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_relu_npu_img112,w05_d3333_s112c,112x112x3,2076,2.076,g4_relu_nbg; latency_only (T2b match shelved)
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_relu_npu_img112,w075_d3333_s112c,112x112x3,3449,3.449,g4_relu_nbg; latency_only (T2b match shelved)
+subnet_ferplus_w1_d4444_s112c_seed42_v4_relu_npu_img112,w1_d4444_s112c,112x112x3,6593,6.593,g4_relu_nbg; latency_only (T2b match shelved)

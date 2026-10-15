@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use DynEdge, please cite the following."
-title: "DynEdge: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices"
+title: "When Is FLOPs Enough? An Empirical Study of Latency Proxies, Numeric Format, and Energy for Elastic CNNs on Five Edge Devices"
 type: software
 authors:
   - family-names: Zhao
@@ -9,13 +9,14 @@ authors:
     given-names: Ming
   - family-names: Wang
     given-names: Shu
+    email: shu.wang@hljtyw.com
 repository-code: "https://github.com/T01284/dynedge"
 license: Apache-2.0
-version: "0.1.0"
-date-released: "2026-07-30"
+version: "0.2.0"
+date-released: "2026-10-15"
 preferred-citation:
   type: article
-  title: "DynEdge: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices: A Hardware-in-the-Loop Approach from GPU to Microcontroller"
+  title: "When Is FLOPs Enough? An Empirical Study of Latency Proxies, Numeric Format, and Energy for Elastic CNNs on Five Edge Devices"
   authors:
     - family-names: Zhao
       given-names: Li
@@ -23,6 +24,6 @@ preferred-citation:
       given-names: Ming
     - family-names: Wang
       given-names: Shu
-  journal: "IEEE Internet of Things Journal"
+  journal: "Neurocomputing"
   year: 2026
-  notes: "Under review at IEEE Internet of Things Journal. Code: https://github.com/T01284/dynedge"
+  notes: "Manuscript submitted for publication. Code: https://github.com/T01284/dynedge"

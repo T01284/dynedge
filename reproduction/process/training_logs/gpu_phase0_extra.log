@@ -1,0 +1,78 @@
+===== GPU phase0-extra start Sun Jul 19 19:42:13 CST 2026 =====
+=== [1] GPU probe MobileNetV3-Small ===
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_small-047dcff4.pth" to <gpu-workdir>/fer-dynedge/.cache/torch/hub/checkpoints/mobilenet_v3_small-047dcff4.pth
+  0%|          | 0.00/9.83M [00:00<?, ?B/s]  1%|▏         | 128k/9.83M [00:00<01:16, 134kB/s]  3%|▎         | 256k/9.83M [00:01<00:44, 227kB/s]  4%|▍         | 384k/9.83M [00:01<00:40, 242kB/s]  5%|▌         | 512k/9.83M [00:02<00:33, 293kB/s]  6%|▋         | 640k/9.83M [00:02<00:28, 343kB/s]  8%|▊         | 768k/9.83M [00:02<00:30, 309kB/s]  9%|▉         | 896k/9.83M [00:03<00:27, 338kB/s] 10%|█         | 1.00M/9.83M [00:03<00:27, 332kB/s] 11%|█▏        | 1.12M/9.83M [00:03<00:26, 341kB/s] 13%|█▎        | 1.25M/9.83M [00:04<00:25, 357kB/s] 14%|█▍        | 1.38M/9.83M [00:04<00:23, 370kB/s] 15%|█▌        | 1.50M/9.83M [00:04<00:23, 375kB/s] 17%|█▋        | 1.62M/9.83M [00:05<00:21, 392kB/s] 18%|█▊        | 1.75M/9.83M [00:05<00:20, 411kB/s] 19%|█▉        | 1.88M/9.83M [00:05<00:21, 397kB/s] 20%|██        | 2.00M/9.83M [00:06<00:17, 466kB/s] 22%|██▏       | 2.12M/9.83M [00:06<00:19, 417kB/s] 24%|██▍       | 2.38M/9.83M [00:06<00:16, 462kB/s] 25%|██▌       | 2.50M/9.83M [00:07<00:14, 522kB/s] 27%|██▋       | 2.62M/9.83M [00:07<00:13, 567kB/s] 28%|██▊       | 2.75M/9.83M [00:07<00:12, 586kB/s] 29%|██▉       | 2.88M/9.83M [00:07<00:12, 587kB/s] 31%|███       | 3.00M/9.83M [00:08<00:19, 371kB/s] 34%|███▍      | 3.38M/9.83M [00:08<00:10, 651kB/s] 36%|███▌      | 3.50M/9.83M [00:08<00:09, 690kB/s] 37%|███▋      | 3.62M/9.83M [00:08<00:09, 671kB/s] 38%|███▊      | 3.75M/9.83M [00:09<00:10, 613kB/s] 39%|███▉      | 3.88M/9.83M [00:09<00:09, 635kB/s] 41%|████      | 4.00M/9.83M [00:09<00:09, 635kB/s] 42%|████▏     | 4.12M/9.83M [00:09<00:10, 557kB/s] 46%|████▌     | 4.50M/9.83M [00:10<00:06, 920kB/s] 47%|████▋     | 4.62M/9.83M [00:10<00:06, 823kB/s] 48%|████▊     | 4.75M/9.83M [00:10<00:06, 784kB/s] 50%|████▉     | 4.88M/9.83M [00:10<00:06, 842kB/s] 51%|█████     | 5.00M/9.83M [00:10<00:05, 925kB/s] 52%|█████▏    | 5.12M/9.83M [00:10<00:05, 924kB/s] 53%|█████▎    | 5.25M/9.83M [00:11<00:10, 444kB/s] 56%|█████▌    | 5.50M/9.83M [00:11<00:07, 573kB/s] 58%|█████▊    | 5.75M/9.83M [00:12<00:06, 711kB/s] 60%|█████▉    | 5.88M/9.83M [00:12<00:05, 771kB/s] 61%|██████    | 6.00M/9.83M [00:12<00:05, 762kB/s] 62%|██████▏   | 6.12M/9.83M [00:12<00:04, 785kB/s] 64%|██████▎   | 6.25M/9.83M [00:12<00:05, 684kB/s] 66%|██████▌   | 6.50M/9.83M [00:12<00:03, 899kB/s] 67%|██████▋   | 6.62M/9.83M [00:13<00:03, 915kB/s] 69%|██████▊   | 6.75M/9.83M [00:13<00:03, 936kB/s] 70%|██████▉   | 6.88M/9.83M [00:13<00:04, 730kB/s] 72%|███████▏  | 7.12M/9.83M [00:13<00:02, 1.03MB/s] 74%|███████▍  | 7.25M/9.83M [00:13<00:03, 863kB/s]  76%|███████▋  | 7.50M/9.83M [00:14<00:02, 1.10MB/s] 78%|███████▊  | 7.62M/9.83M [00:14<00:02, 1.09MB/s] 79%|███████▉  | 7.75M/9.83M [00:14<00:02, 960kB/s]  80%|████████  | 7.88M/9.83M [00:14<00:02, 945kB/s] 81%|████████▏ | 8.00M/9.83M [00:14<00:02, 929kB/s] 83%|████████▎ | 8.12M/9.83M [00:14<00:01, 942kB/s] 85%|████████▌ | 8.38M/9.83M [00:14<00:01, 1.29MB/s] 88%|████████▊ | 8.62M/9.83M [00:15<00:00, 1.31MB/s] 90%|█████████ | 8.88M/9.83M [00:15<00:00, 1.09MB/s] 93%|█████████▎| 9.12M/9.83M [00:15<00:00, 1.07MB/s] 95%|█████████▌| 9.38M/9.83M [00:15<00:00, 1.11MB/s] 98%|█████████▊| 9.62M/9.83M [00:16<00:00, 1.11MB/s]100%|██████████| 9.83M/9.83M [00:16<00:00, 1.20MB/s]100%|██████████| 9.83M/9.83M [00:16<00:00, 635kB/s] 
+{
+  "device": "gpu_server",
+  "model": "mobilenet_v3_small",
+  "img_size": 224,
+  "batch_size": 1,
+  "pytorch": {
+    "backend": "pytorch_eager",
+    "latency_us_mean": 1676.5858667592208,
+    "latency_us_p50": 1652.9210843145847,
+    "latency_us_p95": 1727.6441911235454,
+    "latency_us_p99": 2382.230521179734,
+    "power_w_mean": 73.03,
+    "energy_mj_per_infer": 122.90814502765424,
+    "n_power_samples": 4,
+    "iters": 300,
+    "warmup": 50
+  },
+  "tensorrt": {
+    "backend": "tensorrt",
+    "status": "skipped",
+    "reason": "trtexec not found"
+  },
+  "gpu_name": "NVIDIA RTX 6000D"
+}
+Wrote <gpu-workdir>/fer-dynedge/results/gpu_probe/mobilenet_v3_small_gpu.json and <gpu-workdir>/fer-dynedge/results/gpu_probe/mobilenet_v3_small_gpu.csv
+=== [2] BranchyNet FERPlus ===
+===== TRAIN branchy_resnet18 data=ferplus ep=100 bs=128 lr=1e-3 aug=mild img=112 =====
+started branchy_resnet18 ferplus seed=42 pid=89368
+started branchy_resnet18 ferplus seed=1234 pid=89369
+started branchy_resnet18 ferplus seed=2026 pid=89370
+===== DONE branchy_resnet18 ferplus =====
+branchy_resnet18_ferplus_seed1234.json seed 1234 test 0.8766 val 0.884
+branchy_resnet18_ferplus_seed2026.json seed 2026 test 0.8766 val 0.8828
+branchy_resnet18_ferplus_seed42.json seed 42 test 0.8804 val 0.8837
+MEAN=0.877894 STD=0.001794
+=== [3] BranchyNet ExpW ===
+===== TRAIN branchy_resnet18 data=expw ep=80 bs=256 lr=1e-3 aug=strong img=112 =====
+started branchy_resnet18 expw seed=42 pid=90508
+started branchy_resnet18 expw seed=1234 pid=90509
+started branchy_resnet18 expw seed=2026 pid=90510
+===== GPU phase0-extra RESUME Mon Jul 20 07:56:00 CST 2026 =====
+=== [3 resume] BranchyNet ExpW ===
+===== TRAIN branchy_resnet18 data=expw ep=80 bs=256 lr=1e-3 aug=strong img=112 =====
+started branchy_resnet18 expw seed=42 pid=1268
+started branchy_resnet18 expw seed=1234 pid=1269
+started branchy_resnet18 expw seed=2026 pid=1270
+===== DONE branchy_resnet18 expw =====
+branchy_resnet18_expw_seed1234.json seed 1234 test 0.7126 val 0.7203
+branchy_resnet18_expw_seed2026.json seed 2026 test 0.7196 val 0.7188
+branchy_resnet18_expw_seed42.json seed 42 test 0.7143 val 0.7181
+MEAN=0.715490 STD=0.002990
+=== [4] DDAMFN FERPlus ===
+===== TRAIN ddamfn data=ferplus ep=100 bs=96 lr=1e-3 aug=mild img=112 =====
+started ddamfn ferplus seed=42 pid=2747
+started ddamfn ferplus seed=1234 pid=2748
+started ddamfn ferplus seed=2026 pid=2749
+===== DONE ddamfn ferplus =====
+ddamfn_ferplus_seed1234.json seed 1234 test 0.8595 val 0.8734
+ddamfn_ferplus_seed2026.json seed 2026 test 0.8716 val 0.8784
+ddamfn_ferplus_seed42.json seed 42 test 0.8763 val 0.8809
+MEAN=0.869119 STD=0.007075
+=== [5] DDAMFN ExpW ===
+===== TRAIN ddamfn data=expw ep=80 bs=128 lr=1e-3 aug=strong img=112 =====
+started ddamfn expw seed=42 pid=3791
+started ddamfn expw seed=1234 pid=3792
+started ddamfn expw seed=2026 pid=3793
+===== DONE ddamfn expw =====
+ddamfn_expw_seed1234.json seed 1234 test 0.7076 val 0.7192
+ddamfn_expw_seed2026.json seed 2026 test 0.7068 val 0.7179
+ddamfn_expw_seed42.json seed 42 test 0.7152 val 0.7203
+MEAN=0.709882 STD=0.003771
+===== GPU phase0-extra ALL DONE Mon Jul 20 09:04:47 CST 2026 =====
+utilization.gpu [%], memory.used [MiB], power.draw [W]
+1 %, 0 MiB, 96.47 W

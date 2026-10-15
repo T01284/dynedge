@@ -1,0 +1,11 @@
+{
+  "stated_critical_rate": {
+    "paper_formula": "R* = P_idle(Orin) / E_net(H618 mid)",
+    "orin_idle_w_measured": 8.6979,
+    "h618_mid_enet_mj": 23.347561,
+    "r_star_hz": 372.5399839409351,
+    "paper_claims_hz": 373,
+    "paper_used_orin_idle_w": 8.6,
+    "paper_used_h618_enet_mj": 23.35
+  }
+}

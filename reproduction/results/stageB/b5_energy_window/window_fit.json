@@ -1,0 +1,67 @@
+{
+  "t527_fit": {
+    "w035_d2222_s64g": {
+      "e_mj_per_infer": 0.82721,
+      "e_ci95": [
+        0.8166,
+        0.83781
+      ],
+      "c_mj_per_window": 134.45,
+      "c_ci95": [
+        3.22,
+        265.67
+      ],
+      "r2": 0.998819,
+      "n_windows": 32
+    },
+    "w05_d3333_s112c": {
+      "e_mj_per_infer": 3.00959,
+      "e_ci95": [
+        2.98773,
+        3.03145
+      ],
+      "c_mj_per_window": 125.75,
+      "c_ci95": [
+        57.77,
+        193.73
+      ],
+      "r2": 0.999621,
+      "n_windows": 32
+    }
+  },
+  "published_windows": {
+    "h618_p5s1": {
+      "n_runs": 36,
+      "n_infer": [
+        1000
+      ],
+      "active_s_min": 3.59,
+      "active_s_median": 11.89,
+      "active_s_max": 51.69,
+      "idle_s_median": 5.09,
+      "runs_per_config": 3
+    },
+    "orin_p5s1": {
+      "n_runs": 36,
+      "n_infer": [
+        1000
+      ],
+      "active_s_min": 4.19,
+      "active_s_median": 4.64,
+      "active_s_max": 5.49,
+      "idle_s_median": 5.09,
+      "runs_per_config": 3
+    },
+    "t527_p5s1": {
+      "n_runs": 54,
+      "n_infer": [
+        1000
+      ],
+      "active_s_min": 1.39,
+      "active_s_median": 9.54,
+      "active_s_max": 77.5,
+      "idle_s_median": 5.09,
+      "runs_per_config": 3
+    }
+  }
+}

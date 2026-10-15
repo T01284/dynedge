@@ -1,0 +1,31 @@
+{
+  "device": "orin",
+  "label": "w035_d2222_s64g_fp16_N20000_r4",
+  "n_infer": 20000,
+  "sample_rate_hz": 100,
+  "active": {
+    "n_samples": 2170,
+    "duration_s": 21.693,
+    "v_mean": 11.730169585253456,
+    "i_mean": 0.8996488801843319,
+    "i_mean_ma": 899.6488801843319,
+    "p_mean_w": 10.552746332004608,
+    "energy_j": 228.91313435853505,
+    "energy_mj": 228913.13435853506
+  },
+  "idle": {
+    "n_samples": 510,
+    "duration_s": 5.09,
+    "v_mean": 11.826066666666666,
+    "i_mean": 0.7284554705882353,
+    "i_mean_ma": 728.4554705882354,
+    "p_mean_w": 8.614633614607843,
+    "energy_j": 43.847724632199984,
+    "energy_mj": 43847.724632199985
+  },
+  "energy_mj_gross": 228913.13435853506,
+  "energy_mj_net": 42039.12837694088,
+  "energy_mj_per_infer_gross": 11.445656717926752,
+  "energy_mj_per_infer_net": 2.1019564188470437,
+  "notes": "orin_p5s1_matrix"
+}

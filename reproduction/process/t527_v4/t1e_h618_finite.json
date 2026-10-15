@@ -1,0 +1,13 @@
+{
+  "board": "h618",
+  "host": "redacted",
+  "cpu": "4xA53",
+  "binary": "fer_ncnn_acc (build-linux-aarch64-acc, fp16=off)",
+  "model": "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 (bake+pnnx)",
+  "n": 20,
+  "n_ok": 20,
+  "nan_fp": 0,
+  "first_logits": [2.3124669, -0.4589766, -1.756434, 1.9602232, -2.2486355, -3.1086426, -2.3981485, -3.6921761],
+  "matches_host_bake": true,
+  "note": "Old H618 match@500 (mean 0.149) used broken onnx2ncnn graphs via host pyncnn; latency matrix unaffected. New bake+pnnx graph is finite on A53."
+}

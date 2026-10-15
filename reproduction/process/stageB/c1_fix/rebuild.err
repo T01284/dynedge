@@ -1,0 +1,580 @@
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 49
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 90
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 118
+insert_reshape_global_pooling_forward torch.flatten_9 131
+insert_reshape_global_pooling_forward torch.flatten_10 143
+model inputshape = [1,3,64,64]f32
+FLOPS = 18.189M
+memory OPS = 1.898M
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:130: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:409: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:419: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:430: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 50
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 91
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 118
+insert_reshape_global_pooling_forward torch.flatten_9 131
+insert_reshape_global_pooling_forward torch.flatten_10 143
+model inputshape = [1,3,64,64]f32
+FLOPS = 68.145M
+memory OPS = 5.614M
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:130: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:409: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:419: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:430: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 49
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 76
+insert_reshape_global_pooling_forward torch.flatten_6 90
+insert_reshape_global_pooling_forward torch.flatten_7 103
+insert_reshape_global_pooling_forward torch.flatten_8 115
+model inputshape = [1,3,64,64]f32
+FLOPS = 16.358M
+memory OPS = 1.682M
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:110: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:341: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:351: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:362: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 49
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 90
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 118
+insert_reshape_global_pooling_forward torch.flatten_9 132
+insert_reshape_global_pooling_forward torch.flatten_10 145
+insert_reshape_global_pooling_forward torch.flatten_11 157
+model inputshape = [1,3,64,64]f32
+FLOPS = 19.269M
+memory OPS = 2.027M
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:140: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:443: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:453: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:464: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 50
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 91
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 118
+insert_reshape_global_pooling_forward torch.flatten_9 132
+insert_reshape_global_pooling_forward torch.flatten_10 146
+insert_reshape_global_pooling_forward torch.flatten_11 159
+insert_reshape_global_pooling_forward torch.flatten_12 173
+insert_reshape_global_pooling_forward torch.flatten_13 187
+insert_reshape_global_pooling_forward torch.flatten_14 199
+model inputshape = [1,3,64,64]f32
+FLOPS = 40.658M
+memory OPS = 4.905M
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:170: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:545: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:555: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:566: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 49
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 76
+insert_reshape_global_pooling_forward torch.flatten_6 90
+insert_reshape_global_pooling_forward torch.flatten_7 103
+insert_reshape_global_pooling_forward torch.flatten_8 115
+model inputshape = [1,3,64,64]f32
+FLOPS = 16.357M
+memory OPS = 1.682M
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:110: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:341: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:351: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py:362: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 50
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 90
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 117
+insert_reshape_global_pooling_forward torch.flatten_9 129
+model inputshape = [1,3,64,64]f32
+FLOPS = 17.812M
+memory OPS = 1.888M
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:120: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:375: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:385: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:396: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 50
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 91
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 118
+insert_reshape_global_pooling_forward torch.flatten_9 132
+insert_reshape_global_pooling_forward torch.flatten_10 145
+insert_reshape_global_pooling_forward torch.flatten_11 157
+model inputshape = [1,3,64,64]f32
+FLOPS = 32.661M
+memory OPS = 3.3M
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:140: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:443: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:453: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:464: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 49
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 76
+insert_reshape_global_pooling_forward torch.flatten_6 90
+insert_reshape_global_pooling_forward torch.flatten_7 103
+insert_reshape_global_pooling_forward torch.flatten_8 115
+model inputshape = [1,3,64,64]f32
+FLOPS = 16.357M
+memory OPS = 1.682M
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:110: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:341: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:351: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:362: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt", v_0)
+pnnxparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.param
+pnnxbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin
+pnnxpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py
+pnnxonnx = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.onnx
+ncnnparam = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.ncnn.param
+ncnnbin = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.ncnn.bin
+ncnnpy = <repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_ncnn.py
+fp16 = 0
+optlevel = 2
+device = cpu
+inputshape = [1,3,64,64]f32
+inputshape2 = 
+input = 
+input2 = 
+customop = 
+moduleop = 
+get inputshape from traced inputs
+inputshape = [1,3,64,64]f32
+############# pass_level0
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+inline module = models.elastic_mbv3.ConvBNAct
+inline module = models.elastic_mbv3.InvertedResidualSE
+inline module = models.elastic_mbv3.SqueezeExcite
+inline module = torch.nn.modules.flatten.Flatten
+
+----------------
+
+############# pass_level1
+############# pass_level2
+############# pass_level3
+############# pass_level4
+############# pass_level5
+############# pass_ncnn
+insert_reshape_global_pooling_forward torch.flatten_0 9
+insert_reshape_global_pooling_forward torch.flatten_1 22
+insert_reshape_global_pooling_forward torch.flatten_2 36
+insert_reshape_global_pooling_forward torch.flatten_3 50
+insert_reshape_global_pooling_forward torch.flatten_4 63
+insert_reshape_global_pooling_forward torch.flatten_5 77
+insert_reshape_global_pooling_forward torch.flatten_6 91
+insert_reshape_global_pooling_forward torch.flatten_7 104
+insert_reshape_global_pooling_forward torch.flatten_8 118
+insert_reshape_global_pooling_forward torch.flatten_9 132
+insert_reshape_global_pooling_forward torch.flatten_10 145
+insert_reshape_global_pooling_forward torch.flatten_11 157
+model inputshape = [1,3,64,64]f32
+FLOPS = 32.66M
+memory OPS = 3.3M
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:140: SyntaxWarning: invalid escape sequence '\p'
+  archive = zipfile.ZipFile('<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin', 'r')
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:443: SyntaxWarning: invalid escape sequence '\p'
+  mod.save("<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt")
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:453: SyntaxWarning: invalid escape sequence '\p'
+  torch.onnx.export(net, v_0, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.onnx", export_params=True, operator_export_type=torch.onnx.OperatorExportTypes.ONNX_ATEN_FALLBACK, opset_version=13, input_names=['in0'], output_names=['out0'])
+<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py:464: SyntaxWarning: invalid escape sequence '\p'
+  pnnx.export(net, "<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m_pnnx.py.pt", v_0)

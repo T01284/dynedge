@@ -1,0 +1,19 @@
+source: official_expw
+label_file: data/label/label.lst
+split_method: stratified_811
+seed: 2026
+ratios:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+min_bbox_confidence: 0.0
+n_total_labeled: 91793
+n_after_confidence_filter: 91793
+n_align_ok: 91793
+n_align_skip: 0
+skip_rate: 0.0
+split_file: configs/expw_split_lists.json
+notes: 'Final N (align_ok) must be reported in paper §4.1. MTCNN skip rate target
+  1–3%; investigate if outside band.
+
+  '

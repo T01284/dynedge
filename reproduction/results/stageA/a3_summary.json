@@ -1,0 +1,286 @@
+{
+  "repeatability_rel_spread_median": 0.002976627137634027,
+  "repeatability_rel_spread_p90": 0.014543315608240133,
+  "n_duplicated_arch_rows": 44,
+  "t527_affine_fit_on_measured": {
+    "fp32": [
+      1.3704482805682832,
+      -1964.1535566315995
+    ],
+    "int8": [
+      1.1777302501094424,
+      -1065.8823681175593
+    ]
+  },
+  "worst_flops_inversions": {
+    "H618 NCNN FP32": [],
+    "H618 NCNN INT8": [
+      {
+        "lower_proxy_key": "w0.75_d3333_s112c",
+        "higher_proxy_key": "w1_d2222_s112c",
+        "proxy_ratio": 1.1139916307944828,
+        "lat_lower_proxy_ms": 29.624,
+        "lat_higher_proxy_ms": 27.304499999999997,
+        "slowdown": 1.0849493673204051
+      },
+      {
+        "lower_proxy_key": "w0.75_d3432_s96c",
+        "higher_proxy_key": "w1_d2222_s96c",
+        "proxy_ratio": 1.133743478396098,
+        "lat_lower_proxy_ms": 21.1125,
+        "lat_higher_proxy_ms": 19.77,
+        "slowdown": 1.067905918057663
+      }
+    ],
+    "H618 NCNN AUTO": [],
+    "H618 NCNN FP32+INT8": [
+      {
+        "lower_proxy_key": "w0.35_d2332_s64g|int8",
+        "higher_proxy_key": "w0.35_d2342_s64g|fp32",
+        "proxy_ratio": 1.0679776644816703,
+        "lat_lower_proxy_ms": 4.772,
+        "lat_higher_proxy_ms": 3.527,
+        "slowdown": 1.3529912106606181
+      },
+      {
+        "lower_proxy_key": "w0.35_d3222_s64g|int8",
+        "higher_proxy_key": "w0.35_d2342_s64g|fp32",
+        "proxy_ratio": 1.09289914149268,
+        "lat_lower_proxy_ms": 4.633,
+        "lat_higher_proxy_ms": 3.527,
+        "slowdown": 1.3135809469804365
+      },
+      {
+        "lower_proxy_key": "w0.35_d2342_s64g|int8",
+        "higher_proxy_key": "w0.35_d3333_s64g|fp32",
+        "proxy_ratio": 1.0959729904944726,
+        "lat_lower_proxy_ms": 5.098,
+        "lat_higher_proxy_ms": 3.974,
+        "slowdown": 1.2828384499245091
+      },
+      {
+        "lower_proxy_key": "w0.35_d2222_s64g|int8",
+        "higher_proxy_key": "w0.35_d3222_s64g|fp32",
+        "proxy_ratio": 1.106904594575325,
+        "lat_lower_proxy_ms": 4.171,
+        "lat_higher_proxy_ms": 3.263,
+        "slowdown": 1.2782715292675453
+      },
+      {
+        "lower_proxy_key": "w0.5_d3242_s96c|int8",
+        "higher_proxy_key": "w0.5_d3333_s96c|fp32",
+        "proxy_ratio": 1.0667395960989043,
+        "lat_lower_proxy_ms": 12.4165,
+        "lat_higher_proxy_ms": 9.846,
+        "slowdown": 1.2610704854763355
+      }
+    ],
+    "T527 NCNN FP32": [],
+    "T527 NCNN INT8": [
+      {
+        "lower_proxy_key": "w0.75_d3333_s112c",
+        "higher_proxy_key": "w1_d2222_s112c",
+        "proxy_ratio": 1.1139916307944828,
+        "lat_lower_proxy_ms": 41.987,
+        "lat_higher_proxy_ms": 38.7535,
+        "slowdown": 1.0834376249887108
+      },
+      {
+        "lower_proxy_key": "w0.75_d3432_s96c",
+        "higher_proxy_key": "w1_d2222_s96c",
+        "proxy_ratio": 1.133743478396098,
+        "lat_lower_proxy_ms": 30.187,
+        "lat_higher_proxy_ms": 28.627,
+        "slowdown": 1.054494009152199
+      }
+    ],
+    "T527 NCNN AUTO": [],
+    "T527 NCNN FP32+INT8": [
+      {
+        "lower_proxy_key": "w0.35_d3222_s64g|int8",
+        "higher_proxy_key": "w0.35_d2342_s64g|fp32",
+        "proxy_ratio": 1.09289914149268,
+        "lat_lower_proxy_ms": 5.6,
+        "lat_higher_proxy_ms": 4.467,
+        "slowdown": 1.2536377882247594
+      },
+      {
+        "lower_proxy_key": "w0.35_d2332_s64g|int8",
+        "higher_proxy_key": "w0.35_d2342_s64g|fp32",
+        "proxy_ratio": 1.0679776644816703,
+        "lat_lower_proxy_ms": 5.558,
+        "lat_higher_proxy_ms": 4.467,
+        "slowdown": 1.2442355048130738
+      },
+      {
+        "lower_proxy_key": "w0.5_d3322_s96c|int8",
+        "higher_proxy_key": "w0.5_d3242_s96c|fp32",
+        "proxy_ratio": 1.1004290149624234,
+        "lat_lower_proxy_ms": 16.362000000000002,
+        "lat_higher_proxy_ms": 13.285,
+        "slowdown": 1.2316146029356418
+      },
+      {
+        "lower_proxy_key": "w0.5_d3242_s96c|int8",
+        "higher_proxy_key": "w0.5_d3333_s96c|fp32",
+        "proxy_ratio": 1.0667395960989043,
+        "lat_lower_proxy_ms": 17.3155,
+        "lat_higher_proxy_ms": 14.475,
+        "slowdown": 1.1962348877374784
+      },
+      {
+        "lower_proxy_key": "w0.35_d2222_s64g|int8",
+        "higher_proxy_key": "w0.35_d3222_s64g|fp32",
+        "proxy_ratio": 1.106904594575325,
+        "lat_lower_proxy_ms": 4.808,
+        "lat_higher_proxy_ms": 4.138,
+        "slowdown": 1.1619139681005317
+      }
+    ],
+    "T527 NPU UINT8": [],
+    "Orin TRT FP16": [
+      {
+        "lower_proxy_key": "w0.5_d3444_s64g",
+        "higher_proxy_key": "w0.5_d2222_s96c",
+        "proxy_ratio": 1.275228265556743,
+        "lat_lower_proxy_ms": 1.3608,
+        "lat_higher_proxy_ms": 0.9962000000000001,
+        "slowdown": 1.3659907649066452
+      },
+      {
+        "lower_proxy_key": "w0.35_d4444_s112c",
+        "higher_proxy_key": "w1_d2222_s64g",
+        "proxy_ratio": 1.1778728859335321,
+        "lat_lower_proxy_ms": 1.468,
+        "lat_higher_proxy_ms": 1.0757999999999999,
+        "slowdown": 1.3645659044432052
+      },
+      {
+        "lower_proxy_key": "w1_d4424_s64g",
+        "higher_proxy_key": "w0.75_d2222_s112c",
+        "proxy_ratio": 1.060907305417015,
+        "lat_lower_proxy_ms": 1.5214,
+        "lat_higher_proxy_ms": 1.1294000000000002,
+        "slowdown": 1.3470869488223833
+      },
+      {
+        "lower_proxy_key": "w0.5_d4344_s112c",
+        "higher_proxy_key": "w0.75_d2222_s112c",
+        "proxy_ratio": 1.2478938164377893,
+        "lat_lower_proxy_ms": 1.5023,
+        "lat_higher_proxy_ms": 1.1294000000000002,
+        "slowdown": 1.3301753143261907
+      },
+      {
+        "lower_proxy_key": "w0.35_d4344_s64g",
+        "higher_proxy_key": "w0.5_d2222_s96c",
+        "proxy_ratio": 2.17041342514886,
+        "lat_lower_proxy_ms": 1.3235999999999999,
+        "lat_higher_proxy_ms": 0.9962000000000001,
+        "slowdown": 1.3286488656896203
+      }
+    ],
+    "Orin TRT INT8": [
+      {
+        "lower_proxy_key": "w0.35_d4444_s112c",
+        "higher_proxy_key": "w1_d2222_s64g",
+        "proxy_ratio": 1.1778728859335321,
+        "lat_lower_proxy_ms": 1.506,
+        "lat_higher_proxy_ms": 1.0318,
+        "slowdown": 1.4595851909284745
+      },
+      {
+        "lower_proxy_key": "w0.35_d4344_s112c",
+        "higher_proxy_key": "w1_d2222_s64g",
+        "proxy_ratio": 1.221311989507077,
+        "lat_lower_proxy_ms": 1.4398,
+        "lat_higher_proxy_ms": 1.0318,
+        "slowdown": 1.3954254700523356
+      },
+      {
+        "lower_proxy_key": "w0.5_d4344_s112c",
+        "higher_proxy_key": "w0.75_d2222_s112c",
+        "proxy_ratio": 1.2478938164377893,
+        "lat_lower_proxy_ms": 1.5132999999999999,
+        "lat_higher_proxy_ms": 1.103,
+        "slowdown": 1.371985494106981
+      },
+      {
+        "lower_proxy_key": "w0.35_d4444_s112c",
+        "higher_proxy_key": "w0.75_d2222_s112c",
+        "proxy_ratio": 2.0957287288062747,
+        "lat_lower_proxy_ms": 1.506,
+        "lat_higher_proxy_ms": 1.103,
+        "slowdown": 1.3653671804170444
+      },
+      {
+        "lower_proxy_key": "w0.5_d3444_s64g",
+        "higher_proxy_key": "w0.5_d2222_s96c",
+        "proxy_ratio": 1.275228265556743,
+        "lat_lower_proxy_ms": 1.3792,
+        "lat_higher_proxy_ms": 1.0177,
+        "slowdown": 1.355212734597622
+      }
+    ],
+    "ESP32-P4 ESP-DL INT8": [
+      {
+        "lower_proxy_key": "w0.35_d2234_s64g",
+        "higher_proxy_key": "w0.35_d3333_s64g",
+        "proxy_ratio": 1.061181898962231,
+        "lat_lower_proxy_ms": 31.906,
+        "lat_higher_proxy_ms": 28.039,
+        "slowdown": 1.137915046898962
+      },
+      {
+        "lower_proxy_key": "w0.35_d2344_s64g",
+        "higher_proxy_key": "w0.5_d2222_s64g",
+        "proxy_ratio": 1.114179175970346,
+        "lat_lower_proxy_ms": 34.192,
+        "lat_higher_proxy_ms": 31.3,
+        "slowdown": 1.0923961661341852
+      },
+      {
+        "lower_proxy_key": "w0.35_d3334_s64g",
+        "higher_proxy_key": "w0.5_d2222_s64g",
+        "proxy_ratio": 1.0905831860641253,
+        "lat_lower_proxy_ms": 33.431,
+        "lat_higher_proxy_ms": 31.3,
+        "slowdown": 1.0680830670926516
+      }
+    ],
+    "ESP32-S3 ESP-DL INT8": [
+      {
+        "lower_proxy_key": "w0.5_d2234_s64g",
+        "higher_proxy_key": "w0.5_d3333_s64g",
+        "proxy_ratio": 1.1005540734660373,
+        "lat_lower_proxy_ms": 163.115,
+        "lat_higher_proxy_ms": 147.721,
+        "slowdown": 1.1042099633769065
+      },
+      {
+        "lower_proxy_key": "w0.35_d2234_s64g",
+        "higher_proxy_key": "w0.35_d3333_s64g",
+        "proxy_ratio": 1.061181898962231,
+        "lat_lower_proxy_ms": 94.839,
+        "lat_higher_proxy_ms": 86.642,
+        "slowdown": 1.0946076960365643
+      },
+      {
+        "lower_proxy_key": "w0.35_d2344_s64g",
+        "higher_proxy_key": "w0.5_d2222_s64g",
+        "proxy_ratio": 1.114179175970346,
+        "lat_lower_proxy_ms": 103.252,
+        "lat_higher_proxy_ms": 95.87,
+        "slowdown": 1.077000104307917
+      },
+      {
+        "lower_proxy_key": "w0.35_d3334_s64g",
+        "higher_proxy_key": "w0.5_d2222_s64g",
+        "proxy_ratio": 1.0905831860641253,
+        "lat_lower_proxy_ms": 103.19,
+        "lat_higher_proxy_ms": 95.87,
+        "slowdown": 1.0763533952226974
+      }
+    ]
+  }
+}

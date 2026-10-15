@@ -1,0 +1,22 @@
+{
+  "device": "esp32s3",
+  "label": "",
+  "n_infer": 13,
+  "sample_rate_hz": 100,
+  "active": {
+    "n_samples": 1900,
+    "duration_s": 18.991,
+    "v_mean": 4.988496842105263,
+    "i_mean": 0.20307187368421054,
+    "i_mean_ma": 203.07187368421054,
+    "p_mean_w": 1.013021714831579,
+    "energy_j": 19.238500584095018,
+    "energy_mj": 19238.500584095018
+  },
+  "idle": null,
+  "energy_mj_gross": 19238.500584095018,
+  "energy_mj_net": null,
+  "energy_mj_per_infer_gross": 1479.8846603150014,
+  "energy_mj_per_infer_net": null,
+  "notes": ""
+}

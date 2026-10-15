@@ -1,0 +1,1176 @@
+{
+  "stem": "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64",
+  "param_md5": "162c601f26931b68a873d25120c2db32",
+  "bin_md5": "00155a62b50f12f4a08d611f92eda8fd",
+  "input_bin": "results/t527_v4/eval500_bins/hw64/expw__00_angry__amazed_manager_139_f3.jpg.bin",
+  "first_nonfinite": {
+    "i": 0,
+    "blob": "/net/stages.0.0/se/Constant_1_output_0",
+    "n_nan": 1,
+    "n_inf": 0,
+    "absmax": NaN
+  },
+  "layers": [
+    {
+      "i": 0,
+      "blob": "/net/stages.0.0/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 1,
+      "blob": "/net/stages.0.0/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 2,
+      "blob": "/net/stages.0.1/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 3,
+      "blob": "/net/stages.0.1/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 4,
+      "blob": "/net/stages.1.0/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 5,
+      "blob": "/net/stages.1.0/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 6,
+      "blob": "/net/stages.1.1/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 7,
+      "blob": "/net/stages.1.1/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 8,
+      "blob": "/net/stages.2.0/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 9,
+      "blob": "/net/stages.2.0/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 10,
+      "blob": "/net/stages.2.1/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 11,
+      "blob": "/net/stages.2.1/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 12,
+      "blob": "/net/stages.3.0/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 13,
+      "blob": "/net/stages.3.0/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 14,
+      "blob": "/net/stages.3.1/se/Constant_1_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 15,
+      "blob": "/net/stages.3.1/se/Constant_output_0",
+      "status": "nonfinite",
+      "n": 1,
+      "n_nan": 1,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 16,
+      "blob": "/net/stem/stem.0/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 14336,
+      "n_inf": 0,
+      "absmax": 0.37112170457839966
+    },
+    {
+      "i": 17,
+      "blob": "/net/stem/stem.1/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 18,
+      "blob": "/net/stages.0.0/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 65536,
+      "n_nan": 65536,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 19,
+      "blob": "/net/stages.0.0/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 20,
+      "blob": "/net/stages.0.0/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 21,
+      "blob": "/net/stages.0.0/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 22,
+      "blob": "/net/stages.0.0/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 64,
+      "n_nan": 64,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 23,
+      "blob": "/net/stages.0.0/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 16,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 24,
+      "blob": "/net/stages.0.0/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.34432557225227356
+    },
+    {
+      "i": 25,
+      "blob": "/net/stages.0.0/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5320581793785095
+    },
+    {
+      "i": 26,
+      "blob": "/net/stages.0.0/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5320581793785095
+    },
+    {
+      "i": 27,
+      "blob": "/net/stages.0.0/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5320581793785095
+    },
+    {
+      "i": 28,
+      "blob": "/net/stages.0.0/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 29,
+      "blob": "/net/stages.0.0/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 30,
+      "blob": "/net/stages.0.0/project_bn/w035/BatchNormalization_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 31,
+      "blob": "/net/stages.0.0/project_bn/w035/BatchNormalization_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 32,
+      "blob": "/net/stages.0.1/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 33,
+      "blob": "/net/stages.0.1/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 34,
+      "blob": "/net/stages.0.1/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 35,
+      "blob": "/net/stages.0.1/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 36,
+      "blob": "/net/stages.0.1/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 64,
+      "n_nan": 64,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 37,
+      "blob": "/net/stages.0.1/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 16,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 38,
+      "blob": "/net/stages.0.1/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.44157838821411133
+    },
+    {
+      "i": 39,
+      "blob": "/net/stages.0.1/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5735964179039001
+    },
+    {
+      "i": 40,
+      "blob": "/net/stages.0.1/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5735964179039001
+    },
+    {
+      "i": 41,
+      "blob": "/net/stages.0.1/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5735964179039001
+    },
+    {
+      "i": 42,
+      "blob": "/net/stages.0.1/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 43,
+      "blob": "/net/stages.0.1/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 44,
+      "blob": "/net/stages.0.1/Add_output_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 45,
+      "blob": "/net/stages.1.0/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 16384,
+      "n_nan": 16384,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 46,
+      "blob": "/net/stages.1.0/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 47,
+      "blob": "/net/stages.1.0/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 48,
+      "blob": "/net/stages.1.0/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 49,
+      "blob": "/net/stages.1.0/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 64,
+      "n_nan": 64,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 50,
+      "blob": "/net/stages.1.0/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 16,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 51,
+      "blob": "/net/stages.1.0/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.7367410063743591
+    },
+    {
+      "i": 52,
+      "blob": "/net/stages.1.0/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.6227902173995972
+    },
+    {
+      "i": 53,
+      "blob": "/net/stages.1.0/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.6227902173995972
+    },
+    {
+      "i": 54,
+      "blob": "/net/stages.1.0/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 64,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.6227902173995972
+    },
+    {
+      "i": 55,
+      "blob": "/net/stages.1.0/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 4096,
+      "n_nan": 4096,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 56,
+      "blob": "/net/stages.1.0/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 1536,
+      "n_nan": 1536,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 57,
+      "blob": "/net/stages.1.0/project_bn/w035/BatchNormalization_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 1536,
+      "n_nan": 1536,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 58,
+      "blob": "/net/stages.1.0/project_bn/w035/BatchNormalization_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 1536,
+      "n_nan": 1536,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 59,
+      "blob": "/net/stages.1.1/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 6144,
+      "n_nan": 6144,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 60,
+      "blob": "/net/stages.1.1/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 6144,
+      "n_nan": 6144,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 61,
+      "blob": "/net/stages.1.1/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 6144,
+      "n_nan": 6144,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 62,
+      "blob": "/net/stages.1.1/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 6144,
+      "n_nan": 6144,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 63,
+      "blob": "/net/stages.1.1/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 96,
+      "n_nan": 96,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 64,
+      "blob": "/net/stages.1.1/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 24,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 65,
+      "blob": "/net/stages.1.1/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 96,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 1.0981184244155884
+    },
+    {
+      "i": 66,
+      "blob": "/net/stages.1.1/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 96,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.683019757270813
+    },
+    {
+      "i": 67,
+      "blob": "/net/stages.1.1/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 96,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.683019757270813
+    },
+    {
+      "i": 68,
+      "blob": "/net/stages.1.1/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 96,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.683019757270813
+    },
+    {
+      "i": 69,
+      "blob": "/net/stages.1.1/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 6144,
+      "n_nan": 6144,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 70,
+      "blob": "/net/stages.1.1/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 1536,
+      "n_nan": 1536,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 71,
+      "blob": "/net/stages.1.1/Add_output_0",
+      "status": "nonfinite",
+      "n": 1536,
+      "n_nan": 1536,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 72,
+      "blob": "/net/stages.2.0/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 9216,
+      "n_nan": 9216,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 73,
+      "blob": "/net/stages.2.0/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 2304,
+      "n_nan": 2304,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 74,
+      "blob": "/net/stages.2.0/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 2304,
+      "n_nan": 2304,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 75,
+      "blob": "/net/stages.2.0/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 2304,
+      "n_nan": 2304,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 76,
+      "blob": "/net/stages.2.0/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 144,
+      "n_nan": 144,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 77,
+      "blob": "/net/stages.2.0/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 36,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 78,
+      "blob": "/net/stages.2.0/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 144,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 1.0791624784469604
+    },
+    {
+      "i": 79,
+      "blob": "/net/stages.2.0/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 144,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.6798604726791382
+    },
+    {
+      "i": 80,
+      "blob": "/net/stages.2.0/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 144,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.6798604726791382
+    },
+    {
+      "i": 81,
+      "blob": "/net/stages.2.0/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 144,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.6798604726791382
+    },
+    {
+      "i": 82,
+      "blob": "/net/stages.2.0/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 2304,
+      "n_nan": 2304,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 83,
+      "blob": "/net/stages.2.0/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 768,
+      "n_nan": 768,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 84,
+      "blob": "/net/stages.2.0/project_bn/w035/BatchNormalization_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 768,
+      "n_nan": 768,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 85,
+      "blob": "/net/stages.2.0/project_bn/w035/BatchNormalization_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 768,
+      "n_nan": 768,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 86,
+      "blob": "/net/stages.2.1/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 4608,
+      "n_nan": 4608,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 87,
+      "blob": "/net/stages.2.1/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 4608,
+      "n_nan": 4608,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 88,
+      "blob": "/net/stages.2.1/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 4608,
+      "n_nan": 4608,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 89,
+      "blob": "/net/stages.2.1/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 4608,
+      "n_nan": 4608,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 90,
+      "blob": "/net/stages.2.1/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 288,
+      "n_nan": 288,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 91,
+      "blob": "/net/stages.2.1/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 72,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 92,
+      "blob": "/net/stages.2.1/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.41283705830574036
+    },
+    {
+      "i": 93,
+      "blob": "/net/stages.2.1/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5688061714172363
+    },
+    {
+      "i": 94,
+      "blob": "/net/stages.2.1/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5688061714172363
+    },
+    {
+      "i": 95,
+      "blob": "/net/stages.2.1/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5688061714172363
+    },
+    {
+      "i": 96,
+      "blob": "/net/stages.2.1/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 4608,
+      "n_nan": 4608,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 97,
+      "blob": "/net/stages.2.1/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 768,
+      "n_nan": 768,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 98,
+      "blob": "/net/stages.2.1/Add_output_0",
+      "status": "nonfinite",
+      "n": 768,
+      "n_nan": 768,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 99,
+      "blob": "/net/stages.3.0/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 4608,
+      "n_nan": 4608,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 100,
+      "blob": "/net/stages.3.0/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 1152,
+      "n_nan": 1152,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 101,
+      "blob": "/net/stages.3.0/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 1152,
+      "n_nan": 1152,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 102,
+      "blob": "/net/stages.3.0/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 1152,
+      "n_nan": 1152,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 103,
+      "blob": "/net/stages.3.0/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 288,
+      "n_nan": 288,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 104,
+      "blob": "/net/stages.3.0/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 72,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 105,
+      "blob": "/net/stages.3.0/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.26719173789024353
+    },
+    {
+      "i": 106,
+      "blob": "/net/stages.3.0/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5445319414138794
+    },
+    {
+      "i": 107,
+      "blob": "/net/stages.3.0/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5445319414138794
+    },
+    {
+      "i": 108,
+      "blob": "/net/stages.3.0/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 288,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5445319414138794
+    },
+    {
+      "i": 109,
+      "blob": "/net/stages.3.0/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 1152,
+      "n_nan": 1152,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 110,
+      "blob": "/net/stages.3.0/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 416,
+      "n_nan": 416,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 111,
+      "blob": "/net/stages.3.0/project_bn/w035/BatchNormalization_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 416,
+      "n_nan": 416,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 112,
+      "blob": "/net/stages.3.0/project_bn/w035/BatchNormalization_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 416,
+      "n_nan": 416,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 113,
+      "blob": "/net/stages.3.1/expand/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 2496,
+      "n_nan": 2496,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 114,
+      "blob": "/net/stages.3.1/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 2496,
+      "n_nan": 2496,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 115,
+      "blob": "/net/stages.3.1/act/Mul_output_0_splitncnn_0",
+      "status": "nonfinite",
+      "n": 2496,
+      "n_nan": 2496,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 116,
+      "blob": "/net/stages.3.1/act/Mul_output_0_splitncnn_1",
+      "status": "nonfinite",
+      "n": 2496,
+      "n_nan": 2496,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 117,
+      "blob": "/net/stages.3.1/se/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 624,
+      "n_nan": 624,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 118,
+      "blob": "/net/stages.3.1/se/act/Relu_output_0",
+      "status": "ok",
+      "n": 156,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.0
+    },
+    {
+      "i": 119,
+      "blob": "/net/stages.3.1/se/Gemm_1_output_0",
+      "status": "ok",
+      "n": 624,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.32191771268844604
+    },
+    {
+      "i": 120,
+      "blob": "/net/stages.3.1/se/gate/HardSigmoid_output_0",
+      "status": "ok",
+      "n": 624,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5517722964286804
+    },
+    {
+      "i": 121,
+      "blob": "/net/stages.3.1/se/Unsqueeze_output_0",
+      "status": "ok",
+      "n": 624,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5517722964286804
+    },
+    {
+      "i": 122,
+      "blob": "/net/stages.3.1/se/Unsqueeze_1_output_0",
+      "status": "ok",
+      "n": 624,
+      "n_nan": 0,
+      "n_inf": 0,
+      "absmax": 0.5517722964286804
+    },
+    {
+      "i": 123,
+      "blob": "/net/stages.3.1/se/Mul_output_0",
+      "status": "nonfinite",
+      "n": 2496,
+      "n_nan": 2496,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 124,
+      "blob": "/net/stages.3.1/project_bn/w035/BatchNormalization_output_0",
+      "status": "nonfinite",
+      "n": 416,
+      "n_nan": 416,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 125,
+      "blob": "/net/stages.3.1/Add_output_0",
+      "status": "nonfinite",
+      "n": 416,
+      "n_nan": 416,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 126,
+      "blob": "/net/final_pw/act/Mul_output_0",
+      "status": "nonfinite",
+      "n": 1792,
+      "n_nan": 1792,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 127,
+      "blob": "/net/Flatten_output_0",
+      "status": "nonfinite",
+      "n": 448,
+      "n_nan": 448,
+      "n_inf": 0,
+      "absmax": NaN
+    },
+    {
+      "i": 128,
+      "blob": "output",
+      "status": "nonfinite",
+      "n": 8,
+      "n_nan": 8,
+      "n_inf": 0,
+      "absmax": NaN
+    }
+  ]
+}

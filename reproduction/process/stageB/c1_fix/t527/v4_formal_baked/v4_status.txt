@@ -1,0 +1,14 @@
+===== V4 MATRIX START 2026-10-11T10:11:30 =====
+OK subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64 fp32 p50=3987.0
+OK subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64 int8 p50=5011.5
+OK subnet_ferplus_w0.5_d3242_s96c_seed42_v4_formal_lut_img96 fp32 p50=13324.0
+OK subnet_ferplus_w0.5_d3242_s96c_seed42_v4_formal_lut_img96 int8 p50=17273.0
+OK subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 fp32 p50=6787.0
+OK subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 int8 p50=7908.0
+OK subnet_ferplus_w0.5_d3333_s96c_seed42_v4_formal_lut_img96 fp32 p50=14453.5
+OK subnet_ferplus_w0.5_d3333_s96c_seed42_v4_formal_lut_img96 int8 p50=18181.0
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_formal_lut_img112 fp32 p50=38890.5
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_formal_lut_img112 int8 p50=42017.5
+OK subnet_ferplus_w1_d4342_s112c_seed42_v4_formal_lut_img112 fp32 p50=61728.0
+OK subnet_ferplus_w1_d4342_s112c_seed42_v4_formal_lut_img112 int8 p50=64397.5
+===== V4 MATRIX END 2026-10-11T10:17:01 rows=12 =====

@@ -1,0 +1,104 @@
+{
+  "model": "results\\t527_v4\\baked_pnnx\\subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112",
+  "runtime": "host NCNN (local); input via ncnn.Mat.from_pixels + /255, matching deploy/t527/scripts/t1b_bake_static_ncnn.py::ncnn_logits. Crop = prepare_expw.crop_face (10% margin) + bilinear resize. NOT the MTCNN-aligned cache the model was trained on.",
+  "n_fallback_test_listed": 1857,
+  "n_missing": 0,
+  "groups": {
+    "fallback": {
+      "n": 1857,
+      "acc": 0.719439956919763,
+      "se": 0.010425676262422414,
+      "by_class": {
+        "0": {
+          "correct": 0,
+          "n": 31,
+          "acc": 0.0
+        },
+        "1": {
+          "correct": 0,
+          "n": 35,
+          "acc": 0.0
+        },
+        "2": {
+          "correct": 0,
+          "n": 10,
+          "acc": 0.0
+        },
+        "3": {
+          "correct": 205,
+          "n": 401,
+          "acc": 0.5112219451371571
+        },
+        "4": {
+          "correct": 2,
+          "n": 68,
+          "acc": 0.029411764705882353
+        },
+        "5": {
+          "correct": 104,
+          "n": 200,
+          "acc": 0.52
+        },
+        "6": {
+          "correct": 1025,
+          "n": 1112,
+          "acc": 0.9217625899280576
+        }
+      }
+    },
+    "resumed_sample": {
+      "n": 1857,
+      "acc": 0.6235864297253635,
+      "se": 0.011242813641723276,
+      "by_class": {
+        "0": {
+          "correct": 14,
+          "n": 79,
+          "acc": 0.17721518987341772
+        },
+        "1": {
+          "correct": 0,
+          "n": 86,
+          "acc": 0.0
+        },
+        "2": {
+          "correct": 0,
+          "n": 31,
+          "acc": 0.0
+        },
+        "3": {
+          "correct": 510,
+          "n": 672,
+          "acc": 0.7589285714285714
+        },
+        "4": {
+          "correct": 32,
+          "n": 255,
+          "acc": 0.12549019607843137
+        },
+        "5": {
+          "correct": 29,
+          "n": 123,
+          "acc": 0.23577235772357724
+        },
+        "6": {
+          "correct": 573,
+          "n": 611,
+          "acc": 0.9378068739770867
+        }
+      }
+    }
+  },
+  "delta_pp": 9.585352719439955,
+  "membership_counts": {
+    "train/fallback": 56206,
+    "train/resumed": 14304,
+    "test/fallback": 7237,
+    "val/fallback": 7180,
+    "test/resumed": 1857,
+    "val/resumed": 1816
+  },
+  "paper_claim": "19.7% (18,110/91,793) bbox-resize fallback",
+  "caveat": "Both groups are scored from raw bbox crops, so neither number is the paper test accuracy (0.729 for this subnet) and the absolute values are not reportable as such. The gap is informative: with identical crops the known-fallback faces score 9.6pp HIGHER than the resumed faces, so the fallback subset is the easier one under bbox cropping. The aligned 112px cache is not in this checkout, so the real MTCNN-aligned comparison cannot be computed here.",
+  "class_balance": "fallback subset is 59.9% neutral (1112/1857) vs 32.9% (611/1857) in the resumed sample; neutral accuracy is about 0.93 while disgust/fear are about 0, so the class mix alone explains most of the gap."
+}

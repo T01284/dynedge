@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Prepare real FER/ExpW calib images for ACUITY requantize (run on WSL host).
 set -euo pipefail
-SRC=/mnt/d/paper/lane-edge/data/calib/linux112/calib
-DST=/home/wang/docker_data/fer_mnv3/calib_real
+SRC=<repo>/data/calib/linux112/calib
+DST=<home>/docker_data/fer_mnv3/calib_real
 N=${1:-128}
 rm -rf "$DST"
 mkdir -p "$DST"
@@ -17,7 +17,7 @@ for f in "${files[@]}"; do
 done
 (cd "$DST" && ls -1 *.jpg | sort > ../dataset_real.txt)
 # rewrite paths relative to fer_mnv3 workdir
-sed -i 's|^|calib_real/|' /home/wang/docker_data/fer_mnv3/dataset_real.txt
+sed -i 's|^|calib_real/|' <home>/docker_data/fer_mnv3/dataset_real.txt
 echo "prepared $i images -> $DST"
-wc -l /home/wang/docker_data/fer_mnv3/dataset_real.txt
-head -n 3 /home/wang/docker_data/fer_mnv3/dataset_real.txt
+wc -l <home>/docker_data/fer_mnv3/dataset_real.txt
+head -n 3 <home>/docker_data/fer_mnv3/dataset_real.txt

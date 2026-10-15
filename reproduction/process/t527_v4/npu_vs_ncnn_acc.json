@@ -1,0 +1,26 @@
+[
+  {
+    "model": "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64",
+    "status": "ok",
+    "n": 48,
+    "match": 33,
+    "match_rate": 0.6875,
+    "input_scale": 0.003921569790691137,
+    "input_zp": 0,
+    "hw": 64,
+    "recipe": "rgb_div255_gray_replicate",
+    "note": "best MCU旁证 after ImageNet fail(0.20) then /255(0.65) then gray+stratified(0.6875)"
+  },
+  {
+    "model": "subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112",
+    "status": "ok",
+    "n": 41,
+    "match": 23,
+    "match_rate": 0.561,
+    "input_scale": 0.003921569790691137,
+    "input_zp": 0,
+    "hw": 112,
+    "recipe": "rgb_div255",
+    "note": "elastic Hardswish PTQ gap; below MNV3 formal 0.765"
+  }
+]

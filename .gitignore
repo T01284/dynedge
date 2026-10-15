@@ -66,3 +66,10 @@ Thumbs.db
 *.7z
 *.tar.gz
 *.tgz
+
+# Reproduction records: keep run logs and raw energy windows (no images inside)
+!reproduction/**/*.log
+!reproduction/results/stageB/b5_energy_window/**/raw/
+# Dataset face grids and manuscript page renders stay local
+**/*_train_grid.png
+reproduction/process/stageB/_page_*.png

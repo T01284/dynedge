@@ -16,7 +16,7 @@ ONNX_DIR = ROOT / "results" / "h618_onnx_v4"
 OUT_DIR = ROOT / "deploy" / "t527" / "models" / "v4_predistill"
 CALIB112 = ROOT / "data" / "calib" / "linux112" / "calib"
 CALIB64 = ROOT / "data" / "calib" / "ferplus_mcu64"
-WSL_TOOLS = "/home/wang/opt/ncnn-x86-tools/bin"
+WSL_TOOLS = "<home>/opt/ncnn-x86-tools/bin"
 
 
 def in_wsl_or_linux() -> bool:

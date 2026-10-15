@@ -1,0 +1,81 @@
+{
+  "schema": "exit_segment_latency_v1",
+  "device": "h618",
+  "subnet": "ferplus_w0.5_d3333_s112",
+  "threads": 4,
+  "n": 80,
+  "img": 112,
+  "cpu": {
+    "backend": "ncnn_fp32_multi_exit",
+    "dtype": "fp32",
+    "cum_exit_ms": [
+      16.903,
+      21.954,
+      27.933,
+      27.874
+    ],
+    "cum_exit_ms_p99": [
+      17.834,
+      22.827,
+      28.595,
+      28.471
+    ],
+    "seg_ms": [
+      0.0,
+      16.903,
+      5.051000000000002,
+      5.978999999999999,
+      0.0
+    ],
+    "full_ms": 27.874,
+    "source": "board_forced_exits@4t_n80",
+    "board_raw": {
+      "exit2": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=1.0000 e1=0.0000 e2=0.0000 e3=0.0000 p50_ms=16.903 p99_ms=17.834 mean_ms=16.958 fp16=off note=g5_forced_exits",
+      "exit3": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=0.0000 e1=1.0000 e2=0.0000 e3=0.0000 p50_ms=21.954 p99_ms=22.827 mean_ms=22.010 fp16=off note=g5_forced_exits",
+      "exit4": "RESULT n=80 tau=0.850 force_final=0 threads=4 e0=0.0000 e1=0.0000 e2=1.0000 e3=0.0000 p50_ms=27.933 p99_ms=28.595 mean_ms=28.027 fp16=off note=g5_forced_exits",
+      "final": "RESULT n=80 tau=0.850 force_final=1 threads=4 e0=0.0000 e1=0.0000 e2=0.0000 e3=1.0000 p50_ms=27.874 p99_ms=28.471 mean_ms=27.961 fp16=off note=force_final"
+    }
+  },
+  "lut_ref": {
+    "cum_exit_ms": [
+      9.606513023376465,
+      11.09515380859375,
+      12.378549575805664,
+      12.520181655883789
+    ],
+    "seg_ms": [
+      7.939952373504639,
+      1.6665602922439575,
+      1.4886404275894165,
+      1.283395528793335,
+      0.1416330188512802
+    ],
+    "full_ms": 12.520181655883789,
+    "source": "lut:<gpu-workdir>/fer-dynedge/lut/ops_h618_v4_full.csv a=0.8786167764789027 b=1187.1673261297146",
+    "note": "G5 AutoDL LUT prior; board/LUT ~1.8-2.3x \u2014 use cpu.* for retrain"
+  },
+  "npu": {
+    "backend": null,
+    "note": "H618 is CPU-only; no NPU column"
+  },
+  "controller_feed": {
+    "device": "h618",
+    "dtype": "fp32",
+    "seg_ms": [
+      0.0,
+      16.903,
+      5.051000000000002,
+      5.978999999999999,
+      0.0
+    ],
+    "cum_exit_ms": [
+      16.903,
+      21.954,
+      27.933,
+      27.874
+    ],
+    "full_ms": 27.874,
+    "source": "results/h618_v4/exit_segment_latency/summary.json#cpu"
+  },
+  "tau_sweep_ref": "results/h618_v4/t3_early_exit/t3_board_summary.json"
+}

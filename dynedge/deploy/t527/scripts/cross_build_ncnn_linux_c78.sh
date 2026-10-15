@@ -2,7 +2,7 @@
 # Fully-static fer_ncnn_bench for T527 Buildroot (glibc 2.33; no 2.39).
 # Uses OpenMP-OFF ncnn static prefix (same as formal Linux probe).
 set -euo pipefail
-WSL_ROOT="/mnt/d/paper/lane-edge"
+WSL_ROOT="<repo>"
 NCNN_PREFIX="${HOME}/opt/ncnn-aarch64-static"
 NCNN_SRC="${HOME}/src/ncnn"
 BUILD_NCNN="${HOME}/build/ncnn-aarch64-static"

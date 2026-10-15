@@ -1,0 +1,29 @@
+===== NPU V4 MATRIX START 2026-07-23T12:59:51 =====
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 p50=1142
+===== NPU V4 MATRIX END 2026-07-23T12:59:52 rows=1 =====
+===== NPU V4 MATRIX START 2026-07-23T13:00:06 =====
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 p50=1580
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 p50=2682
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 p50=4970
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 p50=7836
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 p50=13300
+===== NPU V4 MATRIX END 2026-07-23T13:00:21 rows=6 =====
+===== NPU V4 MATRIX START 2026-07-23T13:10:19 =====
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 p50=1116
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 p50=1552
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 p50=2712
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 p50=4921
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 p50=7780
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 p50=13189
+===== NPU V4 MATRIX END 2026-07-23T13:10:35 rows=6 =====
+===== NPU V4 MATRIX START 2026-07-23T13:16:50 =====
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 p50=1153
+===== NPU V4 MATRIX END 2026-07-23T13:16:52 rows=1 =====
+===== NPU V4 MATRIX START 2026-07-23T13:17:01 =====
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 p50=1150
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 p50=1612
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 p50=2674
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 p50=4941
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 p50=7809
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 p50=13212
+===== NPU V4 MATRIX END 2026-07-23T13:17:17 rows=6 =====

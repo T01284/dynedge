@@ -1,0 +1,277 @@
+{
+  "by_config": {
+    "w035_d2222_s64g_fp16": {
+      "fit": {
+        "e_mj_per_infer": 1.7266,
+        "e_ci95": [
+          1.6415,
+          1.8118
+        ],
+        "c_mj_per_window": 5811.0,
+        "c_ci95": [
+          4796.4,
+          6825.6
+        ],
+        "r2": 0.991417,
+        "n_windows": 18
+      },
+      "by_n": {
+        "1000": {
+          "n_reps": 6,
+          "active_s_mean": 4.23,
+          "net_mean": 6.9239,
+          "net_sd": 0.5657,
+          "p50_us_min": 915.9,
+          "p50_us_max": 1074.4
+        },
+        "5000": {
+          "n_reps": 6,
+          "active_s_mean": 7.93,
+          "net_mean": 3.0443,
+          "net_sd": 0.2588,
+          "p50_us_min": 909.2,
+          "p50_us_max": 913.7
+        },
+        "20000": {
+          "n_reps": 6,
+          "active_s_mean": 21.91,
+          "net_mean": 2.009,
+          "net_sd": 0.0868,
+          "p50_us_min": 904.9,
+          "p50_us_max": 920.6
+        }
+      },
+      "p_idle_w_mean": 8.724,
+      "p_idle_w_sd": 0.1885
+    },
+    "w035_d2222_s64g_int8": {
+      "fit": {
+        "e_mj_per_infer": 1.7238,
+        "e_ci95": [
+          1.6531,
+          1.7945
+        ],
+        "c_mj_per_window": 5283.0,
+        "c_ci95": [
+          4440.4,
+          6125.5
+        ],
+        "r2": 0.994046,
+        "n_windows": 18
+      },
+      "by_n": {
+        "1000": {
+          "n_reps": 6,
+          "active_s_mean": 4.21,
+          "net_mean": 7.2017,
+          "net_sd": 0.6647,
+          "p50_us_min": 884.7,
+          "p50_us_max": 1088.5
+        },
+        "5000": {
+          "n_reps": 6,
+          "active_s_mean": 8.26,
+          "net_mean": 2.731,
+          "net_sd": 0.2863,
+          "p50_us_min": 878.4,
+          "p50_us_max": 890.5
+        },
+        "20000": {
+          "n_reps": 6,
+          "active_s_mean": 21.19,
+          "net_mean": 1.9905,
+          "net_sd": 0.0647,
+          "p50_us_min": 877.6,
+          "p50_us_max": 890.6
+        }
+      },
+      "p_idle_w_mean": 8.7608,
+      "p_idle_w_sd": 0.2266
+    },
+    "w05_d3333_s112c_fp16": {
+      "fit": {
+        "e_mj_per_infer": 4.2352,
+        "e_ci95": [
+          4.1401,
+          4.3303
+        ],
+        "c_mj_per_window": 5540.7,
+        "c_ci95": [
+          4407.3,
+          6674.2
+        ],
+        "r2": 0.998207,
+        "n_windows": 18
+      },
+      "by_n": {
+        "1000": {
+          "n_reps": 6,
+          "active_s_mean": 4.61,
+          "net_mean": 9.4383,
+          "net_sd": 0.5418,
+          "p50_us_min": 1295.6,
+          "p50_us_max": 1318.5
+        },
+        "5000": {
+          "n_reps": 6,
+          "active_s_mean": 9.91,
+          "net_mean": 5.4289,
+          "net_sd": 0.3332,
+          "p50_us_min": 1293.9,
+          "p50_us_max": 1300.4
+        },
+        "20000": {
+          "n_reps": 6,
+          "active_s_mean": 29.35,
+          "net_mean": 4.5077,
+          "net_sd": 0.1039,
+          "p50_us_min": 1288.0,
+          "p50_us_max": 1296.7
+        }
+      },
+      "p_idle_w_mean": 8.7565,
+      "p_idle_w_sd": 0.2344
+    },
+    "w05_d3333_s112c_int8": {
+      "fit": {
+        "e_mj_per_infer": 3.5277,
+        "e_ci95": [
+          3.452,
+          3.6034
+        ],
+        "c_mj_per_window": 5328.5,
+        "c_ci95": [
+          4426.8,
+          6230.3
+        ],
+        "r2": 0.998364,
+        "n_windows": 18
+      },
+      "by_n": {
+        "1000": {
+          "n_reps": 6,
+          "active_s_mean": 4.63,
+          "net_mean": 8.3191,
+          "net_sd": 1.0367,
+          "p50_us_min": 1312.3,
+          "p50_us_max": 1486.9
+        },
+        "5000": {
+          "n_reps": 6,
+          "active_s_mean": 9.94,
+          "net_mean": 4.7294,
+          "net_sd": 0.1728,
+          "p50_us_min": 1303.9,
+          "p50_us_max": 1316.8
+        },
+        "20000": {
+          "n_reps": 6,
+          "active_s_mean": 29.68,
+          "net_mean": 3.7869,
+          "net_sd": 0.0735,
+          "p50_us_min": 1303.6,
+          "p50_us_max": 1311.4
+        }
+      },
+      "p_idle_w_mean": 8.6979,
+      "p_idle_w_sd": 0.2506
+    },
+    "w1_d4444_s112c_fp16": {
+      "fit": {
+        "e_mj_per_infer": 10.3489,
+        "e_ci95": [
+          10.0247,
+          10.6731
+        ],
+        "c_mj_per_window": 6444.5,
+        "c_ci95": [
+          2581.4,
+          10307.5
+        ],
+        "r2": 0.996519,
+        "n_windows": 18
+      },
+      "by_n": {
+        "1000": {
+          "n_reps": 6,
+          "active_s_mean": 5.36,
+          "net_mean": 16.3332,
+          "net_sd": 0.9628,
+          "p50_us_min": 1935.2,
+          "p50_us_max": 1943.7
+        },
+        "5000": {
+          "n_reps": 6,
+          "active_s_mean": 13.04,
+          "net_mean": 11.7543,
+          "net_sd": 0.3623,
+          "p50_us_min": 1923.8,
+          "p50_us_max": 1933.7
+        },
+        "20000": {
+          "n_reps": 6,
+          "active_s_mean": 42.13,
+          "net_mean": 10.665,
+          "net_sd": 0.4615,
+          "p50_us_min": 1917.4,
+          "p50_us_max": 1935.1
+        }
+      },
+      "p_idle_w_mean": 8.7806,
+      "p_idle_w_sd": 0.2102
+    },
+    "w1_d4444_s112c_int8": {
+      "fit": {
+        "e_mj_per_infer": 6.9568,
+        "e_ci95": [
+          6.8414,
+          7.0722
+        ],
+        "c_mj_per_window": 5786.5,
+        "c_ci95": [
+          4411.9,
+          7161.2
+        ],
+        "r2": 0.999022,
+        "n_windows": 18
+      },
+      "by_n": {
+        "1000": {
+          "n_reps": 6,
+          "active_s_mean": 5.07,
+          "net_mean": 12.6023,
+          "net_sd": 0.6598,
+          "p50_us_min": 1743.3,
+          "p50_us_max": 1764.0
+        },
+        "5000": {
+          "n_reps": 6,
+          "active_s_mean": 12.07,
+          "net_mean": 8.1498,
+          "net_sd": 0.4035,
+          "p50_us_min": 1737.3,
+          "p50_us_max": 1745.7
+        },
+        "20000": {
+          "n_reps": 6,
+          "active_s_mean": 38.35,
+          "net_mean": 7.2442,
+          "net_sd": 0.1308,
+          "p50_us_min": 1734.1,
+          "p50_us_max": 1747.3
+        }
+      },
+      "p_idle_w_mean": 8.7426,
+      "p_idle_w_sd": 0.2345
+    }
+  },
+  "protocol": {
+    "meter": "P5S1 100 Hz, Orin DC high side",
+    "backend": "TensorRT trt_bench.py, one process per window",
+    "power_mode": "MAXN_SUPER + jetson_clocks",
+    "idle_s": 5.0,
+    "warmup_process_outside_window": 50,
+    "order": "shuffled, random.Random(7)",
+    "fit": "E_win = e*N + c over all windows of a config; e = net mJ/inf"
+  }
+}

@@ -1,0 +1,5 @@
+results/resnet18_expw/resnet18_expw_seed1234.json 0.7069496371233781
+results/resnet18_expw/resnet18_expw_seed2026.json 0.7098086650538816
+results/resnet18_expw/resnet18_expw_seed42.json 0.7084891137013415
+mean 0.7084158052928671
+DONE

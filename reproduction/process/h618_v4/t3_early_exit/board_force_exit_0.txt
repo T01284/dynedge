@@ -1,0 +1,2 @@
+RESULT n=80 tau=0.850 force_final=0 threads=4 e0=1.0000 e1=0.0000 e2=0.0000 e3=0.0000 p50_ms=16.903 p99_ms=17.834 mean_ms=16.958 fp16=off note=g5_forced_exits
+

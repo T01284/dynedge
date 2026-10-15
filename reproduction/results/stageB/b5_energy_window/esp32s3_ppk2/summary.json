@@ -1,0 +1,79 @@
+{
+  "by_anchor": {
+    "w035_d2222_s64g": {
+      "windows": {
+        "2": {
+          "n_reps": 8,
+          "n_infer": 33,
+          "active_s_mean": 2.004,
+          "samples_per_window": 2004.2,
+          "net_mean": 9.15246,
+          "net_sd": 0.02597,
+          "net_ci95": [
+            9.13075,
+            9.17417
+          ],
+          "cv": 0.0028,
+          "rel_to_longest": -0.0042
+        },
+        "5": {
+          "n_reps": 8,
+          "n_infer": 82,
+          "active_s_mean": 4.979,
+          "samples_per_window": 4980.2,
+          "net_mean": 9.19029,
+          "net_sd": 0.02689,
+          "net_ci95": [
+            9.16781,
+            9.21277
+          ],
+          "cv": 0.0029,
+          "rel_to_longest": -0.0001
+        },
+        "10": {
+          "n_reps": 8,
+          "n_infer": 165,
+          "active_s_mean": 10.024,
+          "samples_per_window": 10026.2,
+          "net_mean": 9.19224,
+          "net_sd": 0.02148,
+          "net_ci95": [
+            9.17428,
+            9.2102
+          ],
+          "cv": 0.0023,
+          "rel_to_longest": 0.0002
+        },
+        "30": {
+          "n_reps": 8,
+          "n_infer": 494,
+          "active_s_mean": 30.01,
+          "samples_per_window": 30012,
+          "net_mean": 9.19082,
+          "net_sd": 0.02651,
+          "net_ci95": [
+            9.16866,
+            9.21298
+          ],
+          "cv": 0.0029,
+          "rel_to_longest": 0.0
+        }
+      },
+      "idle": {
+        "n": 32,
+        "mean_w": 0.15114,
+        "sd_between_windows_w": 0.00073,
+        "mean_within_window_sample_sd_w": 0.00049
+      }
+    }
+  },
+  "protocol": {
+    "meter": "Nordic PPK2 source-meter 5.0 V, 100 kHz raw, 1 kHz block means",
+    "board": "ESP32-S3, USB-JTAG console, CMD RUN tight loop",
+    "model": "g3_w035_d2222_s64g_ferplus (Table II anchor)",
+    "idle_s": 5.0,
+    "warmup_outside_window": 20,
+    "order": "shuffled, random.Random(7)",
+    "ci": "Student t over reps"
+  }
+}

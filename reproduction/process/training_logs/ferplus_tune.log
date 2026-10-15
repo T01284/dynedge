@@ -1,0 +1,154 @@
+===== ferplus tune watcher start Sun Jul 19 15:35:35 CST 2026 target=0.88 =====
+waiting for ExpW 3 json + no train_resnet for expw...
+15:35:35 expw_json=0
+0 expw_procs=51
+<gpu-workdir>/fer-dynedge/scripts/remote_ferplus_tune.sh: line 26: [: 0
+0: integer expression expected
+===== ferplus tune watcher start Sun Jul 19 15:35:53 CST 2026 target=0.88 =====
+waiting for ExpW 3 json results...
+15:35:53 expw_json=0
+===== ferplus tune watcher start Sun Jul 19 15:36:17 CST 2026 target=0.88 =====
+waiting for ExpW 3 json results...
+15:36:17 expw_json=0
+===== ferplus tune watcher start Sun Jul 19 15:36:59 CST 2026 target=0.88 =====
+waiting for ExpW 3 json results...
+15:36:59 expw_json=0
+15:37:59 expw_json=0
+15:38:59 expw_json=0
+15:39:59 expw_json=0
+15:40:59 expw_json=0
+15:41:59 expw_json=0
+15:42:59 expw_json=0
+15:43:59 expw_json=0
+15:44:59 expw_json=0
+15:45:59 expw_json=0
+15:46:59 expw_json=0
+15:47:59 expw_json=0
+15:48:59 expw_json=0
+15:49:59 expw_json=0
+15:50:59 expw_json=1
+15:51:59 expw_json=3
+found 3 json; settle 90s to ensure writers finished
+ExpW done
+expw 1234 test 0.7069496371233781 val 0.7137521968365553
+expw 2026 test 0.7098086650538816 val 0.7122144112478032
+expw 42 test 0.7084891137013415 val 0.7114455184534271
+expw mean±std = 0.7084 ± 0.0012
+===== ROUND tag=A epochs=120 bs=512 lr=0.05 opt=sgd aug=mild ls=0.0 wd=1e-4 =====
+resnet18_ferplus_seed1234_A.json seed 1234 test 0.8274 val 0.8423 tag A
+resnet18_ferplus_seed2026_A.json seed 2026 test 0.8217 val 0.8406 tag A
+resnet18_ferplus_seed42_A.json seed 42 test 0.8288 val 0.8428 tag A
+MEAN=0.825988
+STD=0.003071
+check 0.825988 >= 0.88
+===== ROUND tag=B epochs=150 bs=256 lr=0.1 opt=sgd aug=mild ls=0.05 wd=5e-4 =====
+===== official-majority retune launch =====
+===== ferplus OFFICIAL-MAJORITY retune Sun Jul 19 16:19:49 CST 2026 target=0.88 =====
+{
+  "ok": 31412,
+  "skip_no_majority": 4475,
+  "protocol": "ferplus_official_majority",
+  "img_size": 112,
+  "by_split": {
+    "train": 25060,
+    "val": 3199,
+    "test": 3153
+  },
+  "by_class": {
+    "neutral": 11012,
+    "sadness": 3749,
+    "happiness": 9045,
+    "surprise": 3960,
+    "anger": 2660,
+    "fear": 677,
+    "disgust": 161,
+    "contempt": 148
+  }
+}===== ROUND tag=H epochs=120 bs=128 lr=0.1 opt=sgd aug=mild ls=0.0 wd=1e-4 img=112 =====
+started seed=42 pid=38361
+started seed=1234 pid=38362
+started seed=2026 pid=38363
+resnet18_ferplus_seed2026_H.json seed 2026 test 0.8459 val 0.8521 tag H
+resnet18_ferplus_seed1234_H.json seed 1234 test 0.8585 val 0.8643 tag H
+resnet18_ferplus_seed42_H.json seed 42 test 0.83 val 0.8356 tag H
+MEAN=0.844804
+STD=0.011677
+check 0.844804 >= 0.88
+===== ROUND tag=I epochs=180 bs=64 lr=0.05 opt=sgd aug=mild ls=0.05 wd=5e-4 img=112 =====
+started seed=42 pid=44640
+started seed=1234 pid=44641
+started seed=2026 pid=44642
+resnet18_ferplus_seed2026_I.json seed 2026 test 0.869 val 0.8681 tag I
+resnet18_ferplus_seed1234_I.json seed 1234 test 0.8703 val 0.8753 tag I
+resnet18_ferplus_seed42_I.json seed 42 test 0.863 val 0.8725 tag I
+MEAN=0.867428
+STD=0.003182
+check 0.867428 >= 0.88
+===== ROUND tag=J epochs=100 bs=128 lr=0.05 opt=sgd aug=mild ls=0.0 wd=1e-4 img=224 =====
+started seed=42 pid=52761
+started seed=1234 pid=52762
+started seed=2026 pid=52763
+resnet18_ferplus_seed1234_J.json seed 1234 test 0.8769 val 0.8856 tag J
+resnet18_ferplus_seed42_J.json seed 42 test 0.8725 val 0.8893 tag J
+resnet18_ferplus_seed2026_J.json seed 2026 test 0.8792 val 0.8859 tag J
+MEAN=0.876203
+STD=0.002769
+check 0.876203 >= 0.88
+===== ROUND tag=K epochs=120 bs=64 lr=3e-4 opt=adamw aug=mild ls=0.05 wd=0.01 img=224 =====
+started seed=42 pid=62408
+started seed=1234 pid=62409
+started seed=2026 pid=62410
+resnet18_ferplus_seed1234_K.json seed 1234 test 0.8763 val 0.8862 tag K
+resnet18_ferplus_seed2026_K.json seed 2026 test 0.8807 val 0.8872 tag K
+resnet18_ferplus_seed42_K.json seed 42 test 0.8827 val 0.8868 tag K
+MEAN=0.879903
+STD=0.002658
+check 0.879903 >= 0.88
+===== ROUND tag=L epochs=150 bs=64 lr=0.1 opt=sgd aug=none ls=0.0 wd=1e-4 img=224 =====
+started seed=42 pid=73301
+started seed=1234 pid=73302
+started seed=2026 pid=73303
+resnet18_ferplus_seed2026_L.json seed 2026 test 0.8563 val 0.8675 tag L
+resnet18_ferplus_seed42_L.json seed 42 test 0.8554 val 0.8681 tag L
+resnet18_ferplus_seed1234_L.json seed 1234 test 0.8579 val 0.8631 tag L
+MEAN=0.856539
+STD=0.001047
+check 0.856539 >= 0.88
+FAIL: exhausted clean-label ladder; best under <gpu-workdir>/fer-dynedge/results/resnet18_ferplus_tuned
+resnet18_ferplus_seed2026_L.json seed 2026 test 0.8563 val 0.8675 tag L
+resnet18_ferplus_seed42_L.json seed 42 test 0.8554 val 0.8681 tag L
+resnet18_ferplus_seed1234_L.json seed 1234 test 0.8579 val 0.8631 tag L
+MEAN=0.856539
+STD=0.001047
+===== ferplus Round-K optimize Sun Jul 19 18:39:51 CST 2026 target=0.88 =====
+{
+  "ok": 31412,
+  "skip_no_majority": 4475,
+  "protocol": "ferplus_official_majority",
+  "img_size": 112,
+  "by_split": {
+    "train": 25060,
+    "val": 3199,
+    "test": 3153
+  },
+  "by_class": {
+    "neutral": 11012,
+    "sadness": 3749,
+    "happiness": 9045,
+    "surprise": 3960,
+    "anger": 2660,
+    "fear": 677,
+    "disgust": 161,
+    "contempt": 148
+  }
+}===== ROUND tag=K2 epochs=180 bs=64 lr=2.5e-4 opt=adamw aug=mild ls=0.05 wd=0.05 warmup=8 img=224 ema=0.999 =====
+started seed=42 pid=83419
+started seed=1234 pid=83420
+started seed=2026 pid=83421
+resnet18_ferplus_seed1234_K2.json seed 1234 test 0.8903 val 0.8915 tag K2
+resnet18_ferplus_seed2026_K2.json seed 2026 test 0.8804 val 0.8925 tag K2
+resnet18_ferplus_seed42_K2.json seed 42 test 0.8839 val 0.8903 tag K2
+MEAN=0.884872
+STD=0.004070
+check 0.884872 >= 0.88
+PASS round K2

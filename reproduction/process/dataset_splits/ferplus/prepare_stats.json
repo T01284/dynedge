@@ -1,0 +1,21 @@
+{
+  "ok": 31412,
+  "skip_no_majority": 4475,
+  "protocol": "ferplus_official_majority",
+  "img_size": 112,
+  "by_split": {
+    "train": 25060,
+    "val": 3199,
+    "test": 3153
+  },
+  "by_class": {
+    "neutral": 11012,
+    "sadness": 3749,
+    "happiness": 9045,
+    "surprise": 3960,
+    "anger": 2660,
+    "fear": 677,
+    "disgust": 161,
+    "contempt": 148
+  }
+}

@@ -1,0 +1,13 @@
+model,dtype,latency_us_p50,latency_us_mean,latency_us_p95,latency_us_p99,input,threads
+subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64,fp32,3218.0,3218.7,3310.1,3389.2,64x64x3,4
+subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64,int8,4197.0,4210.4,4297.1,4423.0,64x64x3,4
+subnet_ferplus_w0.5_d3242_s96c_seed42_v4_formal_lut_img96,fp32,9458.5,9470.9,9622.0,9712.1,96x96x3,4
+subnet_ferplus_w0.5_d3242_s96c_seed42_v4_formal_lut_img96,int8,12397.0,12424.2,12595.1,12932.1,96x96x3,4
+subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64,fp32,4800.0,4817.9,4907.0,5009.0,64x64x3,4
+subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64,int8,6014.0,6019.7,6142.0,6229.1,64x64x3,4
+subnet_ferplus_w0.5_d3333_s96c_seed42_v4_formal_lut_img96,fp32,9830.0,9859.7,10019.1,10475.1,96x96x3,4
+subnet_ferplus_w0.5_d3333_s96c_seed42_v4_formal_lut_img96,int8,13079.5,13531.0,13319.0,14054.6,96x96x3,4
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_formal_lut_img112,fp32,24229.0,24238.3,24446.0,24784.3,112x112x3,4
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_formal_lut_img112,int8,29575.0,30027.3,29869.2,30549.5,112x112x3,4
+subnet_ferplus_w1_d4342_s112c_seed42_v4_formal_lut_img112,fp32,36226.0,36253.7,36525.0,36993.0,112x112x3,4
+subnet_ferplus_w1_d4342_s112c_seed42_v4_formal_lut_img112,int8,43232.0,43676.3,43639.5,44923.4,112x112x3,4

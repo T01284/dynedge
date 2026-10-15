@@ -1,0 +1,9 @@
+{
+  "protocol": "A-2 C3 full test accuracy (host)",
+  "autodl_n": 3153,
+  "host_eval500_ferplus_n": 155,
+  "host_n155_acc_force_final_fixed": 0.9548,
+  "host_n155_acc_force_final_BUG_mean0norm": 0.7871,
+  "note": "autodl_full_test = official FER+ test via train_controller (n=3153, ~0.866). host n=155 old 0.787 was missing ImageNet normalize; fixed host NCNN ImageNet mean/norm → FF ~0.955 (= torch predistill). See disambiguate_n155_torch_vs_ncnn.json / SUMMARY.md §8.35 A-2b.",
+  "out_dir": "results/c3_full_test_acc"
+}

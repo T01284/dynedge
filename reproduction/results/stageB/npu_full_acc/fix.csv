@@ -1,0 +1,7 @@
+tag,model,combo,n,n_bad,acc,input_scale,input_zp,seconds
+fix,subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,64g,3153,0,0.841421,0.01865844428539276,114,60.6
+fix,subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,64g,3153,0,0.840787,0.01865844428539276,114,91.0
+fix,subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,96c,3153,0,0.859182,0.01865844428539276,114,90.9
+fix,subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,112c,3153,0,0.875991,0.01865844428539276,114,91.1
+fix,subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,112c,3153,0,0.873454,0.01865844428539276,114,121.2
+fix,subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,112c,3153,0,0.883286,0.01865844428539276,114,181.7

@@ -1,0 +1,16 @@
+{
+  "meter_model": "P5S1",
+  "meter_version": "v2.2",
+  "v_range_v": 60.0,
+  "i_range_a": 3.3,
+  "sample_rate_hz": 100,
+  "device": "t527",
+  "label": "w075_d3333_s112c_T10_r4",
+  "stem": "subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112",
+  "n_infer": 1245,
+  "window_target_s": 10.0,
+  "idle_s": 5.0,
+  "warmup": 50,
+  "port": "COM40",
+  "n_samples": 1720
+}

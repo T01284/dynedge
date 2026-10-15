@@ -1,0 +1,247 @@
+{
+  "criteria": {
+    "tol_pp": 0.5,
+    "min_pairs": 15,
+    "min_effect": 1.05,
+    "cluster": "unique anchor architecture",
+    "drift_tol": 0.02
+  },
+  "front_sizes": {
+    "flops_s42": 12,
+    "flops_s43": 12,
+    "flops_s44": 12,
+    "model_s42": 11,
+    "model_s43": 11,
+    "model_s44": 9
+  },
+  "drift": {
+    "source": "o4_multi.csv, per-engine min over K processes",
+    "k": 10
+  },
+  "measurement_cost_model_arm": {
+    "n_arch": 50,
+    "build_h": 3.971166666666667,
+    "bench_h": 0.019497800000000003,
+    "note": "INT8 engines only; FLOPs arm costs nothing"
+  },
+  "int8": {
+    "model_anchored": {
+      "n": 22,
+      "n_clusters": 13,
+      "median": 1.0,
+      "geomean": 1.0309066575473544,
+      "ci_lo": 1.0,
+      "ci_hi": 1.050944563807819,
+      "wilcoxon_p": 0.193359375,
+      "frac_model_faster": 0.4090909090909091
+    },
+    "flops_anchored": {
+      "n": 23,
+      "n_clusters": 16,
+      "median": 1.0,
+      "geomean": 1.038108677319778,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0832663456368274,
+      "wilcoxon_p": 0.015155973880974605,
+      "frac_model_faster": 0.43478260869565216
+    },
+    "coverage": {
+      "model_anchors": 31,
+      "model_kept": 22,
+      "flops_anchors": 36,
+      "flops_kept": 23
+    },
+    "untrimmed_model_anchored": {
+      "n": 31,
+      "n_clusters": 17,
+      "median": 1.0,
+      "geomean": 1.0209433010658886,
+      "ci_lo": 0.9853810497354047,
+      "ci_hi": 1.0528013200330009,
+      "wilcoxon_p": 0.21147639221681047,
+      "frac_model_faster": 0.41935483870967744
+    },
+    "reach_model_anchored": {
+      "n": 29,
+      "n_clusters": 15,
+      "median": 1.0,
+      "geomean": 0.9944037270732043,
+      "ci_lo": 0.9509499960251213,
+      "ci_hi": 1.0129604948552011,
+      "wilcoxon_p": 0.2719476239947354,
+      "frac_model_faster": 0.3103448275862069
+    },
+    "reach_flops_anchored": {
+      "n": 34,
+      "n_clusters": 23,
+      "median": 1.0556784423479322,
+      "geomean": 1.0381396353349246,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0753599889340728,
+      "wilcoxon_p": 0.007013002905356987,
+      "frac_model_faster": 0.5588235294117647
+    },
+    "iso_latency_acc_gap": {
+      "condition": "int8 iso-lat",
+      "n": 31,
+      "mean_pp": -2.5301044576082172,
+      "median_pp": 0.0,
+      "ci_lo_pp": -0.12686330478909325,
+      "ci_hi_pp": 0.5391690453536269,
+      "wilcoxon_p": 0.8893262900158291,
+      "rank_biserial_r": 0.03463203463203463,
+      "frac_lut_better": 0.3870967741935484
+    },
+    "per_seed": {
+      "42": {
+        "n": 7,
+        "n_clusters": 7,
+        "median": 1.0253963367708172,
+        "geomean": 1.033027449841462,
+        "ci_lo": 1.0,
+        "ci_hi": 1.0665362035225048,
+        "wilcoxon_p": 0.125,
+        "frac_model_faster": 0.5714285714285714
+      },
+      "43": {
+        "n": 8,
+        "n_clusters": 8,
+        "median": 1.0,
+        "geomean": 1.0211643814708127,
+        "ci_lo": 0.9255107719214565,
+        "ci_hi": 1.1475467702082598,
+        "wilcoxon_p": 0.625,
+        "frac_model_faster": 0.25
+      },
+      "44": {
+        "n": 7,
+        "n_clusters": 7,
+        "median": 1.0,
+        "geomean": 1.040015018822736,
+        "ci_lo": 1.0,
+        "ci_hi": 1.115358160558121,
+        "wilcoxon_p": 0.25,
+        "frac_model_faster": 0.42857142857142855
+      }
+    },
+    "same_arch_pairs": 10,
+    "verdict": "FAIL",
+    "checks": {
+      "n_kept>=15": true,
+      "median>=1.05": false,
+      "ci_lo>1.00": false,
+      "p<0.05": false,
+      "reverse_not_flops_sig": true
+    }
+  },
+  "fp16": {
+    "model_anchored": {
+      "n": 22,
+      "n_clusters": 13,
+      "median": 1.0,
+      "geomean": 1.0345178896005496,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0604248482684755,
+      "wilcoxon_p": 0.232421875,
+      "frac_model_faster": 0.4090909090909091
+    },
+    "flops_anchored": {
+      "n": 23,
+      "n_clusters": 16,
+      "median": 1.0,
+      "geomean": 1.0404297853024114,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0910579508093952,
+      "wilcoxon_p": 0.015155973880974605,
+      "frac_model_faster": 0.43478260869565216
+    },
+    "coverage": {
+      "model_anchors": 31,
+      "model_kept": 22,
+      "flops_anchors": 36,
+      "flops_kept": 23
+    },
+    "untrimmed_model_anchored": {
+      "n": 31,
+      "n_clusters": 17,
+      "median": 1.0,
+      "geomean": 1.024406324734787,
+      "ci_lo": 0.9988656650061859,
+      "ci_hi": 1.0534835289663007,
+      "wilcoxon_p": 0.19144640357050802,
+      "frac_model_faster": 0.41935483870967744
+    },
+    "reach_model_anchored": {
+      "n": 29,
+      "n_clusters": 15,
+      "median": 1.0,
+      "geomean": 0.9959586967987406,
+      "ci_lo": 0.9681054645970658,
+      "ci_hi": 1.0166240934674968,
+      "wilcoxon_p": 0.39672623294506304,
+      "frac_model_faster": 0.3103448275862069
+    },
+    "reach_flops_anchored": {
+      "n": 34,
+      "n_clusters": 23,
+      "median": 1.0523206590469385,
+      "geomean": 1.048825672550029,
+      "ci_lo": 1.0,
+      "ci_hi": 1.0767824363082978,
+      "wilcoxon_p": 0.001695889903397192,
+      "frac_model_faster": 0.5882352941176471
+    },
+    "iso_latency_acc_gap": {
+      "condition": "fp16 iso-lat",
+      "n": 31,
+      "mean_pp": -2.7244917794624675,
+      "median_pp": 0.0,
+      "ci_lo_pp": -0.539169045353638,
+      "ci_hi_pp": 0.12686330478909325,
+      "wilcoxon_p": 0.7280399065074923,
+      "rank_biserial_r": -0.08658008658008658,
+      "frac_lut_better": 0.3548387096774194
+    },
+    "per_seed": {
+      "42": {
+        "n": 7,
+        "n_clusters": 7,
+        "median": 1.0022725359818196,
+        "geomean": 1.027371286872721,
+        "ci_lo": 1.0,
+        "ci_hi": 1.062834701892181,
+        "wilcoxon_p": 0.125,
+        "frac_model_faster": 0.5714285714285714
+      },
+      "43": {
+        "n": 8,
+        "n_clusters": 8,
+        "median": 1.0,
+        "geomean": 1.026192408695537,
+        "ci_lo": 0.9374309610225657,
+        "ci_hi": 1.1590593830503997,
+        "wilcoxon_p": 0.625,
+        "frac_model_faster": 0.25
+      },
+      "44": {
+        "n": 7,
+        "n_clusters": 7,
+        "median": 1.0,
+        "geomean": 1.0513785429611653,
+        "ci_lo": 1.0,
+        "ci_hi": 1.1053157474020785,
+        "wilcoxon_p": 0.25,
+        "frac_model_faster": 0.42857142857142855
+      }
+    },
+    "same_arch_pairs": 10,
+    "verdict_secondary_only": "FAIL",
+    "checks": {
+      "n_kept>=15": true,
+      "median>=1.05": false,
+      "ci_lo>1.00": false,
+      "p<0.05": false,
+      "reverse_not_flops_sig": true
+    }
+  }
+}

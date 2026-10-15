@@ -1,0 +1,148 @@
+=== disk ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0         50G  9.5G   41G  19% <gpu-workdir>
+overlay          30G   13G   18G  44% /
+=== project usage ===
+16K	<gpu-workdir>/fer-dynedge/configs
+9.3G	<gpu-workdir>/fer-dynedge/data
+60K	<gpu-workdir>/fer-dynedge/datasets
+148K	<gpu-workdir>/fer-dynedge/results
+136K	<gpu-workdir>/fer-dynedge/runs
+36K	<gpu-workdir>/fer-dynedge/scripts
+8.0K	<gpu-workdir>/fer-dynedge/train
+922M	<gpu-workdir>/fer-dynedge/data/processed
+8.4G	<gpu-workdir>/fer-dynedge/data/raw
+=== disk ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0         50G  9.5G   41G  19% <gpu-workdir>
+overlay          30G   13G   18G  44% /
+=== project usage ===
+16K	<gpu-workdir>/fer-dynedge/configs
+9.3G	<gpu-workdir>/fer-dynedge/data
+60K	<gpu-workdir>/fer-dynedge/datasets
+148K	<gpu-workdir>/fer-dynedge/results
+136K	<gpu-workdir>/fer-dynedge/runs
+36K	<gpu-workdir>/fer-dynedge/scripts
+8.0K	<gpu-workdir>/fer-dynedge/train
+922M	<gpu-workdir>/fer-dynedge/data/processed
+8.4G	<gpu-workdir>/fer-dynedge/data/raw
+free on <gpu-workdir>: 41G (need >= 8G)
+=== [1] Prepare FERPlus ===
+saved <gpu-workdir>/fer-dynedge/results/ferplus_train_grid.png classes_sample=['00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral', '00_neutral']
+{
+  "ok": 35538,
+  "skip_nf_unknown": 349,
+  "by_split": {
+    "train": 28452,
+    "val": 3569,
+    "test": 3517
+  },
+  "by_class": {
+    "neutral": 12942,
+    "sadness": 4388,
+    "happiness": 9340,
+    "surprise": 4472,
+    "anger": 3104,
+    "fear": 819,
+    "contempt": 221,
+    "disgust": 252
+  }
+}=== [2] Extract ExpW (then delete 7z to free ~7.6G) ===
+=== [3] Prepare ExpW (batched MTCNN BS=1024) ===
+free on <gpu-workdir>: 41G (need >= 4G)
+ExpW(bs=1024):   0%|          | 0/91793 [00:00<?, ?it/s]ExpW(bs=1024):   1%|          | 925/91793 [00:00<00:15, 5943.89it/s]ExpW(bs=1024):   5%|▍         | 4173/91793 [00:00<00:05, 16379.27it/s]ExpW(bs=1024):   8%|▊         | 7228/91793 [00:00<00:04, 19903.24it/s]ExpW(bs=1024):  11%|█▏        | 10358/91793 [00:00<00:03, 22432.52it/s]ExpW(bs=1024):  15%|█▍        | 13719/91793 [00:00<00:03, 24423.45it/s]ExpW(bs=1024):  18%|█▊        | 16526/91793 [00:00<00:03, 23524.43it/s]ExpW(bs=1024):  22%|██▏       | 20209/91793 [00:00<00:02, 25700.42it/s]ExpW(bs=1024):  25%|██▍       | 22834/91793 [00:01<00:02, 24700.63it/s]ExpW(bs=1024):  29%|██▉       | 26625/91793 [00:01<00:02, 25013.92it/s]ExpW(bs=1024):  32%|███▏      | 29133/91793 [00:01<00:02, 24350.99it/s]ExpW(bs=1024):  36%|███▌      | 32769/91793 [00:01<00:02, 25194.41it/s]ExpW(bs=1024):  38%|███▊      | 35282/91793 [00:01<00:02, 24770.70it/s]ExpW(bs=1024):  42%|████▏     | 38913/91793 [00:01<00:02, 25168.69it/s]ExpW(bs=1024):  46%|████▌     | 41913/91793 [00:01<00:01, 26340.57it/s]ExpW(bs=1024):  49%|████▉     | 45057/91793 [00:01<00:01, 23861.33it/s]ExpW(bs=1024):  52%|█████▏    | 47498/91793 [00:02<00:01, 23594.59it/s]ExpW(bs=1024):  56%|█████▌    | 51201/91793 [00:02<00:01, 24587.52it/s]ExpW(bs=1024):  58%|█████▊    | 53676/91793 [00:02<00:01, 24059.90it/s]ExpW(bs=1024):  62%|██████▏   | 57345/91793 [00:02<00:01, 25260.31it/s]ExpW(bs=1024):  65%|██████▌   | 59869/91793 [00:02<00:01, 24555.30it/s]ExpW(bs=1024):  69%|██████▉   | 63489/91793 [00:02<00:01, 25179.18it/s]ExpW(bs=1024):  72%|███████▏  | 65997/91793 [00:02<00:01, 24569.16it/s]ExpW(bs=1024):  76%|███████▌  | 69633/91793 [00:02<00:00, 25310.88it/s]ExpW(bs=1024):  79%|███████▉  | 72564/91793 [00:02<00:00, 26330.24it/s]ExpW(bs=1024):  82%|████████▏ | 75205/91793 [00:10<00:12, 1285.06it/s] ExpW(bs=1024):  84%|████████▍ | 77064/91793 [00:14<00:15, 936.94it/s] ExpW(bs=1024):  85%|████████▌ | 78380/91793 [00:21<00:23, 561.09it/s]ExpW(bs=1024):  86%|████████▋ | 79307/91793 [00:23<00:24, 512.20it/s]ExpW(bs=1024):  87%|████████▋ | 79966/91793 [00:24<00:20, 576.47it/s]ExpW(bs=1024):  88%|████████▊ | 80523/91793 [00:27<00:27, 412.67it/s]ExpW(bs=1024):  89%|████████▊ | 81383/91793 [00:30<00:27, 385.03it/s]ExpW(bs=1024):  89%|████████▉ | 82027/91793 [00:30<00:20, 474.15it/s]ExpW(bs=1024):  90%|████████▉ | 82419/91793 [00:30<00:17, 533.06it/s]ExpW(bs=1024):  90%|█████████ | 82750/91793 [00:34<00:29, 311.68it/s]ExpW(bs=1024):  91%|█████████ | 83551/91793 [00:36<00:26, 311.14it/s]ExpW(bs=1024):  92%|█████████▏| 84053/91793 [00:37<00:19, 399.23it/s]ExpW(bs=1024):  92%|█████████▏| 84323/91793 [00:37<00:16, 446.72it/s]ExpW(bs=1024):  92%|█████████▏| 84552/91793 [00:37<00:14, 503.73it/s]ExpW(bs=1024):  92%|█████████▏| 84761/91793 [00:40<00:30, 227.70it/s]ExpW(bs=1024):  93%|█████████▎| 85715/91793 [00:43<00:21, 287.57it/s]ExpW(bs=1024):  94%|█████████▎| 86017/91793 [00:43<00:16, 347.81it/s]ExpW(bs=1024):  94%|█████████▍| 86186/91793 [00:43<00:14, 385.85it/s]ExpW(bs=1024):  94%|█████████▍| 86386/91793 [00:43<00:11, 452.87it/s]ExpW(bs=1024):  94%|█████████▍| 86561/91793 [00:43<00:09, 524.72it/s]ExpW(bs=1024):  94%|█████████▍| 86739/91793 [00:43<00:08, 615.59it/s]ExpW(bs=1024):  95%|█████████▍| 86910/91793 [00:46<00:26, 184.15it/s]ExpW(bs=1024):  96%|█████████▌| 87897/91793 [00:49<00:14, 266.36it/s]ExpW(bs=1024):  96%|█████████▌| 88156/91793 [00:49<00:11, 322.85it/s]ExpW(bs=1024):  96%|█████████▌| 88297/91793 [00:49<00:09, 357.14it/s]ExpW(bs=1024):  96%|█████████▋| 88474/91793 [00:50<00:07, 421.70it/s]ExpW(bs=1024):  97%|█████████▋| 88667/91793 [00:50<00:06, 514.07it/s]ExpW(bs=1024):  97%|█████████▋| 88853/91793 [00:50<00:04, 622.27it/s]ExpW(bs=1024):  97%|█████████▋| 89021/91793 [00:53<00:15, 174.38it/s]ExpW(bs=1024):  98%|█████████▊| 90035/91793 [00:56<00:06, 276.64it/s]ExpW(bs=1024):  98%|█████████▊| 90193/91793 [00:56<00:05, 309.86it/s]ExpW(bs=1024):  98%|█████████▊| 90335/91793 [00:56<00:04, 348.68it/s]ExpW(bs=1024):  99%|█████████▊| 90519/91793 [00:56<00:03, 419.71it/s]ExpW(bs=1024):  99%|█████████▉| 90706/91793 [00:56<00:02, 512.15it/s]ExpW(bs=1024):  99%|█████████▉| 90905/91793 [00:56<00:01, 635.39it/s]ExpW(bs=1024):  99%|█████████▉| 91087/91793 [00:59<00:04, 172.73it/s]ExpW(bs=1024): 100%|██████████| 91793/91793 [00:59<00:00, 1532.04it/s]
+{
+  "n_total_labeled": 91793,
+  "n_after_confidence_filter": 91793,
+  "n_processed": 91793,
+  "n_align_ok": 91793,
+  "n_align_skip": 0,
+  "n_resume_skip": 73683,
+  "n_mtcnn_hit": 0,
+  "n_resize_fallback": 18110,
+  "batch_size": 1024,
+  "by_split": {
+    "test": 9185,
+    "train": 73432,
+    "val": 9176
+  },
+  "by_class": {
+    "neutral": 34883,
+    "happy": 30537,
+    "sad": 10559,
+    "angry": 3671,
+    "disgust": 3995,
+    "surprise": 7060,
+    "fear": 1088
+  },
+  "skip_rate": 0.0,
+  "mtcnn_fail_rate_among_ok": 1.0
+}
+Wrote configs/expw_split_lists.json and updated configs/expw_split.yaml
+saved <gpu-workdir>/fer-dynedge/results/expw_train_grid.png classes_sample=['00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry', '00_angry']
+{
+  "n_total_labeled": 91793,
+  "n_after_confidence_filter": 91793,
+  "n_processed": 91793,
+  "n_align_ok": 91793,
+  "n_align_skip": 0,
+  "n_resume_skip": 73683,
+  "n_mtcnn_hit": 0,
+  "n_resize_fallback": 18110,
+  "batch_size": 1024,
+  "by_split": {
+    "test": 9185,
+    "train": 73432,
+    "val": 9176
+  },
+  "by_class": {
+    "neutral": 34883,
+    "happy": 30537,
+    "sad": 10559,
+    "angry": 3671,
+    "disgust": 3995,
+    "surprise": 7060,
+    "fear": 1088
+  },
+  "skip_rate": 0.0,
+  "mtcnn_fail_rate_among_ok": 1.0
+}source: official_expw
+label_file: data/label/label.lst
+split_method: stratified_811
+seed: 2026
+ratios:
+  train: 0.8
+  val: 0.1
+  test: 0.1
+min_bbox_confidence: 0.0
+n_total_labeled: 91793
+n_after_confidence_filter: 91793
+n_align_ok: 91793
+n_align_skip: 0
+skip_rate: 0.0
+split_file: configs/expw_split_lists.json
+notes: 'Final N (align_ok) must be reported in paper §4.1. MTCNN skip rate target
+  1–3%; investigate if outside band.
+
+  '
+keep raw ExpW images for now (free=41G); delete later with: source scripts/storage_env.sh && cleanup_expw_raw_images
+=== disk ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/md0         50G  9.6G   41G  20% <gpu-workdir>
+overlay          30G   13G   18G  44% /
+=== project usage ===
+19M	<gpu-workdir>/fer-dynedge/configs
+9.4G	<gpu-workdir>/fer-dynedge/data
+60K	<gpu-workdir>/fer-dynedge/datasets
+480K	<gpu-workdir>/fer-dynedge/results
+144K	<gpu-workdir>/fer-dynedge/runs
+36K	<gpu-workdir>/fer-dynedge/scripts
+8.0K	<gpu-workdir>/fer-dynedge/train
+1.1G	<gpu-workdir>/fer-dynedge/data/processed
+8.4G	<gpu-workdir>/fer-dynedge/data/raw
+=== [4] GPU util monitor ===
+=== [5] ResNet-18 FERPlus x3 seeds (parallel BS=8192 workers=16) ===
+=== [6] ResNet-18 ExpW x3 seeds (parallel BS=8192) ===
+scripts/remote_phase0.sh: line 127: 13543 Killed                  python train/train_resnet18.py --data-root "$DATA/processed/expw" --dataset-name expw --out-dir "$ROOT/results/resnet18_expw" --epochs "$EP" --batch-size "$BS" --num-workers "$NW" --seed $SEED > "$ROOT/runs/expw_seed${SEED}.log" 2>&1
+scripts/remote_phase0.sh: line 127: 13544 Killed                  python train/train_resnet18.py --data-root "$DATA/processed/expw" --dataset-name expw --out-dir "$ROOT/results/resnet18_expw" --epochs "$EP" --batch-size "$BS" --num-workers "$NW" --seed $SEED > "$ROOT/runs/expw_seed${SEED}.log" 2>&1
+scripts/remote_phase0.sh: line 127: 13545 Killed                  python train/train_resnet18.py --data-root "$DATA/processed/expw" --dataset-name expw --out-dir "$ROOT/results/resnet18_expw" --epochs "$EP" --batch-size "$BS" --num-workers "$NW" --seed $SEED > "$ROOT/runs/expw_seed${SEED}.log" 2>&1

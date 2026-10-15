@@ -1,0 +1,17 @@
+model,status,dataset,hw,gray,method,fp32_ref,int8_backend,n_eval,n_nan,n_label,n_pool_heldout,n_pool_calib_topup,fp32_int8_match,logits_cosine_mean,fp32_label_top1,int8_label_top1,note
+subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64,ok,expw,64,1,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.992,0.999104,0.4841,0.4783,fp16_off; bake+pnnx fp32
+subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64,ok,expw,64,1,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.972,0.998982,0.5014,0.4986,fp16_off; bake+pnnx fp32
+subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96,ok,expw,96,0,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.966,0.998666,0.5304,0.5217,fp16_off; bake+pnnx fp32
+subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112,ok,expw,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.978,0.99772,0.5652,0.5594,fp16_off; bake+pnnx fp32
+subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112,ok,expw,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.982,0.996046,0.5594,0.5507,fp16_off; bake+pnnx fp32
+subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112,ok,expw,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.968,0.995426,0.5826,0.5681,fp16_off; bake+pnnx fp32
+subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112,ok,expw,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.958,0.989404,0.5304,0.5246,fp16_off; bake+pnnx fp32
+subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112,ok,expw,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,345,200,300,0.962,0.990216,0.5855,0.5768,fp16_off; bake+pnnx fp32
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,ok,ferplus,64,1,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.968,0.99588,0.5871,0.5935,fp16_off; bake+pnnx fp32
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,ok,ferplus,64,1,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.952,0.994352,0.6258,0.6258,fp16_off; bake+pnnx fp32
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,ok,ferplus,96,0,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.976,0.99774,0.7097,0.7161,fp16_off; bake+pnnx fp32
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,ok,ferplus,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.964,0.996309,0.7806,0.7742,fp16_off; bake+pnnx fp32
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,ok,ferplus,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.956,0.995052,0.7548,0.7677,fp16_off; bake+pnnx fp32
+subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112,ok,ferplus,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.96,0.995226,0.8065,0.7871,fp16_off; bake+pnnx fp32
+subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112,ok,ferplus,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.93,0.986725,0.7677,0.7419,fp16_off; bake+pnnx fp32
+subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,ok,ferplus,112,0,aciq,ncnn_baked_pnnx,ncnn,500,0,155,200,300,0.946,0.992549,0.7613,0.7484,fp16_off; bake+pnnx fp32

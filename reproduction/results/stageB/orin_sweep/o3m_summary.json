@@ -1,0 +1,23 @@
+{
+ "k": 50,
+ "seed": 0,
+ "n_heldout": 141,
+ "int8": {
+  "prereg_vs_single": 0.5506864589872434,
+  "prereg_vs_min": 0.6321495524602414,
+  "refit_vs_min": 0.9310502063723607,
+  "flops_vs_single": 0.3587821069501066,
+  "flops_vs_min": 0.48016616911509596,
+  "refit_alpha": 1.0,
+  "refit_mape": 0.01080355182741039
+ },
+ "fp16": {
+  "prereg_vs_single": 0.7478084861239553,
+  "prereg_vs_min": 0.9159995993928385,
+  "refit_vs_min": 0.9429526849501942,
+  "flops_vs_single": 0.5116797731996002,
+  "flops_vs_min": 0.5927652274831975,
+  "refit_alpha": 0.01,
+  "refit_mape": 0.010543977468679402
+ }
+}

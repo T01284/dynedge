@@ -1,0 +1,17 @@
+model,dataset,hw,kl_n_eval,aciq_n_eval,kl_match,aciq_match,delta_match_aciq_minus_kl,kl_cosine,aciq_cosine,delta_cosine_aciq_minus_kl,kl_int8_top1,aciq_int8_top1
+subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64,expw,64,500,500,0.0,0.0,0.0,-0.135655,-0.140657,-0.005002,0.0522,0.0522
+subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64,expw,64,500,500,0.022,0.022,0.0,0.069029,0.073843,0.004814,0.1768,0.1768
+subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96,expw,96,500,500,0.026,0.026,0.0,-0.483011,-0.486655,-0.003644,0.1768,0.1768
+subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112,expw,112,500,500,0.022,0.022,0.0,0.380508,0.380279,-0.000229,0.1768,0.1768
+subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112,expw,112,500,500,0.058,0.058,0.0,0.104689,0.071025,-0.033664,0.1217,0.1217
+subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112,expw,112,500,500,0.26,0.26,0.0,-0.291629,-0.29395,-0.002321,0.2493,0.2493
+subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112,expw,112,500,500,0.0,0.0,0.0,0.271472,0.276029,0.004557,0.0522,0.0522
+subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112,expw,112,500,500,0.026,0.026,0.0,-0.535435,-0.535798,-0.000363,0.0493,0.0493
+subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64,ferplus,64,500,500,0.178,0.178,0.0,-0.347979,-0.348724,-0.000745,0.2903,0.2903
+subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64,ferplus,64,500,500,0.682,0.682,0.0,0.580232,0.578818,-0.001414,0.3613,0.3613
+subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96,ferplus,96,500,500,0.0,0.0,0.0,0.021292,0.009398,-0.011894,0.0129,0.0129
+subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112,ferplus,112,500,500,0.552,0.552,0.0,0.464157,0.468707,0.00455,0.3613,0.3613
+subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112,ferplus,112,500,500,0.508,0.508,0.0,0.617246,0.627839,0.010593,0.3613,0.3613
+subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112,ferplus,112,500,500,0.042,0.042,0.0,-0.208705,-0.21117,-0.002465,0.1032,0.1032
+subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112,ferplus,112,500,500,0.004,0.004,0.0,0.192434,0.19715,0.004716,0.0065,0.0065
+subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112,ferplus,112,500,500,0.006,0.006,0.0,-0.225663,-0.226893,-0.00123,0.0065,0.0065

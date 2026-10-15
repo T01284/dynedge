@@ -1,0 +1,3 @@
+[h618] upload 64g.tar
+[h618] subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 fp32 n=3153 bad=0 acc=0.3711 (18s)
+[h618] subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 int8 n=3153 bad=0 acc=0.3815 (25s)

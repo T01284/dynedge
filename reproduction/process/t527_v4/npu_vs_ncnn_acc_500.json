@@ -1,0 +1,74 @@
+[
+  {
+    "model": "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64",
+    "status": "ok",
+    "hw": "64",
+    "n": "384",
+    "n_nan": "0",
+    "n_pool": "384",
+    "match": "366",
+    "match_rate": "0.9531",
+    "fp32_ref": "ncnn_baked_pnnx",
+    "note": "t2a_hardswish_nbg; n=mcu64_all"
+  },
+  {
+    "model": "subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64",
+    "status": "ok",
+    "hw": "64",
+    "n": "384",
+    "n_nan": "0",
+    "n_pool": "384",
+    "match": "366",
+    "match_rate": "0.9531",
+    "fp32_ref": "ncnn_baked_pnnx",
+    "note": "t2a_hardswish_nbg; n=mcu64_all"
+  },
+  {
+    "model": "subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96",
+    "status": "ok",
+    "hw": "96",
+    "n": "500",
+    "n_nan": "0",
+    "n_pool": "500",
+    "match": "488",
+    "match_rate": "0.976",
+    "fp32_ref": "ncnn_baked_pnnx",
+    "note": "t2a_hardswish_nbg"
+  },
+  {
+    "model": "subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112",
+    "status": "ok",
+    "hw": "112",
+    "n": "500",
+    "n_nan": "0",
+    "n_pool": "500",
+    "match": "489",
+    "match_rate": "0.978",
+    "fp32_ref": "ncnn_baked_pnnx",
+    "note": "t2a_hardswish_nbg"
+  },
+  {
+    "model": "subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112",
+    "status": "ok",
+    "hw": "112",
+    "n": "500",
+    "n_nan": "0",
+    "n_pool": "500",
+    "match": "486",
+    "match_rate": "0.972",
+    "fp32_ref": "ncnn_baked_pnnx",
+    "note": "t2a_hardswish_nbg"
+  },
+  {
+    "model": "subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112",
+    "status": "ok",
+    "hw": "112",
+    "n": "500",
+    "n_nan": "0",
+    "n_pool": "500",
+    "match": "480",
+    "match_rate": "0.96",
+    "fp32_ref": "ncnn_baked_pnnx",
+    "note": "t2a_hardswish_nbg"
+  }
+]

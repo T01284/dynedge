@@ -2,137 +2,135 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.12-green.svg)](requirements.txt)
-[![IEEE IoT-J](https://img.shields.io/badge/IEEE_IoT--J-under_review-orange.svg)](https://ieee-iotj.org/)
 
-**DynEdge: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices: A Hardware-in-the-Loop Approach from GPU to Microcontroller**
+Code for *When Is FLOPs Enough? An Empirical Study of Latency Proxies, Numeric Format, and Energy for Elastic CNNs on Five Edge Devices*.
 
 Li Zhao (Heilongjiang Jiaotong Polytechnic),
 Ming Zhao (Harbin Cambridge University),
-Shu Wang (Heilongjiang Tianyouwei Technology Co., Ltd.; corresponding author)
+Shu Wang (Heilongjiang Tianyouwei Technology Co., Ltd.; corresponding author, shu.wang@hljtyw.com)
 
-> Status: Under review at **IEEE Internet of Things Journal**.
+The manuscript is being submitted to Neurocomputing. DynEdge is the elastic early-exit supernet used as the test bed. The repository contains the training, search, deployment, and measurement code, plus operator lookup tables and result tables. It does not contain dataset images or trained weights.
 
-<p align="center">
-  <img src="docs/figures/fig2_overview.png" width="92%" alt="DynEdge framework overview (Fig. 2)" />
-</p>
-<p align="center"><em>Figure 2 — Framework overview (tiered LUTs, elastic early-exit supernet, latency-budget controller).</em></p>
+## Devices
 
-## Six-device matrix (paper deployment envelope)
+| Device | Backend in the paper | Role |
+|---|---|---|
+| Jetson Orin Nano 8GB | TensorRT FP16 / INT8 | Edge GPU |
+| Allwinner T527 | NCNN and VIPLite NBG | CPU and NPU |
+| H618 (Orange Pi Zero 3) | NCNN, 4 threads | CPU board |
+| ESP32-P4 | ESP-DL INT8 | Static microcontroller anchor |
+| ESP32-S3 | ESP-DL INT8 | Static microcontroller anchor |
 
-| Tier | Device | Backend (paper) | Role |
-|---|---|---|---|
-| Edge GPU | Jetson Orin Nano 8GB | TensorRT FP16 / INT8 | High-end dynamic |
-| SoC + NPU | Allwinner T527 | NCNN + VIPLite NBG | Mid / NPU |
-| SoC CPU | H618 (OPi Zero3) | NCNN @4 threads | Low-end Linux |
-| MCU (RISC-V) | ESP32-P4 | ESP-DL INT8 | Static Pareto anchor |
-| MCU (Xtensa) | ESP32-S3 | ESP-DL INT8 | Static Pareto anchor |
-| Server ref | CUDA GPU | PyTorch | Train / distill / search |
+A CUDA server is used only to train models and to report reference accuracy. It is not a deployment target.
 
-Measurement stack freeze: see [`dynedge/configs/versions.yaml`](dynedge/configs/versions.yaml) (Supplementary Table I).
+Toolchain pins are in [`dynedge/configs/versions.yaml`](dynedge/configs/versions.yaml).
 
-## Quick Start (five steps)
+## Setup
 
 ```bash
-# 0) clone + env
 git clone https://github.com/T01284/dynedge.git
 cd dynedge
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+python -m venv .venv
+source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-export PYTHONPATH=$PWD                              # so `import dynedge` resolves
+export PYTHONPATH=$PWD             # Windows: set PYTHONPATH=%CD%
+```
 
-# 1) data — download FERPlus / ExpW yourself (not redistributed)
-#    follow dynedge/datasets/README.md → write caches under $DATA_ROOT
+FERPlus and ExpW images are not included. Download them yourself and follow [`dynedge/datasets/README.md`](dynedge/datasets/README.md).
+
+```bash
 python -m dynedge.datasets.prepare_ferplus --help
 python -m dynedge.datasets.prepare_expw --help
+```
 
-# 2) LUT — operator tables for Linux boards + MCU e2e truth (shipped under artifacts/luts/)
-ls artifacts/luts/
+## What you can run
 
-# 3) search / distill (formal recipe in Supplementary Material)
-#    evolutionary LUT arm vs FLOPs-control arm:
+```bash
 python -m dynedge.search.search_subnets_lut --help
 python -m dynedge.search.search_subnets_flops_ctrl --help
 python -m dynedge.train.train_subnet_distill --help
 python -m dynedge.train.train_controller --help
-
-# 4) deploy — pick a target; fill config.local.yaml from the example
-cp dynedge/configs/config.example.yaml config.local.yaml
-# edit BOARD_* placeholders, then:
-#   H618/T527: dynedge/deploy/h618|t527 + shared dynedge/deploy/ncnn_edge
-#   Orin:      dynedge/deploy/orin
-#   ESP32:     dynedge/deploy/esp32  (ESP-IDF 5.5.x + ESP-DL; S3/P4 targets)
-
-# 5) bench / energy
-python -m dynedge.bench.p5s1.capture --help
 python dynedge/bench/run_matrix.py --help
+python -m dynedge.bench.p5s1.capture --help
 ```
 
-Seed-42 formal checkpoints and board binaries are **not** in git. Download from the
-[GitHub Releases](https://github.com/T01284/dynedge/releases) page once assets are published
-(see table below).
+Board addresses stay in a local file:
 
-## Repository layout
+```bash
+cp dynedge/configs/config.example.yaml config.local.yaml
+```
+
+Deployment entry points are under `dynedge/deploy/` (`h618`, `t527`, `orin`, `esp32`, and the shared `ncnn_edge` path). ESP32 builds use ESP-IDF 5.5.x and ESP-DL.
+
+## Layout
 
 ```
-dynedge/                 # installable-style package (PYTHONPATH=repo root)
-  datasets/              # FERPlus / ExpW prep + MTCNN align (no images)
-  models/                # elastic supernet, early-exit heads, slimmable BN, controller
-  train/                 # supernet (sandwich+EMA), distill, train_controller.py
-  lut/                   # gen_ops, operator mine helpers, MCU e2e enum / predict
-  search/                # evolutionary search (LUT cost / FLOPs control)
-  deploy/
-    h618/  t527/  orin/  esp32/  ncnn_edge/
-  bench/
-    run_matrix.py        # dispatcher stub → per-board matrix entrypoints
-    p5s1/                # P5S1 serial protocol + windowed energy integral
-  configs/
-    config.example.yaml  # board IP / serial / path template
-    versions.yaml        # frozen toolchains
-    labels.yaml          # class maps
+dynedge/                 # package; PYTHONPATH is the repository root
+  datasets/              # FERPlus / ExpW preparation (no images)
+  models/                # elastic supernet, early-exit heads, controller
+  train/                 # supernet, distillation, controller
+  lut/                   # operator lookup tables and MCU enumeration
+  search/                # evolutionary search (LUT cost and FLOPs control)
+  deploy/                # h618, t527, orin, esp32, ncnn_edge
+  bench/                 # latency matrix and the P5S1 energy harness
+  configs/               # example board config, toolchain pins, label maps
 artifacts/
-  luts/                  # H618/T527 op LUTs + affine fidelity, MCU 34-row e2e table
-  results/               # paper-table source CSVs
-  subnet_configs/        # formal six anchors + FLOPs-control structure JSON
+  luts/                  # operator tables and on-device end-to-end tables
+  results/               # result CSVs from the measurement campaign
+  subnet_configs/        # subnet structure files
 docs/
-  figures/fig2_overview.png
-  MEASUREMENT.md         # (stub) measurement protocol
-  REPRODUCE.md           # (stub) table/figure command map
+  figures/               # overview figure used above
+  MEASUREMENT.md
+  REPRODUCE.md
 ```
 
-## Release assets (weights — not in git)
+The P5S1 harness is `dynedge/bench/p5s1`.
 
-| Asset (planned) | Contents | Notes |
-|---|---|---|
-| `formal_seed42_ckpts.zip` | six FER+ anchors + ExpW twins (`.pt`) | seed 42; &lt;2 GB |
-| `ncnn_h618_t527_baked.zip` | bake→pnnx `.param/.bin` | Linux SoCs |
-| `t527_nbg_anchors.zip` | ACUITY→NBG | VIPLite |
-| `orin_trt_engines.zip` | TensorRT engines | JetPack 6.2 |
-| `espdl_s3_p4_images.zip` | ESP-DL flash images | S3 / P4 |
+## Analysis code and cited results
 
-Until the first Release is cut, rebuild from your own distillates with the scripts under `dynedge/deploy/*/`.
+`reproduction/scripts/` holds the scripts that compute the statistics in the manuscript (stage A and stage B analyses, and the figure scripts). `reproduction/results/` holds the tables those scripts read and the summaries cited in the paper:
+
+- `stageB/c1_t527_clean/` — iso-accuracy and iso-latency comparisons
+- `stageB/c4_orin_int8/summary.json` — calibrated TensorRT INT8 accuracy and latency
+- `stageB/orin_sweep/` — TensorRT search latencies, including the repeat pass (`*_r2.csv`)
+- `stageB/b5_energy_window/` — energy summaries and the raw windows they were fit on, for Orin, T527, H618, ESP32-P4, and ESP32-S3
+- `stageA/` — proxy rank, predictor, and energy-rate tables
+- `matrices/` — NCNN matrix summaries for the formal and FLOPs-control bakes
+- `mcu_board_acc/`, `npu_full_acc/`, `board_full_acc/` — full-test board scores
+- `c3_budget_tracking/`, `c2c3_joint_tracking/`, `controller/` — early-exit budget curves (controller weights are not included)
+
+`reproduction/process/` holds the records those tables were computed from:
+
+- `power/orin_p5s1`, `power/t527_p5s1`, `power/h618_p5s1` — P5S1 captures for the Linux energy rows
+- `power/esp32p4_ppk2`, `power/esp32s3_ppk2` — PPK2 5.0 V streams for the microcontroller rows
+- `stageB/c1_fix`, `stageB/b6_t527_p99` — comparison and tail-latency run logs
+- `stageB/` search logs and the T527 / H618 compile logs
+- `training_logs/` and `dataset_splits/` — supernet training logs and the FERPlus / ExpW split lists
+
+Board addresses in metadata are replaced with `redacted`. Machine-specific paths in logs are replaced with placeholders such as `<repo>/`. The multi-hour H618 PPK2 stream is omitted because individual files exceed GitHub's per-file size limit; the cited H618 cross-check is the summary already under `reproduction/results/`.
+
+## Not in this repository
+
+- FERPlus and ExpW images.
+- Board IP addresses and passwords. `config.example.yaml` has placeholders only. Capture metadata keeps the bench PC's COM-port labels, which identify nothing outside the lab.
+- Checkpoints, NCNN parameter files, NBG files, TensorRT engines, and ESP-DL images. Rebuild them with the scripts under `dynedge/deploy/`.
 
 ## Citation
 
 ```bibtex
 @article{zhao2026dynedge,
-  title   = {{DynEdge}: Latency-Aware Dynamic Inference for Heterogeneous Edge Devices:
-             A Hardware-in-the-Loop Approach from {GPU} to Microcontroller},
+  title   = {When Is {FLOPs} Enough? An Empirical Study of Latency Proxies,
+             Numeric Format, and Energy for Elastic {CNNs} on Five Edge Devices},
   author  = {Zhao, Li and Zhao, Ming and Wang, Shu},
-  journal = {IEEE Internet of Things Journal},
+  journal = {Neurocomputing},
   year    = {2026},
-  note    = {Under review. Code: https://github.com/T01284/dynedge}
+  note    = {Manuscript submitted for publication.
+             Code: https://github.com/T01284/dynedge}
 }
 ```
 
-Also see [`CITATION.cff`](CITATION.cff) for GitHub’s “Cite this repository” button.
-
-## What is intentionally absent
-
-- Dataset **images** (FERPlus / ExpW licenses forbid redistribution) — only download/prep scripts.
-- Board **IPs, passwords, serial device names** — placeholders in `config.example.yaml` only.
-- Large **checkpoints / NCNN bins / NBG / ESP-DL images** — GitHub Releases, not git history.
-- Internal lab ledger (`SUMMARY.md`) — distilled into this README / `docs/`.
+See [`CITATION.cff`](CITATION.cff).
 
 ## License
 
-Apache License 2.0 — see [LICENSE](LICENSE).
+Apache License 2.0. See [LICENSE](LICENSE).

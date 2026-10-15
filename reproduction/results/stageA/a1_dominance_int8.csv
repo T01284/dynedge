@@ -1,0 +1,5 @@
+device,dataset,n_lut,n_flops,flops_dominated_by_lut,lut_dominated_by_flops
+h618,ferplus,6,6,0,1
+h618,expw,11,6,2,1
+t527,ferplus,6,6,0,1
+t527,expw,11,6,2,2

@@ -1,0 +1,220 @@
+##### subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=64x64x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=5908 vms_kb=9456
+BENCH_START warmup=50 iters=1000 seed=42 input=64x64x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=64x64x3 latency_us_mean=3650.1 latency_us_p50=3638.0 latency_us_p95=3747.1 latency_us_p99=3819.0 pred=6 class=neutral conf=0.6464
+MEM rss_kb=7768 vms_kb=10972
+BENCH_DONE
+
+##### subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=64x64x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=4220 vms_kb=7452
+BENCH_START warmup=50 iters=1000 seed=42 input=64x64x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=64x64x3 latency_us_mean=4254.1 latency_us_p50=4253.0 latency_us_p95=4285.0 latency_us_p99=4308.0 pred=6 class=neutral conf=0.6310
+MEM rss_kb=5368 vms_kb=8204
+BENCH_DONE
+
+##### subnet_expw_w0.5_d3322_s96c_seed42_v4_formal_lut_img96 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=8932 vms_kb=12396
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=12399.9 latency_us_p50=12405.0 latency_us_p95=12518.0 latency_us_p99=12559.0 pred=6 class=neutral conf=0.6630
+MEM rss_kb=12904 vms_kb=16144
+BENCH_DONE
+
+##### subnet_expw_w0.5_d3322_s96c_seed42_v4_formal_lut_img96 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=4960 vms_kb=8208
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=16219.6 latency_us_p50=16218.0 latency_us_p95=16296.0 latency_us_p99=16335.0 pred=6 class=neutral conf=0.6416
+MEM rss_kb=9016 vms_kb=11880
+BENCH_DONE
+
+##### subnet_expw_w0.5_d3324_s96c_seed42_v4_formal_lut_img96 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=13720 vms_kb=17284
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=15047.5 latency_us_p50=15043.0 latency_us_p95=15193.0 latency_us_p99=15261.0 pred=6 class=neutral conf=0.6864
+MEM rss_kb=17428 vms_kb=20460
+BENCH_DONE
+
+##### subnet_expw_w0.5_d3324_s96c_seed42_v4_formal_lut_img96 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=6308 vms_kb=9636
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=18015.9 latency_us_p50=18012.0 latency_us_p95=18118.0 latency_us_p99=18165.0 pred=6 class=neutral conf=0.6599
+MEM rss_kb=9308 vms_kb=12248
+BENCH_DONE
+
+##### subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=64x64x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=9624 vms_kb=13076
+BENCH_START warmup=50 iters=1000 seed=42 input=64x64x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=64x64x3 latency_us_mean=6758.5 latency_us_p50=6760.0 latency_us_p95=6816.0 latency_us_p99=6841.0 pred=6 class=neutral conf=0.7315
+MEM rss_kb=11220 vms_kb=14100
+BENCH_DONE
+
+##### subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=64x64x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=5112 vms_kb=8364
+BENCH_START warmup=50 iters=1000 seed=42 input=64x64x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=64x64x3 latency_us_mean=7929.2 latency_us_p50=7928.0 latency_us_p95=7966.1 latency_us_p99=7997.1 pred=6 class=neutral conf=0.7347
+MEM rss_kb=6264 vms_kb=9304
+BENCH_DONE
+
+##### subnet_expw_w0.5_d4322_s112c_seed42_v4_formal_lut_img112 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=8996 vms_kb=12456
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=18615.1 latency_us_p50=18625.0 latency_us_p95=18774.0 latency_us_p99=18870.1 pred=6 class=neutral conf=0.5920
+MEM rss_kb=13760 vms_kb=17176
+BENCH_DONE
+
+##### subnet_expw_w0.5_d4322_s112c_seed42_v4_formal_lut_img112 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=4992 vms_kb=8240
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=25996.5 latency_us_p50=25998.0 latency_us_p95=26187.1 latency_us_p99=26284.0 pred=6 class=neutral conf=0.5990
+MEM rss_kb=11160 vms_kb=13940
+BENCH_DONE
+
+##### subnet_expw_w0.75_d3332_s96c_seed42_v4_formal_lut_img96 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=17276 vms_kb=20960
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=25302.5 latency_us_p50=25302.5 latency_us_p95=25504.2 latency_us_p99=25611.1 pred=6 class=neutral conf=0.6852
+MEM rss_kb=22040 vms_kb=25120
+BENCH_DONE
+
+##### subnet_expw_w0.75_d3332_s96c_seed42_v4_formal_lut_img96 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=7304 vms_kb=10728
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=28605.8 latency_us_p50=28601.0 latency_us_p95=28739.0 latency_us_p99=28821.0 pred=6 class=neutral conf=0.6528
+MEM rss_kb=11360 vms_kb=14324
+BENCH_DONE
+
+##### subnet_expw_w1_d2222_s96c_seed42_v4_formal_lut_img96 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=24340 vms_kb=27820
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=30435.3 latency_us_p50=30424.0 latency_us_p95=30670.0 latency_us_p99=30853.3 pred=6 class=neutral conf=0.7814
+MEM rss_kb=29896 vms_kb=32672
+BENCH_DONE
+
+##### subnet_expw_w1_d2222_s96c_seed42_v4_formal_lut_img96 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=9232 vms_kb=12500
+BENCH_START warmup=50 iters=1000 seed=42 input=96x96x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=96x96x3 latency_us_mean=28434.8 latency_us_p50=28438.0 latency_us_p95=28646.0 latency_us_p99=28742.1 pred=6 class=neutral conf=0.7094
+MEM rss_kb=15136 vms_kb=18196
+BENCH_DONE
+
+##### subnet_expw_w1_d4332_s112c_seed42_v4_formal_lut_img112 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=27444 vms_kb=30924
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=58330.4 latency_us_p50=58336.5 latency_us_p95=58817.2 latency_us_p99=58988.0 pred=6 class=neutral conf=0.6670
+MEM rss_kb=35640 vms_kb=38520
+BENCH_DONE
+
+##### subnet_expw_w1_d4332_s112c_seed42_v4_formal_lut_img112 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=10276 vms_kb=13540
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=61426.9 latency_us_p50=61426.5 latency_us_p95=61827.3 latency_us_p99=61985.1 pred=6 class=neutral conf=0.6555
+MEM rss_kb=18556 vms_kb=21492
+BENCH_DONE
+
+##### subnet_expw_w1_d4432_s112c_seed42_v4_formal_lut_img112 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=27784 vms_kb=31264
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=60961.5 latency_us_p50=60940.5 latency_us_p95=61473.1 latency_us_p99=61630.2 pred=6 class=neutral conf=0.5957
+MEM rss_kb=35980 vms_kb=38860
+BENCH_DONE
+
+##### subnet_expw_w1_d4432_s112c_seed42_v4_formal_lut_img112 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=10392 vms_kb=13656
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=64355.9 latency_us_p50=64347.5 latency_us_p95=64727.2 latency_us_p99=65007.3 pred=6 class=neutral conf=0.5613
+MEM rss_kb=18144 vms_kb=21020
+BENCH_DONE
+
+##### subnet_expw_w1_d4442_s112c_seed42_v4_formal_lut_img112 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=30236 vms_kb=33712
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=64920.0 latency_us_p50=64909.0 latency_us_p95=65424.2 latency_us_p99=65604.0 pred=6 class=neutral conf=0.6326
+MEM rss_kb=38432 vms_kb=41304
+BENCH_DONE
+
+##### subnet_expw_w1_d4442_s112c_seed42_v4_formal_lut_img112 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=11020 vms_kb=14280
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=67766.7 latency_us_p50=67757.5 latency_us_p95=68129.2 latency_us_p99=68390.2 pred=6 class=neutral conf=0.6265
+MEM rss_kb=18508 vms_kb=21544
+BENCH_DONE
+
+##### subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112 fp32
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=49796 vms_kb=53180
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=76626.0 latency_us_p50=76621.0 latency_us_p95=77063.0 latency_us_p99=77348.1 pred=6 class=neutral conf=0.6299
+MEM rss_kb=58520 vms_kb=61364
+BENCH_DONE
+
+##### subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112 int8
+READY device=t527 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=112x112x3 classes=7 ncnn=1
+INFO threads=4 vulkan=0
+NCNN_CPU neon=1 asimdhp=1 asimddp=1 asimdfhm=0 i8mm=0
+MEM rss_kb=16064 vms_kb=19416
+BENCH_START warmup=50 iters=1000 seed=42 input=112x112x3
+RESULT kind=bench device=t527 backend=ncnn_cpu warmup=50 iters=1000 input=112x112x3 latency_us_mean=74893.0 latency_us_p50=74886.5 latency_us_p95=75238.1 latency_us_p99=75396.6 pred=6 class=neutral conf=0.6276
+MEM rss_kb=25400 vms_kb=28252
+BENCH_DONE
+

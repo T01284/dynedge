@@ -1,0 +1,27 @@
+{
+  "n_total_labeled": 91793,
+  "n_after_confidence_filter": 91793,
+  "n_processed": 91793,
+  "n_align_ok": 91793,
+  "n_align_skip": 0,
+  "n_resume_skip": 73683,
+  "n_mtcnn_hit": 0,
+  "n_resize_fallback": 18110,
+  "batch_size": 1024,
+  "by_split": {
+    "test": 9185,
+    "train": 73432,
+    "val": 9176
+  },
+  "by_class": {
+    "neutral": 34883,
+    "happy": 30537,
+    "sad": 10559,
+    "angry": 3671,
+    "disgust": 3995,
+    "surprise": 7060,
+    "fear": 1088
+  },
+  "skip_rate": 0.0,
+  "mtcnn_fail_rate_among_ok": 1.0
+}

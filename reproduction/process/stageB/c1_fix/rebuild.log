@@ -1,0 +1,93 @@
+== flops_ctrl subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (10.5s)
+== flops_ctrl subnet_ferplus_w0.35_d2432_s96c_seed42_v4_flops_ctrl_img96 relu=False
+   -> ok hs=25 relu=0 (4.8s)
+== flops_ctrl subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (6.5s)
+== flops_ctrl subnet_ferplus_w0.75_d3432_s96c_seed42_v4_flops_ctrl_img96 relu=False
+   -> ok hs=27 relu=0 (8.0s)
+== flops_ctrl subnet_ferplus_w1_d4342_s112c_seed42_v4_flops_ctrl_img112 relu=False
+   -> ok hs=29 relu=0 (13.2s)
+== flops_ctrl subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (6.9s)
+== flops_ctrl subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (6.8s)
+== flops_ctrl subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (8.8s)
+== flops_ctrl subnet_expw_w0.5_d3322_s96c_seed42_v4_flops_ctrl_img96 relu=False
+   -> ok hs=23 relu=0 (5.5s)
+== flops_ctrl subnet_expw_w0.5_d3333_s112c_seed42_v4_flops_ctrl_img112 relu=False
+   -> ok hs=27 relu=0 (6.7s)
+== flops_ctrl subnet_expw_w1_d4342_s112c_seed42_v4_flops_ctrl_img112 relu=False
+   -> ok hs=29 relu=0 (12.5s)
+== flops_ctrl subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (4.8s)
+== formal_fer subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (4.8s)
+== formal_fer subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (6.1s)
+== formal_fer subnet_ferplus_w0.5_d3242_s96c_seed42_v4_formal_lut_img96 relu=False
+   -> ok hs=25 relu=0 (6.1s)
+== formal_fer subnet_ferplus_w0.5_d3333_s96c_seed42_v4_formal_lut_img96 relu=False
+   -> ok hs=27 relu=0 (7.3s)
+== formal_fer subnet_ferplus_w0.75_d3333_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=27 relu=0 (9.6s)
+== formal_fer subnet_ferplus_w1_d4342_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=29 relu=0 (12.6s)
+== formal_expw subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (4.8s)
+== formal_expw subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 relu=True
+  baked-vs-slim cos=1.00000000 relu=True
+  pnnx.export post-err (ok if files exist): OSError: [Errno 22] Invalid argument: '<repo>/results/stageB/c1_fix/work/subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64/m.pnnx.bin'
+  verify cos=1.00000000 finite=True
+   -> ok hs=0 relu=0 (6.1s)
+== formal_expw subnet_expw_w0.5_d3322_s96c_seed42_v4_formal_lut_img96 relu=False
+   -> ok hs=23 relu=0 (5.5s)
+== formal_expw subnet_expw_w0.5_d3324_s96c_seed42_v4_formal_lut_img96 relu=False
+   -> ok hs=27 relu=0 (6.1s)
+== formal_expw subnet_expw_w0.75_d3332_s96c_seed42_v4_formal_lut_img96 relu=False
+   -> ok hs=25 relu=0 (8.1s)
+== formal_expw subnet_expw_w1_d2222_s96c_seed42_v4_formal_lut_img96 relu=False
+   -> ok hs=19 relu=0 (8.0s)
+== formal_expw subnet_expw_w0.5_d4322_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=25 relu=0 (7.3s)
+== formal_expw subnet_expw_w1_d4332_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=27 relu=0 (11.8s)
+== formal_expw subnet_expw_w1_d4432_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=29 relu=0 (12.1s)
+== formal_expw subnet_expw_w1_d4442_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=31 relu=0 (12.7s)
+== formal_expw subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112 relu=False
+   -> ok hs=35 relu=0 (15.2s)
+== lut_t527 subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96 relu=False
+   -> ok hs=23 relu=0 (5.5s)
+== lut_t527 subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96 relu=False
+   -> ok hs=27 relu=0 (8.4s)
+done ok=31 fail=0 []

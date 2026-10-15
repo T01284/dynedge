@@ -1,0 +1,129 @@
+{
+  "stem": "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64",
+  "n": 20,
+  "finite": 0,
+  "mean_cos_vs_onnx": NaN,
+  "pass": false,
+  "rows": [
+    {
+      "idx": 0,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 1,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 2,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 3,
+      "finite": 0,
+      "cos": NaN,
+      "match": 0
+    },
+    {
+      "idx": 4,
+      "finite": 0,
+      "cos": NaN,
+      "match": 0
+    },
+    {
+      "idx": 5,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 6,
+      "finite": 0,
+      "cos": NaN,
+      "match": 0
+    },
+    {
+      "idx": 7,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 8,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 9,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 10,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 11,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 12,
+      "finite": 0,
+      "cos": NaN,
+      "match": 0
+    },
+    {
+      "idx": 13,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 14,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 15,
+      "finite": 0,
+      "cos": NaN,
+      "match": 0
+    },
+    {
+      "idx": 16,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 17,
+      "finite": 0,
+      "cos": NaN,
+      "match": 0
+    },
+    {
+      "idx": 18,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    },
+    {
+      "idx": 19,
+      "finite": 0,
+      "cos": NaN,
+      "match": 1
+    }
+  ]
+}

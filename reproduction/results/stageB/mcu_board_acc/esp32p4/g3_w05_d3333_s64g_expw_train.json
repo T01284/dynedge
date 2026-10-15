@@ -1,0 +1,11 @@
+{
+  "model": "g3_w05_d3333_s64g_expw",
+  "target": "esp32p4",
+  "dataset": "expw",
+  "prep": "train",
+  "norm": "114.4440 57.6248",
+  "n": 9094,
+  "acc": 0.7129975808225203,
+  "median_latency_ms": 49.319,
+  "board": "READY device=esp32p4 fw=0.5.0-espdl-wifi model=embedded input=64x64x3 ref_n=8 model_bytes=2429840"
+}

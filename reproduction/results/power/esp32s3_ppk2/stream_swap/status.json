@@ -1,0 +1,11 @@
+{
+ "time": "2026-10-14T18:59:07",
+ "port": "COM46",
+ "source_mv": 5000,
+ "dut_power": "ON",
+ "last_s_mean_ma": 29.791,
+ "last_s_mean_w": 0.149,
+ "blocks_last_s": 1003,
+ "blocks_total": 397219,
+ "file": "stream_20261014_18.csv"
+}

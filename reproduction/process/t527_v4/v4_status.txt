@@ -1,0 +1,71 @@
+===== V4 MATRIX START 2026-07-23T12:39:56 =====
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64 fp32 p50=2164.0
+OK subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64 fp32 p50=3088.0
+OK subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96 fp32 p50=5396.0
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=10022.0
+OK subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=19381.0
+OK subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=25242.5
+OK subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112 fp32 p50=19588.5
+OK subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=37219.5
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 fp32 p50=2163.0
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 fp32 p50=3085.0
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 fp32 p50=5392.0
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=9984.0
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=19359.0
+OK subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=25223.0
+OK subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112 fp32 p50=19609.0
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=37168.5
+===== V4 MATRIX END 2026-07-23T12:45:10 rows=16 =====
+===== V4 MATRIX START 2026-07-23T12:45:21 =====
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64 int8 p50=3941.0
+OK subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64 int8 p50=5587.0
+OK subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96 int8 p50=9686.0
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112 int8 p50=18581.0
+OK subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112 int8 p50=31126.0
+OK subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112 int8 p50=41167.0
+OK subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112 int8 p50=29365.5
+OK subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112 int8 p50=55971.0
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 int8 p50=3942.0
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 int8 p50=5602.0
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 int8 p50=9722.0
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 int8 p50=18571.5
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 int8 p50=31174.0
+===== V4 MATRIX START 2026-07-23T12:50:40 =====
+OK subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112 int8 p50=41109.0
+OK subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112 int8 p50=29333.0
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 int8 p50=55924.0
+===== V4 MATRIX END 2026-07-23T12:52:30 rows=32 =====
+===== V4 MATRIX START 2026-07-23T15:42:22 =====
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64 fp32 p50=3812.5
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64 int8 p50=4860.0
+OK subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64 fp32 p50=5214.0
+OK subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64 int8 p50=6938.0
+OK subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96 fp32 p50=10467.0
+OK subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96 int8 p50=12584.0
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=19537.0
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112 int8 p50=24444.5
+OK subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=38941.0
+OK subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112 int8 p50=41983.0
+OK subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=50648.5
+OK subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112 int8 p50=55832.0
+OK subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112 fp32 p50=41787.0
+OK subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112 int8 p50=38793.0
+OK subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=76900.5
+OK subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112 int8 p50=75023.5
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 fp32 p50=3755.0
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64 int8 p50=4777.5
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 fp32 p50=5203.0
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64 int8 p50=6893.0
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 fp32 p50=10464.0
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96 int8 p50=12565.0
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=19524.0
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112 int8 p50=24474.0
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 fp32 p50=38876.0
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112 int8 p50=42000.0
+OK subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=50717.0
+OK subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112 int8 p50=55918.0
+OK subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112 fp32 p50=41801.0
+OK subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112 int8 p50=38714.0
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 fp32 p50=77001.0
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112 int8 p50=75078.5
+===== V4 MATRIX END 2026-07-23T16:01:21 rows=32 =====

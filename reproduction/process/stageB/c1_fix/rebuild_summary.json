@@ -1,0 +1,322 @@
+{
+  "subnet_ferplus_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999998331,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.9
+  },
+  "subnet_ferplus_w0.35_d2332_s64g_seed42_v4_flops_ctrl_img64": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999998163,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 10.5
+  },
+  "subnet_ferplus_w0.35_d2432_s96c_seed42_v4_flops_ctrl_img96": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": false,
+    "n_hardswish": 25,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 4.8
+  },
+  "subnet_ferplus_w0.75_d3322_s64g_seed42_v4_flops_ctrl_img64": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999999831,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.5
+  },
+  "subnet_ferplus_w0.75_d3432_s96c_seed42_v4_flops_ctrl_img96": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 8.0
+  },
+  "subnet_ferplus_w1_d4342_s112c_seed42_v4_flops_ctrl_img112": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": false,
+    "n_hardswish": 29,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 13.2
+  },
+  "subnet_expw_w0.35_d2342_s64g_seed42_v4_flops_ctrl_img64": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999999761,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.8
+  },
+  "subnet_expw_w0.5_d3344_s64g_seed42_v4_flops_ctrl_img64": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.999999999999843,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 8.8
+  },
+  "subnet_expw_w0.5_d3322_s96c_seed42_v4_flops_ctrl_img96": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": false,
+    "n_hardswish": 23,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 5.5
+  },
+  "subnet_expw_w0.5_d3333_s112c_seed42_v4_flops_ctrl_img112": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.7
+  },
+  "subnet_expw_w1_d4342_s112c_seed42_v4_flops_ctrl_img112": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": false,
+    "n_hardswish": 29,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 12.5
+  },
+  "subnet_expw_w0.35_d2222_s64g_seed42_v4_flops_ctrl_img64": {
+    "arm": "flops_ctrl",
+    "src": "deploy\\t527\\models\\v4_flops_ctrl_baked",
+    "dst": "deploy\\t527\\models\\v4_flops_ctrl_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999996003,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 4.8
+  },
+  "subnet_ferplus_w0.35_d3222_s64g_seed42_v4_formal_lut_img64": {
+    "arm": "formal_fer",
+    "src": "deploy\\t527\\models\\v4_formal_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999999669,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 4.8
+  },
+  "subnet_ferplus_w0.5_d3332_s64g_seed42_v4_formal_lut_img64": {
+    "arm": "formal_fer",
+    "src": "deploy\\t527\\models\\v4_formal_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999996677,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.1
+  },
+  "subnet_ferplus_w0.5_d3242_s96c_seed42_v4_formal_lut_img96": {
+    "arm": "formal_fer",
+    "src": "deploy\\t527\\models\\v4_formal_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_fix",
+    "relu": false,
+    "n_hardswish": 25,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.1
+  },
+  "subnet_ferplus_w0.5_d3333_s96c_seed42_v4_formal_lut_img96": {
+    "arm": "formal_fer",
+    "src": "deploy\\t527\\models\\v4_formal_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 7.3
+  },
+  "subnet_ferplus_w0.75_d3333_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_fer",
+    "src": "deploy\\t527\\models\\v4_formal_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 9.6
+  },
+  "subnet_ferplus_w1_d4342_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_fer",
+    "src": "deploy\\t527\\models\\v4_formal_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_fix",
+    "relu": false,
+    "n_hardswish": 29,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 12.6
+  },
+  "subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999998631,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 4.8
+  },
+  "subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": true,
+    "ncnn_vs_baked_cos": 0.9999999999999502,
+    "n_hardswish": 0,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.1
+  },
+  "subnet_expw_w0.5_d3322_s96c_seed42_v4_formal_lut_img96": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 23,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 5.5
+  },
+  "subnet_expw_w0.5_d3324_s96c_seed42_v4_formal_lut_img96": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 6.1
+  },
+  "subnet_expw_w0.75_d3332_s96c_seed42_v4_formal_lut_img96": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 25,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 8.1
+  },
+  "subnet_expw_w1_d2222_s96c_seed42_v4_formal_lut_img96": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 19,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 8.0
+  },
+  "subnet_expw_w0.5_d4322_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 25,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 7.3
+  },
+  "subnet_expw_w1_d4332_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 11.8
+  },
+  "subnet_expw_w1_d4432_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 29,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 12.1
+  },
+  "subnet_expw_w1_d4442_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 31,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 12.7
+  },
+  "subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112": {
+    "arm": "formal_expw",
+    "src": "deploy\\t527\\models\\v4_formal_baked_expw",
+    "dst": "deploy\\t527\\models\\v4_formal_baked_expw_fix",
+    "relu": false,
+    "n_hardswish": 35,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 15.2
+  },
+  "subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96": {
+    "arm": "lut_t527",
+    "src": "deploy\\t527\\models\\v4_formal_lut_t527_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_lut_t527_baked_fix",
+    "relu": false,
+    "n_hardswish": 23,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 5.5
+  },
+  "subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96": {
+    "arm": "lut_t527",
+    "src": "deploy\\t527\\models\\v4_formal_lut_t527_baked",
+    "dst": "deploy\\t527\\models\\v4_formal_lut_t527_baked_fix",
+    "relu": false,
+    "n_hardswish": 27,
+    "n_relu": 0,
+    "status": "ok",
+    "sec": 8.4
+  }
+}

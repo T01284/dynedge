@@ -142,7 +142,7 @@ def _tool_cmd(name: str) -> list[str] | None:
     native = shutil.which(name)
     if native:
         return [native]
-    wsl_bin = f"/home/wang/opt/ncnn-x86-tools/bin/{name}"
+    wsl_bin = f"<home>/opt/ncnn-x86-tools/bin/{name}"
     # Prefer WSL tools when running from Windows host.
     try:
         r = subprocess.run(

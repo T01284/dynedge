@@ -1,0 +1,1024 @@
+loop_count=200, device_id=0, file_name=sample.txt bypass=1
+init vip lite, driver version=0x00010d00...
+VIPLite driver software version 1.13.0.0-AW-2023-10-19
+vip lite init OK.
+
+cid=0x10000016, device_count=1
+  device[0] core_count=1
+config file read network count=1
+init test resources, task_count: 1 ...
+create/prepare networks ...
+task i=0, binary name: /root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+nbg name=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+create network 0: 1279 us.
+input 0 dim 64 64 3 1, data_format=2, quant_format=2, name=input_252_out0, scale=0.018658, zero_point=114
+ouput 0 dim 8 1 0 0, data_format=2, name=attach_output/out0_0_out0, scale=0.037006, zero_point=105
+memory pool size=0byte
+network core count=1
+prepare network 0: 500 us.
+golden file count=0
+input 0 name: /root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/64x64_u8.dat
+read input and golden 0: 136 us.
+task: 0, loop count: 1
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1635 us.
+run network done...
+profile inference time=1548us, cycle=1068311
+task: 0, loop count: 2
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1549us, cycle=1071055
+task: 0, loop count: 3
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1716 us.
+run network done...
+profile inference time=1586us, cycle=1069856
+task: 0, loop count: 4
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1583us, cycle=1070037
+task: 0, loop count: 5
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1630 us.
+run network done...
+profile inference time=1582us, cycle=1068576
+task: 0, loop count: 6
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1547us, cycle=1070281
+task: 0, loop count: 7
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1548us, cycle=1069827
+task: 0, loop count: 8
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1548us, cycle=1071114
+task: 0, loop count: 9
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1546us, cycle=1069471
+task: 0, loop count: 10
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1551us, cycle=1072120
+task: 0, loop count: 11
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1547us, cycle=1070564
+task: 0, loop count: 12
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1547us, cycle=1069839
+task: 0, loop count: 13
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1548us, cycle=1070987
+task: 0, loop count: 14
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1588 us.
+run network done...
+profile inference time=1547us, cycle=1070602
+task: 0, loop count: 15
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1548us, cycle=1070711
+task: 0, loop count: 16
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1552us, cycle=1073173
+task: 0, loop count: 17
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1635 us.
+run network done...
+profile inference time=1587us, cycle=1072887
+task: 0, loop count: 18
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1582us, cycle=1069327
+task: 0, loop count: 19
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1548us, cycle=1070819
+task: 0, loop count: 20
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1628 us.
+run network done...
+profile inference time=1582us, cycle=1069021
+task: 0, loop count: 21
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1672 us.
+run network done...
+profile inference time=1586us, cycle=1072226
+task: 0, loop count: 22
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1585us, cycle=1070194
+task: 0, loop count: 23
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1545us, cycle=1069446
+task: 0, loop count: 24
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1587 us.
+run network done...
+profile inference time=1545us, cycle=1068994
+task: 0, loop count: 25
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1545us, cycle=1067748
+task: 0, loop count: 26
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1546us, cycle=1068949
+task: 0, loop count: 27
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1675 us.
+run network done...
+profile inference time=1628us, cycle=1073255
+task: 0, loop count: 28
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1548us, cycle=1070722
+task: 0, loop count: 29
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1588 us.
+run network done...
+profile inference time=1547us, cycle=1070198
+task: 0, loop count: 30
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1548us, cycle=1070513
+task: 0, loop count: 31
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1633 us.
+run network done...
+profile inference time=1549us, cycle=1071461
+task: 0, loop count: 32
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1633 us.
+run network done...
+profile inference time=1548us, cycle=1070920
+task: 0, loop count: 33
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1550us, cycle=1072347
+task: 0, loop count: 34
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1587 us.
+run network done...
+profile inference time=1546us, cycle=1069198
+task: 0, loop count: 35
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1593 us.
+run network done...
+profile inference time=1551us, cycle=1071594
+task: 0, loop count: 36
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1582us, cycle=1069371
+task: 0, loop count: 37
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1586us, cycle=1071299
+task: 0, loop count: 38
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1675 us.
+run network done...
+profile inference time=1584us, cycle=1070784
+task: 0, loop count: 39
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1714 us.
+run network done...
+profile inference time=1586us, cycle=1071352
+task: 0, loop count: 40
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1714 us.
+run network done...
+profile inference time=1584us, cycle=1070812
+task: 0, loop count: 41
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1716 us.
+run network done...
+profile inference time=1583us, cycle=1070378
+task: 0, loop count: 42
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1682 us.
+run network done...
+profile inference time=1588us, cycle=1072164
+task: 0, loop count: 43
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1713 us.
+run network done...
+profile inference time=1583us, cycle=1069625
+task: 0, loop count: 44
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1676 us.
+run network done...
+profile inference time=1546us, cycle=1068533
+task: 0, loop count: 45
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1631 us.
+run network done...
+profile inference time=1545us, cycle=1069166
+task: 0, loop count: 46
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1549us, cycle=1070688
+task: 0, loop count: 47
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1550us, cycle=1072130
+task: 0, loop count: 48
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1546us, cycle=1070044
+task: 0, loop count: 49
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1550us, cycle=1071242
+task: 0, loop count: 50
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1548us, cycle=1070434
+task: 0, loop count: 51
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1550us, cycle=1069881
+task: 0, loop count: 52
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1549us, cycle=1071126
+task: 0, loop count: 53
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1588 us.
+run network done...
+profile inference time=1547us, cycle=1070548
+task: 0, loop count: 54
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1670 us.
+run network done...
+profile inference time=1584us, cycle=1069434
+task: 0, loop count: 55
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1713 us.
+run network done...
+profile inference time=1584us, cycle=1070525
+task: 0, loop count: 56
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1715 us.
+run network done...
+profile inference time=1584us, cycle=1069579
+task: 0, loop count: 57
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1710 us.
+run network done...
+profile inference time=1584us, cycle=1070464
+task: 0, loop count: 58
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1675 us.
+run network done...
+profile inference time=1584us, cycle=1071122
+task: 0, loop count: 59
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1672 us.
+run network done...
+profile inference time=1584us, cycle=1070483
+task: 0, loop count: 60
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1547us, cycle=1070233
+task: 0, loop count: 61
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1673 us.
+run network done...
+profile inference time=1586us, cycle=1071219
+task: 0, loop count: 62
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1667 us.
+run network done...
+profile inference time=1581us, cycle=1069012
+task: 0, loop count: 63
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1672 us.
+run network done...
+profile inference time=1585us, cycle=1071406
+task: 0, loop count: 64
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1581us, cycle=1069151
+task: 0, loop count: 65
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1670 us.
+run network done...
+profile inference time=1584us, cycle=1070869
+task: 0, loop count: 66
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1546us, cycle=1067320
+task: 0, loop count: 67
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1545us, cycle=1069170
+task: 0, loop count: 68
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1550us, cycle=1072158
+task: 0, loop count: 69
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1630 us.
+run network done...
+profile inference time=1546us, cycle=1070003
+task: 0, loop count: 70
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1631 us.
+run network done...
+profile inference time=1547us, cycle=1070569
+task: 0, loop count: 71
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1548us, cycle=1070518
+task: 0, loop count: 72
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1548us, cycle=1071397
+task: 0, loop count: 73
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1675 us.
+run network done...
+profile inference time=1586us, cycle=1071331
+task: 0, loop count: 74
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1673 us.
+run network done...
+profile inference time=1583us, cycle=1069605
+task: 0, loop count: 75
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1669 us.
+run network done...
+profile inference time=1584us, cycle=1069351
+task: 0, loop count: 76
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1585us, cycle=1070338
+task: 0, loop count: 77
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1670 us.
+run network done...
+profile inference time=1583us, cycle=1069831
+task: 0, loop count: 78
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1584us, cycle=1069681
+task: 0, loop count: 79
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1547us, cycle=1070543
+task: 0, loop count: 80
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1670 us.
+run network done...
+profile inference time=1583us, cycle=1069262
+task: 0, loop count: 81
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1548us, cycle=1070810
+task: 0, loop count: 82
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1669 us.
+run network done...
+profile inference time=1584us, cycle=1071230
+task: 0, loop count: 83
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1672 us.
+run network done...
+profile inference time=1586us, cycle=1071392
+task: 0, loop count: 84
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1583us, cycle=1070579
+task: 0, loop count: 85
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1717 us.
+run network done...
+profile inference time=1588us, cycle=1071319
+task: 0, loop count: 86
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1631 us.
+run network done...
+profile inference time=1545us, cycle=1068955
+task: 0, loop count: 87
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1630 us.
+run network done...
+profile inference time=1545us, cycle=1069266
+task: 0, loop count: 88
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1548us, cycle=1070089
+task: 0, loop count: 89
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1550us, cycle=1072288
+task: 0, loop count: 90
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1547us, cycle=1070400
+task: 0, loop count: 91
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1549us, cycle=1071822
+task: 0, loop count: 92
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1549us, cycle=1071780
+task: 0, loop count: 93
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1636 us.
+run network done...
+profile inference time=1549us, cycle=1069430
+task: 0, loop count: 94
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1548us, cycle=1070551
+task: 0, loop count: 95
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1584us, cycle=1070797
+task: 0, loop count: 96
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1635 us.
+run network done...
+profile inference time=1547us, cycle=1069679
+task: 0, loop count: 97
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1589 us.
+run network done...
+profile inference time=1546us, cycle=1069916
+task: 0, loop count: 98
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1631 us.
+run network done...
+profile inference time=1584us, cycle=1069870
+task: 0, loop count: 99
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1585us, cycle=1071460
+task: 0, loop count: 100
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1633 us.
+run network done...
+profile inference time=1549us, cycle=1070508
+task: 0, loop count: 101
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1667 us.
+run network done...
+profile inference time=1582us, cycle=1069287
+task: 0, loop count: 102
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1671 us.
+run network done...
+profile inference time=1584us, cycle=1070707
+task: 0, loop count: 103
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1630 us.
+run network done...
+profile inference time=1545us, cycle=1068718
+task: 0, loop count: 104
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1549us, cycle=1071037
+task: 0, loop count: 105
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1550us, cycle=1071529
+task: 0, loop count: 106
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1628 us.
+run network done...
+profile inference time=1546us, cycle=1069751
+task: 0, loop count: 107
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1548us, cycle=1070009
+task: 0, loop count: 108
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1592 us.
+run network done...
+profile inference time=1548us, cycle=1071268
+task: 0, loop count: 109
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1549us, cycle=1072105
+task: 0, loop count: 110
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1551us, cycle=1073283
+task: 0, loop count: 111
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1548us, cycle=1071214
+task: 0, loop count: 112
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1713 us.
+run network done...
+profile inference time=1585us, cycle=1070161
+task: 0, loop count: 113
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1675 us.
+run network done...
+profile inference time=1582us, cycle=1069657
+task: 0, loop count: 114
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1583us, cycle=1069753
+task: 0, loop count: 115
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1583us, cycle=1069842
+task: 0, loop count: 116
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1581us, cycle=1068941
+task: 0, loop count: 117
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1668 us.
+run network done...
+profile inference time=1582us, cycle=1068674
+task: 0, loop count: 118
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1629 us.
+run network done...
+profile inference time=1547us, cycle=1069496
+task: 0, loop count: 119
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1598 us.
+run network done...
+profile inference time=1554us, cycle=1071107
+task: 0, loop count: 120
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1605 us.
+run network done...
+profile inference time=1549us, cycle=1070020
+task: 0, loop count: 121
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1548us, cycle=1070661
+task: 0, loop count: 122
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1598 us.
+run network done...
+profile inference time=1548us, cycle=1070529
+task: 0, loop count: 123
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1638 us.
+run network done...
+profile inference time=1549us, cycle=1071920
+task: 0, loop count: 124
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1602 us.
+run network done...
+profile inference time=1549us, cycle=1070955
+task: 0, loop count: 125
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1599 us.
+run network done...
+profile inference time=1550us, cycle=1072285
+task: 0, loop count: 126
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1549us, cycle=1071084
+task: 0, loop count: 127
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1546us, cycle=1068945
+task: 0, loop count: 128
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1547us, cycle=1070054
+task: 0, loop count: 129
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1069258
+task: 0, loop count: 130
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1634 us.
+run network done...
+profile inference time=1547us, cycle=1070187
+task: 0, loop count: 131
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1600 us.
+run network done...
+profile inference time=1549us, cycle=1071859
+task: 0, loop count: 132
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1070861
+task: 0, loop count: 133
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1546us, cycle=1069480
+task: 0, loop count: 134
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1546us, cycle=1068960
+task: 0, loop count: 135
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1598 us.
+run network done...
+profile inference time=1549us, cycle=1071140
+task: 0, loop count: 136
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1545us, cycle=1069103
+task: 0, loop count: 137
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1634 us.
+run network done...
+profile inference time=1546us, cycle=1069164
+task: 0, loop count: 138
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1638 us.
+run network done...
+profile inference time=1547us, cycle=1069838
+task: 0, loop count: 139
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1640 us.
+run network done...
+profile inference time=1548us, cycle=1070201
+task: 0, loop count: 140
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1635 us.
+run network done...
+profile inference time=1547us, cycle=1069744
+task: 0, loop count: 141
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1547us, cycle=1070296
+task: 0, loop count: 142
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1598 us.
+run network done...
+profile inference time=1549us, cycle=1071191
+task: 0, loop count: 143
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1599 us.
+run network done...
+profile inference time=1549us, cycle=1071226
+task: 0, loop count: 144
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1070188
+task: 0, loop count: 145
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1593 us.
+run network done...
+profile inference time=1547us, cycle=1069957
+task: 0, loop count: 146
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1549us, cycle=1071192
+task: 0, loop count: 147
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1069953
+task: 0, loop count: 148
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1593 us.
+run network done...
+profile inference time=1544us, cycle=1068291
+task: 0, loop count: 149
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1599 us.
+run network done...
+profile inference time=1548us, cycle=1071213
+task: 0, loop count: 150
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1070456
+task: 0, loop count: 151
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1070822
+task: 0, loop count: 152
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1550us, cycle=1071192
+task: 0, loop count: 153
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1593 us.
+run network done...
+profile inference time=1546us, cycle=1069626
+task: 0, loop count: 154
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1547us, cycle=1069732
+task: 0, loop count: 155
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1548us, cycle=1071300
+task: 0, loop count: 156
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1590 us.
+run network done...
+profile inference time=1544us, cycle=1068284
+task: 0, loop count: 157
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1634 us.
+run network done...
+profile inference time=1547us, cycle=1069739
+task: 0, loop count: 158
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1546us, cycle=1069251
+task: 0, loop count: 159
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1634 us.
+run network done...
+profile inference time=1546us, cycle=1069017
+task: 0, loop count: 160
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1546us, cycle=1069295
+task: 0, loop count: 161
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1549us, cycle=1071338
+task: 0, loop count: 162
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1547us, cycle=1070086
+task: 0, loop count: 163
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1548us, cycle=1070475
+task: 0, loop count: 164
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1598 us.
+run network done...
+profile inference time=1548us, cycle=1070127
+task: 0, loop count: 165
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1550us, cycle=1071750
+task: 0, loop count: 166
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1548us, cycle=1070942
+task: 0, loop count: 167
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1546us, cycle=1068996
+task: 0, loop count: 168
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1599 us.
+run network done...
+profile inference time=1546us, cycle=1069429
+task: 0, loop count: 169
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1641 us.
+run network done...
+profile inference time=1546us, cycle=1069373
+task: 0, loop count: 170
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1644 us.
+run network done...
+profile inference time=1549us, cycle=1071733
+task: 0, loop count: 171
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1643 us.
+run network done...
+profile inference time=1547us, cycle=1069969
+task: 0, loop count: 172
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1639 us.
+run network done...
+profile inference time=1548us, cycle=1070682
+task: 0, loop count: 173
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1637 us.
+run network done...
+profile inference time=1548us, cycle=1070590
+task: 0, loop count: 174
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1641 us.
+run network done...
+profile inference time=1550us, cycle=1071074
+task: 0, loop count: 175
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1601 us.
+run network done...
+profile inference time=1550us, cycle=1072341
+task: 0, loop count: 176
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1633 us.
+run network done...
+profile inference time=1548us, cycle=1070294
+task: 0, loop count: 177
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1633 us.
+run network done...
+profile inference time=1544us, cycle=1068881
+task: 0, loop count: 178
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1544us, cycle=1068370
+task: 0, loop count: 179
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1638 us.
+run network done...
+profile inference time=1549us, cycle=1071123
+task: 0, loop count: 180
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1546us, cycle=1069783
+task: 0, loop count: 181
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1070977
+task: 0, loop count: 182
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1593 us.
+run network done...
+profile inference time=1547us, cycle=1069869
+task: 0, loop count: 183
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1549us, cycle=1071627
+task: 0, loop count: 184
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1547us, cycle=1069535
+task: 0, loop count: 185
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1594 us.
+run network done...
+profile inference time=1547us, cycle=1070016
+task: 0, loop count: 186
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1635 us.
+run network done...
+profile inference time=1547us, cycle=1070063
+task: 0, loop count: 187
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1639 us.
+run network done...
+profile inference time=1547us, cycle=1069612
+task: 0, loop count: 188
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1637 us.
+run network done...
+profile inference time=1545us, cycle=1068624
+task: 0, loop count: 189
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1639 us.
+run network done...
+profile inference time=1548us, cycle=1069494
+task: 0, loop count: 190
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1638 us.
+run network done...
+profile inference time=1547us, cycle=1069731
+task: 0, loop count: 191
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1639 us.
+run network done...
+profile inference time=1550us, cycle=1071563
+task: 0, loop count: 192
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1547us, cycle=1070555
+task: 0, loop count: 193
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1548us, cycle=1071629
+task: 0, loop count: 194
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1632 us.
+run network done...
+profile inference time=1548us, cycle=1069458
+task: 0, loop count: 195
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1597 us.
+run network done...
+profile inference time=1546us, cycle=1069525
+task: 0, loop count: 196
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1593 us.
+run network done...
+profile inference time=1546us, cycle=1069448
+task: 0, loop count: 197
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1547us, cycle=1069983
+task: 0, loop count: 198
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1591 us.
+run network done...
+profile inference time=1544us, cycle=1068247
+task: 0, loop count: 199
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1595 us.
+run network done...
+profile inference time=1546us, cycle=1069192
+task: 0, loop count: 200
+start to run network=/root/fer-dynedge/npu/v4_npu_fix/w035_d3333_s64g/network_binary.nb
+run time for this network 0: 1596 us.
+run network done...
+profile inference time=1548us, cycle=1071248
+task 0, profile avg inference time=1548us, cycle=1068311
+destroy test resource task_count=1
+vpm run ret=0

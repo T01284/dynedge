@@ -1,0 +1,322 @@
+w05_d3333_s112c: 5.158 ms/loop
+w035_d2222_s64g: 1.296 ms/loop
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r3 N=969 act=5.191s net=3.1302 Pidle=2.2592
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r5 N=1939 act=9.991s net=3.0689 Pidle=2.2491
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r5 N=969 act=5.19s net=3.1230 Pidle=2.2547
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r8 N=5816 act=29.893s net=2.9737 Pidle=2.2647
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r3 N=7715 act=10.091s net=0.8751 Pidle=2.2482
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r8 N=7715 act=9.891s net=0.8338 Pidle=2.2653
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r4 N=1939 act=10.191s net=2.9471 Pidle=2.2939
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r1 N=23145 act=29.503s net=0.8497 Pidle=2.2583
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r4 N=3857 act=5.09s net=0.8515 Pidle=2.2697
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r6 N=3857 act=5.191s net=0.8425 Pidle=2.2777
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r6 N=1939 act=10.091s net=3.0878 Pidle=2.2595
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r2 N=388 act=2.191s net=3.2509 Pidle=2.2658
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r1 N=1939 act=10.191s net=3.1064 Pidle=2.2608
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r1 N=969 act=5.191s net=3.0503 Pidle=2.2759
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r7 N=1939 act=10.091s net=3.1011 Pidle=2.2638
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r4 N=969 act=5.291s net=3.2061 Pidle=2.2633
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r7 N=7715 act=9.991s net=0.8417 Pidle=2.2638
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r6 N=7715 act=9.991s net=0.8275 Pidle=2.2810
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r3 N=3857 act=5.091s net=0.8787 Pidle=2.2751
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r1 N=5816 act=29.793s net=3.0344 Pidle=2.2721
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r6 N=5816 act=29.593s net=2.9881 Pidle=2.2865
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r3 N=1939 act=10.091s net=3.0615 Pidle=2.2745
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r2 N=1543 act=2.19s net=0.9355 Pidle=2.2710
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r7 N=5816 act=29.993s net=2.9988 Pidle=2.2831
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r5 N=5816 act=29.693s net=3.0782 Pidle=2.2749
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r2 N=7715 act=10.091s net=0.8286 Pidle=2.2989
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r6 N=23145 act=29.003s net=0.8338 Pidle=2.2762
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r5 N=3857 act=5.191s net=0.8774 Pidle=2.2917
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r1 N=3857 act=5.191s net=0.8308 Pidle=2.3115
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r2 N=1939 act=10.091s net=3.1171 Pidle=2.2781
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r1 N=7715 act=9.891s net=0.8530 Pidle=2.2776
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r7 N=1543 act=2.191s net=0.9001 Pidle=2.2806
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r4 N=23145 act=28.893s net=0.8234 Pidle=2.2797
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r7 N=23145 act=29.293s net=0.8279 Pidle=2.2815
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r8 N=1543 act=2.19s net=0.8855 Pidle=2.2961
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r7 N=969 act=5.19s net=3.0989 Pidle=2.2822
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r8 N=388 act=2.29s net=3.4650 Pidle=2.2719
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r5 N=1543 act=2.2s net=0.9087 Pidle=2.2685
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r4 N=7715 act=9.891s net=0.8560 Pidle=2.2687
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r7 N=3857 act=5.09s net=0.8740 Pidle=2.2856
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r4 N=1543 act=2.09s net=0.8524 Pidle=2.2958
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r8 N=3857 act=5.291s net=0.9054 Pidle=2.2732
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r8 N=969 act=5.2s net=3.1625 Pidle=2.2720
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r2 N=23145 act=28.893s net=0.8393 Pidle=2.2749
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r3 N=5816 act=29.793s net=3.0364 Pidle=2.2751
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r4 N=5816 act=29.903s net=3.0663 Pidle=2.2761
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r6 N=388 act=2.29s net=3.3970 Pidle=2.2864
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r3 N=388 act=2.191s net=3.2803 Pidle=2.2737
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r6 N=969 act=5.091s net=3.1316 Pidle=2.2676
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r3 N=23145 act=28.592s net=0.8158 Pidle=2.2850
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r6 N=1543 act=2.191s net=0.9293 Pidle=2.2662
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T10_r8 N=1939 act=9.991s net=3.1100 Pidle=2.2702
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r7 N=388 act=2.29s net=3.3425 Pidle=2.2844
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T2_r3 N=1543 act=2.19s net=0.9111 Pidle=2.2850
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T10_r5 N=7715 act=10.001s net=0.8453 Pidle=2.2956
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r5 N=388 act=2.19s net=3.2958 Pidle=2.2754
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T2_r4 N=388 act=2.29s net=3.4453 Pidle=2.2776
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r8 N=23145 act=29.893s net=0.8707 Pidle=2.2796
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T30_r2 N=5816 act=29.693s net=3.0746 Pidle=2.2730
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w05_d3333_s112c_T5_r2 N=969 act=5.29s net=3.1378 Pidle=2.2907
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T30_r5 N=23145 act=28.693s net=0.8025 Pidle=2.3014
+  # mark idle_start
+  # mark idle_stop
+  # mark start
+  # mark stop
+OK w035_d2222_s64g_T5_r2 N=3857 act=5.09s net=0.8731 Pidle=2.2794
+w035_d2222_s64g {"n": 32, "mean_w": 2.27913, "sd_between_windows_w": 0.01343, "mean_within_window_sample_sd_w": 0.04468}
+  T= 2s N= 1626 samples=   220 net=0.9019¡À0.0262 CI[0.87993, 0.92382] cv=0.0291 rel=0.0828
+  T= 5s N= 3857 samples= 516.2 net=0.8667¡À0.0238 CI[0.84682, 0.88655] cv=0.0274 rel=0.0406
+  T=10s N= 7715 samples= 998.8 net=0.8451¡À0.0160 CI[0.8317, 0.85853] cv=0.019 rel=0.0147
+  T=30s N=23145 samples=  2910 net=0.8329¡À0.0210 CI[0.81534, 0.85044] cv=0.0252 rel=0.0
+w05_d3333_s112c {"n": 32, "mean_w": 2.27226, "sd_between_windows_w": 0.0107, "mean_within_window_sample_sd_w": 0.03564}
+  T= 2s N=  390 samples= 226.2 net=3.3523¡À0.0776 CI[3.28742, 3.41726] cv=0.0232 rel=0.1059
+  T= 5s N=  969 samples= 521.2 net=3.1301¡À0.0452 CI[3.09229, 3.16781] cv=0.0144 rel=0.0326
+  T=10s N= 1939 samples=  1010 net=3.0750¡À0.0553 CI[3.02875, 3.1212] cv=0.018 rel=0.0144
+  T=30s N= 5816 samples=  2980 net=3.0313¡À0.0407 CI[2.99733, 3.06532] cv=0.0134 rel=0.0

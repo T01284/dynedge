@@ -1,0 +1,31 @@
+{
+  "device": "esp32p4",
+  "label": "g3_w035_d2334_s64g_ferplus",
+  "n_infer": 13,
+  "sample_rate_hz": 100,
+  "active": {
+    "n_samples": 90,
+    "duration_s": 0.8899999999999997,
+    "v_mean": 8.001744444444444,
+    "i_mean": 0.000746,
+    "i_mean_ma": 0.746,
+    "p_mean_w": 0.005969301888888889,
+    "energy_j": 0.00531276425,
+    "energy_mj": 5.31276425
+  },
+  "idle": {
+    "n_samples": 460,
+    "duration_s": 4.59,
+    "v_mean": 8.001884782608697,
+    "i_mean": 0.0007397173913043478,
+    "i_mean_ma": 0.7397173913043479,
+    "p_mean_w": 0.005919132913043478,
+    "energy_j": 0.027168804000000026,
+    "energy_mj": 27.168804000000026
+  },
+  "energy_mj_gross": 5.31276425,
+  "energy_mj_net": 0.04473907352940936,
+  "energy_mj_per_infer_gross": 0.40867417307692305,
+  "energy_mj_per_infer_net": 0.003441467194569951,
+  "notes": ""
+}

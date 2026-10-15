@@ -1,0 +1,19 @@
+{
+  "meter_model": "P5S1",
+  "meter_version": "v2.2",
+  "v_range_v": 60.0,
+  "i_range_a": 3.3,
+  "sample_rate_hz": 100,
+  "device": "h618",
+  "label": "w05_d2222_s96c_ncnn_int8_r1",
+  "stem": "subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96",
+  "backend": "ncnn_int8",
+  "run_id": 1,
+  "n_infer": 1000,
+  "warmup": 50,
+  "idle_s": 5.0,
+  "threads": 4,
+  "port": "COM40",
+  "n_samples": 1890,
+  "board_log_tail": "READY device=h618 fw=0.2.0-ncnn-v3 backend=ncnn_cpu input=96x96x3 classes=8 ncnn=1\nINFO threads=4 vulkan=0\nMEM rss_kb=6236 vms_kb=37676\nBENCH_START warmup=0 iters=1000 seed=42 input=96x96x3\nRESULT kind=bench device=h618 backend=ncnn_cpu warmup=0 iters=1000 input=96x96x3 latency_us_mean=9241.8 latency_us_p50=9198.0 latency_us_p95=9375.1 latency_us_p99=9728.6 pred=0 class=neutral conf=0.9518\nMEM rss_kb=10408 vms_kb=41712\nBENCH_DONE\n"
+}

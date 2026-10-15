@@ -1,0 +1,18 @@
+===== V4 MATRIX START 2026-07-23T07:43:31+00:00 =====
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_predistill_img64
+OK subnet_expw_w0.35_d3333_s64g_seed42_v4_predistill_img64
+OK subnet_expw_w0.5_d2222_s96c_seed42_v4_predistill_img96
+OK subnet_expw_w0.5_d3333_s112c_seed42_v4_predistill_img112
+OK subnet_expw_w0.75_d3333_s112c_seed42_v4_predistill_img112
+OK subnet_expw_w0.75_d4444_s112c_seed42_v4_predistill_img112
+OK subnet_expw_w1_d2222_s112c_seed42_v4_predistill_img112
+OK subnet_expw_w1_d4444_s112c_seed42_v4_predistill_img112
+OK subnet_ferplus_w0.35_d2222_s64g_seed42_v4_predistill_img64
+OK subnet_ferplus_w0.35_d3333_s64g_seed42_v4_predistill_img64
+OK subnet_ferplus_w0.5_d2222_s96c_seed42_v4_predistill_img96
+OK subnet_ferplus_w0.5_d3333_s112c_seed42_v4_predistill_img112
+OK subnet_ferplus_w0.75_d3333_s112c_seed42_v4_predistill_img112
+OK subnet_ferplus_w0.75_d4444_s112c_seed42_v4_predistill_img112
+OK subnet_ferplus_w1_d2222_s112c_seed42_v4_predistill_img112
+OK subnet_ferplus_w1_d4444_s112c_seed42_v4_predistill_img112
+===== V4 MATRIX DONE 2026-07-23T07:55:25+00:00 ok=16 fail=0 =====

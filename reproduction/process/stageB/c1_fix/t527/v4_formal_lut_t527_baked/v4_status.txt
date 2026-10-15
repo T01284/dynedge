@@ -1,0 +1,6 @@
+===== V4 MATRIX START 2026-10-11T10:31:33 =====
+OK subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96 fp32 p50=12393.0
+OK subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96 int8 p50=16321.0
+OK subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96 fp32 p50=28558.0
+OK subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96 int8 p50=30407.0
+===== V4 MATRIX END 2026-10-11T10:33:13 rows=4 =====

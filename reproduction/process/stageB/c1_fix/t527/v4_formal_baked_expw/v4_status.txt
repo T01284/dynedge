@@ -1,0 +1,24 @@
+===== V4 MATRIX START 2026-10-11T10:17:05 =====
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64 fp32 p50=3638.0
+OK subnet_expw_w0.35_d2222_s64g_seed42_v4_formal_lut_img64 int8 p50=4253.0
+OK subnet_expw_w0.5_d3322_s96c_seed42_v4_formal_lut_img96 fp32 p50=12405.0
+OK subnet_expw_w0.5_d3322_s96c_seed42_v4_formal_lut_img96 int8 p50=16218.0
+OK subnet_expw_w0.5_d3324_s96c_seed42_v4_formal_lut_img96 fp32 p50=15043.0
+OK subnet_expw_w0.5_d3324_s96c_seed42_v4_formal_lut_img96 int8 p50=18012.0
+OK subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 fp32 p50=6760.0
+OK subnet_expw_w0.5_d3332_s64g_seed42_v4_formal_lut_img64 int8 p50=7928.0
+OK subnet_expw_w0.5_d4322_s112c_seed42_v4_formal_lut_img112 fp32 p50=18625.0
+OK subnet_expw_w0.5_d4322_s112c_seed42_v4_formal_lut_img112 int8 p50=25998.0
+OK subnet_expw_w0.75_d3332_s96c_seed42_v4_formal_lut_img96 fp32 p50=25302.5
+OK subnet_expw_w0.75_d3332_s96c_seed42_v4_formal_lut_img96 int8 p50=28601.0
+OK subnet_expw_w1_d2222_s96c_seed42_v4_formal_lut_img96 fp32 p50=30424.0
+OK subnet_expw_w1_d2222_s96c_seed42_v4_formal_lut_img96 int8 p50=28438.0
+OK subnet_expw_w1_d4332_s112c_seed42_v4_formal_lut_img112 fp32 p50=58336.5
+OK subnet_expw_w1_d4332_s112c_seed42_v4_formal_lut_img112 int8 p50=61426.5
+OK subnet_expw_w1_d4432_s112c_seed42_v4_formal_lut_img112 fp32 p50=60940.5
+OK subnet_expw_w1_d4432_s112c_seed42_v4_formal_lut_img112 int8 p50=64347.5
+OK subnet_expw_w1_d4442_s112c_seed42_v4_formal_lut_img112 fp32 p50=64909.0
+OK subnet_expw_w1_d4442_s112c_seed42_v4_formal_lut_img112 int8 p50=67757.5
+OK subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112 fp32 p50=76621.0
+OK subnet_expw_w1_d4444_s112c_seed42_v4_formal_lut_img112 int8 p50=74886.5
+===== V4 MATRIX END 2026-10-11T10:31:29 rows=22 =====

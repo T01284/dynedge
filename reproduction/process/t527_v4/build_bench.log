@@ -1,0 +1,48 @@
+=== fer_ncnn_bench classes=7 ===
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ncnn: 20260723
+-- fer_ncnn_bench: NCNN enabled FER_NUM_CLASSES=7
+-- Configuring done (6.8s)
+-- Generating done (0.3s)
+-- Build files have been written to: <repo>/deploy/ncnn_edge/build-linux-aarch64-c7
+[ 50%] Building CXX object CMakeFiles/fer_ncnn_bench.dir/src/main.cpp.o
+[ 50%] Building CXX object CMakeFiles/fer_ncnn_bench.dir/src/fer_runner.cpp.o
+[ 75%] Building CXX object CMakeFiles/fer_ncnn_bench.dir/src/fer_timing.cpp.o
+[100%] Linking CXX executable fer_ncnn_bench
+[100%] Built target fer_ncnn_bench
+<repo>/deploy/ncnn_edge/build-linux-aarch64-c7/fer_ncnn_bench: ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=f18115e8b2f552c49b8d9e83c5cc549ff889cfc2, for GNU/Linux 3.7.0, not stripped
+
+There is no dynamic section in this file.
+OK classes=7 -> <repo>/deploy/ncnn_edge/build-linux-aarch64-c7/fer_ncnn_bench
+=== fer_ncnn_bench classes=8 ===
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/aarch64-linux-gnu-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ncnn: 20260723
+-- fer_ncnn_bench: NCNN enabled FER_NUM_CLASSES=8
+-- Configuring done (3.8s)
+-- Generating done (0.3s)
+-- Build files have been written to: <repo>/deploy/ncnn_edge/build-linux-aarch64-c8
+[ 25%] Building CXX object CMakeFiles/fer_ncnn_bench.dir/src/main.cpp.o
+[ 75%] Building CXX object CMakeFiles/fer_ncnn_bench.dir/src/fer_runner.cpp.o
+[ 75%] Building CXX object CMakeFiles/fer_ncnn_bench.dir/src/fer_timing.cpp.o
+[100%] Linking CXX executable fer_ncnn_bench
+[100%] Built target fer_ncnn_bench
+<repo>/deploy/ncnn_edge/build-linux-aarch64-c8/fer_ncnn_bench: ELF 64-bit LSB executable, ARM aarch64, version 1 (GNU/Linux), statically linked, BuildID[sha1]=e1a83cf47d79f75793ed408af6e4e862bd477d22, for GNU/Linux 3.7.0, not stripped
+
+There is no dynamic section in this file.
+OK classes=8 -> <repo>/deploy/ncnn_edge/build-linux-aarch64-c8/fer_ncnn_bench

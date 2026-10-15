@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/stageB/b11_board_full_acc.py", line 270, in <module>
+    run_board(b, args.threads)
+             ^^^^^^
+  File "<repo>/scripts/stageB/b11_board_full_acc.py", line 264, in main
+    MODELS = [(a, s, d.with_name(d.name + "_fix")) for a, s, d in MODELS]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/scripts/stageB/b11_board_full_acc.py", line 175, in run_board
+    S.put(str(param), rparam, S.DEFAULT_HOST)
+  File "<repo>/deploy/t527/scripts/ssh_t527.py", line 47, in put
+    scp.put(local, remote, recursive=os.path.isdir(local))
+  File "<home>/AppData/Local/Programs/Python/Python312/Lib/site-packages/scp.py", line 210, in put
+    self._send_files(files)
+  File "<home>/AppData/Local/Programs/Python/Python312/Lib/site-packages/scp.py", line 325, in _send_files
+    self._send_file(fl, name, mode, size)
+  File "<home>/AppData/Local/Programs/Python/Python312/Lib/site-packages/scp.py", line 352, in _send_file
+    self._recv_confirm()
+  File "<home>/AppData/Local/Programs/Python/Python312/Lib/site-packages/scp.py", line 420, in _recv_confirm
+    raise SCPException(asunicode(msg[1:]))
+scp.SCPException: scp: /root/fer-dynedge/accfull/models/subnet_ferplus_w1_d4342_s112c_seed42_v4_flops_ctrl_img112.param: No space left on device
+

@@ -1,0 +1,27 @@
+{
+  "n_points": 9,
+  "devices": [
+    "h618",
+    "t527",
+    "orin"
+  ],
+  "lambdas": [
+    0.05,
+    0.2
+  ],
+  "also_band": true,
+  "subnet": {
+    "width": 0.5,
+    "depths": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "img_size": 112,
+    "gray": false
+  },
+  "csv": "results/c3_budget_tracking/budget_tracking.csv",
+  "n_rows": 61,
+  "torch_device": "cpu"
+}

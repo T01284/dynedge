@@ -1,0 +1,5 @@
+model,dtype,latency_us_p50,latency_us_mean,latency_us_p95,latency_us_p99,input,threads
+subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96,fp32,8617.0,10292.9,8951.4,58227.9,96x96x3,4
+subnet_ferplus_w0.5_d3322_s96c_seed42_v4_formal_lut_t527_img96,int8,11549.0,11572.8,11732.2,11945.5,96x96x3,4
+subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96,fp32,17800.5,17804.0,18115.0,18703.0,96x96x3,4
+subnet_ferplus_w0.75_d3333_s96c_seed42_v4_formal_lut_t527_img96,int8,20978.0,21409.0,21232.0,21782.4,96x96x3,4

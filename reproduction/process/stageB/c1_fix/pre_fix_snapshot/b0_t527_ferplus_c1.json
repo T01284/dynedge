@@ -1,0 +1,346 @@
+{
+  "lut_arm": [
+    "w0.35_d3222_s64g",
+    "w0.5_d3322_s96c",
+    "w0.5_d3332_s64g",
+    "w0.5_d3333_s96c",
+    "w0.75_d3333_s96c",
+    "w1_d4342_s112c"
+  ],
+  "new_tiers": [
+    {
+      "arm": "lut",
+      "device": "t527",
+      "dataset": "ferplus",
+      "dtype": "fp32",
+      "key": "w0.5_d3322_s96c",
+      "lat": 12.469,
+      "acc": 0.8652077386615922
+    },
+    {
+      "arm": "lut",
+      "device": "t527",
+      "dataset": "ferplus",
+      "dtype": "int8",
+      "key": "w0.5_d3322_s96c",
+      "lat": 16.382,
+      "acc": 0.8652077386615922
+    },
+    {
+      "arm": "lut",
+      "device": "t527",
+      "dataset": "ferplus",
+      "dtype": "fp32",
+      "key": "w0.75_d3333_s96c",
+      "lat": 28.5515,
+      "acc": 0.8728195369489375
+    },
+    {
+      "arm": "lut",
+      "device": "t527",
+      "dataset": "ferplus",
+      "dtype": "int8",
+      "key": "w0.75_d3333_s96c",
+      "lat": 30.47,
+      "acc": 0.8728195369489375
+    }
+  ],
+  "rows": {
+    "int8": {
+      "iso_acc": {
+        "condition": "T527 / FER+ (int8, T527-searched LUT arm)",
+        "n": 6,
+        "mean": 1.1216332284049184,
+        "median": 0.99441473830014,
+        "geomean": 1.0700356806690456,
+        "ci_lo": 0.7749590905274999,
+        "ci_hi": 1.5898328259513959,
+        "wilcoxon_p": 1.0,
+        "rank_biserial_r": 0.047619047619047616,
+        "frac_lut_faster": 0.3333333333333333,
+        "bootstrap": "iid"
+      },
+      "iso_lat": {
+        "condition": "T527 / FER+ (int8, T527-searched LUT arm)",
+        "n": 6,
+        "mean_pp": 0.16915107305211877,
+        "median_pp": -0.2220107833809104,
+        "ci_lo_pp": -1.0941960038059029,
+        "ci_hi_pp": 1.8236600063431696,
+        "wilcoxon_p": 1.0,
+        "rank_biserial_r": 0.047619047619047616,
+        "frac_lut_better": 0.5
+      },
+      "dominance": [
+        {
+          "device": "t527",
+          "dataset": "ferplus",
+          "n_lut": 6,
+          "n_flops": 6,
+          "flops_dominated_by_lut": 0,
+          "lut_dominated_by_flops": 2
+        }
+      ],
+      "pairs_iso_acc": [
+        {
+          "lut_key": "w0.35_d3222_s64g",
+          "lut_acc": 0.8306374881065651,
+          "lut_lat": 5.6,
+          "flops_key": "w0.35_d2222_s64g",
+          "flops_acc": 0.8290516967967015,
+          "flops_lat": 4.816,
+          "ratio": 0.86
+        },
+        {
+          "lut_key": "w0.5_d3332_s64g",
+          "lut_acc": 0.8442752933713923,
+          "lut_lat": 8.618,
+          "flops_key": "w0.75_d3322_s64g",
+          "flops_acc": 0.8503013003488741,
+          "flops_lat": 13.121,
+          "ratio": 1.522511023439313
+        },
+        {
+          "lut_key": "w0.5_d3322_s96c",
+          "lut_acc": 0.8652077386615922,
+          "lut_lat": 16.382,
+          "flops_key": "w0.35_d2432_s96c",
+          "flops_acc": 0.8601332064700286,
+          "flops_lat": 11.44,
+          "ratio": 0.6983274325479184
+        },
+        {
+          "lut_key": "w0.5_d3333_s96c",
+          "lut_acc": 0.8718680621630194,
+          "lut_lat": 18.1835,
+          "flops_key": "w0.75_d3432_s96c",
+          "flops_acc": 0.8785283856644466,
+          "flops_lat": 30.187,
+          "ratio": 1.6601314378419998
+        },
+        {
+          "lut_key": "w0.75_d3333_s96c",
+          "lut_acc": 0.8728195369489375,
+          "lut_lat": 30.47,
+          "flops_key": "w0.75_d3432_s96c",
+          "flops_acc": 0.8785283856644466,
+          "flops_lat": 30.187,
+          "ratio": 0.9907121759107319
+        },
+        {
+          "lut_key": "w1_d4342_s112c",
+          "lut_acc": 0.8839200761179828,
+          "lut_lat": 64.535,
+          "flops_key": "w1_d4342_s112c",
+          "flops_acc": 0.882651443070092,
+          "flops_lat": 64.4135,
+          "ratio": 0.9981173006895483
+        }
+      ],
+      "pairs_iso_lat": [
+        {
+          "lut_key": "w0.35_d3222_s64g",
+          "lut_lat": 5.6,
+          "lut_acc": 0.8306374881065651,
+          "flops_key": "w0.35_d2332_s64g",
+          "flops_lat": 5.558,
+          "flops_acc": 0.8366634950840469,
+          "d_acc_pp": -0.602600697748179
+        },
+        {
+          "lut_key": "w0.5_d3332_s64g",
+          "lut_lat": 8.618,
+          "lut_acc": 0.8442752933713923,
+          "flops_key": "w0.35_d2432_s96c",
+          "flops_lat": 11.44,
+          "flops_acc": 0.8601332064700286,
+          "d_acc_pp": -1.5857913098636267
+        },
+        {
+          "lut_key": "w0.5_d3322_s96c",
+          "lut_lat": 16.382,
+          "lut_acc": 0.8652077386615922,
+          "flops_key": "w0.75_d3322_s64g",
+          "flops_lat": 13.121,
+          "flops_acc": 0.8503013003488741,
+          "d_acc_pp": 1.4906438312718095
+        },
+        {
+          "lut_key": "w0.5_d3333_s96c",
+          "lut_lat": 18.1835,
+          "lut_acc": 0.8718680621630194,
+          "flops_key": "w0.75_d3322_s64g",
+          "flops_lat": 13.121,
+          "flops_acc": 0.8503013003488741,
+          "d_acc_pp": 2.1566761814145297
+        },
+        {
+          "lut_key": "w0.75_d3333_s96c",
+          "lut_lat": 30.47,
+          "lut_acc": 0.8728195369489375,
+          "flops_key": "w0.75_d3432_s96c",
+          "flops_lat": 30.187,
+          "flops_acc": 0.8785283856644466,
+          "d_acc_pp": -0.570884871550903
+        },
+        {
+          "lut_key": "w1_d4342_s112c",
+          "lut_lat": 64.535,
+          "lut_acc": 0.8839200761179828,
+          "flops_key": "w1_d4342_s112c",
+          "flops_lat": 64.4135,
+          "flops_acc": 0.882651443070092,
+          "d_acc_pp": 0.12686330478908214
+        }
+      ]
+    },
+    "fp32": {
+      "iso_acc": {
+        "condition": "T527 / FER+ (fp32, T527-searched LUT arm)",
+        "n": 6,
+        "mean": 1.1874654350231428,
+        "median": 0.9651678452365633,
+        "geomean": 1.1057407228948186,
+        "ci_lo": 0.7727229275710532,
+        "ci_hi": 1.8138616155437348,
+        "wilcoxon_p": 1.0,
+        "rank_biserial_r": 0.047619047619047616,
+        "frac_lut_faster": 0.3333333333333333,
+        "bootstrap": "iid"
+      },
+      "iso_lat": {
+        "condition": "T527 / FER+ (fp32, T527-searched LUT arm)",
+        "n": 6,
+        "mean_pp": 0.16915107305211877,
+        "median_pp": -0.2220107833809104,
+        "ci_lo_pp": -1.0941960038059029,
+        "ci_hi_pp": 1.8236600063431696,
+        "wilcoxon_p": 1.0,
+        "rank_biserial_r": 0.047619047619047616,
+        "frac_lut_better": 0.5
+      },
+      "dominance": [
+        {
+          "device": "t527",
+          "dataset": "ferplus",
+          "n_lut": 6,
+          "n_flops": 6,
+          "flops_dominated_by_lut": 1,
+          "lut_dominated_by_flops": 1
+        }
+      ],
+      "pairs_iso_acc": [
+        {
+          "lut_key": "w0.35_d3222_s64g",
+          "lut_acc": 0.8306374881065651,
+          "lut_lat": 4.138,
+          "flops_key": "w0.35_d2222_s64g",
+          "flops_acc": 0.8290516967967015,
+          "flops_lat": 3.77,
+          "ratio": 0.9110681488641856
+        },
+        {
+          "lut_key": "w0.5_d3332_s64g",
+          "lut_acc": 0.8442752933713923,
+          "lut_lat": 6.977,
+          "flops_key": "w0.75_d3322_s64g",
+          "flops_acc": 0.8503013003488741,
+          "flops_lat": 12.499,
+          "ratio": 1.7914576465529597
+        },
+        {
+          "lut_key": "w0.5_d3322_s96c",
+          "lut_acc": 0.8652077386615922,
+          "lut_lat": 12.469,
+          "flops_key": "w0.35_d2432_s96c",
+          "flops_acc": 0.8601332064700286,
+          "flops_lat": 8.172,
+          "ratio": 0.6553853556820917
+        },
+        {
+          "lut_key": "w0.5_d3333_s96c",
+          "lut_acc": 0.8718680621630194,
+          "lut_lat": 14.475,
+          "flops_key": "w0.75_d3432_s96c",
+          "flops_acc": 0.8785283856644466,
+          "flops_lat": 26.584,
+          "ratio": 1.8365457685664939
+        },
+        {
+          "lut_key": "w0.75_d3333_s96c",
+          "lut_acc": 0.8728195369489375,
+          "lut_lat": 28.5515,
+          "flops_key": "w0.75_d3432_s96c",
+          "flops_acc": 0.8785283856644466,
+          "flops_lat": 26.584,
+          "ratio": 0.9310894348808293
+        },
+        {
+          "lut_key": "w1_d4342_s112c",
+          "lut_acc": 0.8839200761179828,
+          "lut_lat": 61.692,
+          "flops_key": "w1_d4342_s112c",
+          "flops_acc": 0.882651443070092,
+          "flops_lat": 61.6455,
+          "ratio": 0.9992462555922972
+        }
+      ],
+      "pairs_iso_lat": [
+        {
+          "lut_key": "w0.35_d3222_s64g",
+          "lut_lat": 4.138,
+          "lut_acc": 0.8306374881065651,
+          "flops_key": "w0.35_d2332_s64g",
+          "flops_lat": 4.203,
+          "flops_acc": 0.8366634950840469,
+          "d_acc_pp": -0.602600697748179
+        },
+        {
+          "lut_key": "w0.5_d3332_s64g",
+          "lut_lat": 6.977,
+          "lut_acc": 0.8442752933713923,
+          "flops_key": "w0.35_d2432_s96c",
+          "flops_lat": 8.172,
+          "flops_acc": 0.8601332064700286,
+          "d_acc_pp": -1.5857913098636267
+        },
+        {
+          "lut_key": "w0.5_d3322_s96c",
+          "lut_lat": 12.469,
+          "lut_acc": 0.8652077386615922,
+          "flops_key": "w0.75_d3322_s64g",
+          "flops_lat": 12.499,
+          "flops_acc": 0.8503013003488741,
+          "d_acc_pp": 1.4906438312718095
+        },
+        {
+          "lut_key": "w0.5_d3333_s96c",
+          "lut_lat": 14.475,
+          "lut_acc": 0.8718680621630194,
+          "flops_key": "w0.75_d3322_s64g",
+          "flops_lat": 12.499,
+          "flops_acc": 0.8503013003488741,
+          "d_acc_pp": 2.1566761814145297
+        },
+        {
+          "lut_key": "w0.75_d3333_s96c",
+          "lut_lat": 28.5515,
+          "lut_acc": 0.8728195369489375,
+          "flops_key": "w0.75_d3432_s96c",
+          "flops_lat": 26.584,
+          "flops_acc": 0.8785283856644466,
+          "d_acc_pp": -0.570884871550903
+        },
+        {
+          "lut_key": "w1_d4342_s112c",
+          "lut_lat": 61.692,
+          "lut_acc": 0.8839200761179828,
+          "flops_key": "w1_d4342_s112c",
+          "flops_lat": 61.6455,
+          "flops_acc": 0.882651443070092,
+          "d_acc_pp": 0.12686330478908214
+        }
+      ]
+    }
+  }
+}

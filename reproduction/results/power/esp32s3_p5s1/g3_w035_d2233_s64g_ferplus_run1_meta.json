@@ -1,0 +1,16 @@
+{
+  "stem": "g3_w035_d2233_s64g_ferplus",
+  "device": "esp32s3",
+  "ready": "READY device=esp32s3 fw=0.5.0-espdl-wifi model=embedded input=64x64x3 ref_n=8 model_bytes=1137264",
+  "n_latency_samples": 13,
+  "p50_latency_us": 79585.0,
+  "p50_latency_ms": 79.585,
+  "n_infer": 13,
+  "energy_mj_per_infer_net": -0.00819079769033666,
+  "energy_mj_per_infer_gross": -2.9710052369230775,
+  "idle_p_mean_w": -0.025834111234042553,
+  "active_p_mean_w": -0.025905378133333334,
+  "active_i_mean_ma": -4.836866666666666,
+  "v_mean": 5.3557,
+  "csv": "<repo>/results/power/esp32s3_p5s1/g3_w035_d2233_s64g_ferplus_run1.csv"
+}

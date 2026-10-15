@@ -1,0 +1,553 @@
+{
+  "a1_int8": [
+    {
+      "condition": "H618 / FER+",
+      "n": 6,
+      "mean": 1.0572647699196926,
+      "median": 0.9471133542100019,
+      "geomean": 1.0064310544181974,
+      "ci_lo": 0.7167927143362146,
+      "ci_hi": 1.5038585583909347,
+      "wilcoxon_p": 1.0,
+      "rank_biserial_r": -0.047619047619047616,
+      "frac_lut_faster": 0.3333333333333333,
+      "bootstrap": "iid"
+    },
+    {
+      "condition": "H618 / ExpW",
+      "n": 11,
+      "mean": 1.2253465617187038,
+      "median": 1.0067273723606431,
+      "geomean": 1.1601618296317913,
+      "ci_lo": 0.9497756071805702,
+      "ci_hi": 1.2254807692307692,
+      "wilcoxon_p": 0.3203125,
+      "rank_biserial_r": 0.36363636363636365,
+      "frac_lut_faster": 0.6363636363636364,
+      "bootstrap": "iid"
+    },
+    {
+      "condition": "T527 / FER+",
+      "n": 6,
+      "mean": 1.0700666884082377,
+      "median": 0.9290586503447742,
+      "geomean": 1.0050318892152805,
+      "ci_lo": 0.6892044115976441,
+      "ci_hi": 1.5898328259513959,
+      "wilcoxon_p": 1.0,
+      "rank_biserial_r": 0.047619047619047616,
+      "frac_lut_faster": 0.3333333333333333,
+      "bootstrap": "iid"
+    },
+    {
+      "condition": "T527 / ExpW",
+      "n": 11,
+      "mean": 1.2453413034816512,
+      "median": 1.0029379360998898,
+      "geomean": 1.1716043721602774,
+      "ci_lo": 0.9392765353484983,
+      "ci_hi": 1.251619644723093,
+      "wilcoxon_p": 0.46484375,
+      "rank_biserial_r": 0.2727272727272727,
+      "frac_lut_faster": 0.5454545454545454,
+      "bootstrap": "iid"
+    },
+    {
+      "condition": "Pooled (34 pairs, cluster bootstrap)",
+      "n": 34,
+      "mean": 1.1747516255050439,
+      "median": 1.0003866707027353,
+      "geomean": 1.1066296555010668,
+      "ci_lo": 0.9075602326225422,
+      "ci_hi": 1.2254807692307692,
+      "wilcoxon_p": 0.35160549916327,
+      "rank_biserial_r": 0.1865546218487395,
+      "frac_lut_faster": 0.5,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "Pooled, 17 unique LUT subnets (board geo-mean)",
+      "n": 17,
+      "mean": 1.1745235786844155,
+      "median": 1.001514734464552,
+      "geomean": 1.1066296555010668,
+      "ci_lo": 0.8990879752960883,
+      "ci_hi": 1.2384812493532544,
+      "wilcoxon_p": 0.4585723876953125,
+      "rank_biserial_r": 0.21568627450980393,
+      "frac_lut_faster": 0.5294117647058824,
+      "bootstrap": "iid"
+    },
+    {
+      "condition": "  excl. identical-architecture pairs",
+      "n": 15,
+      "mean": 1.1977324514288186,
+      "median": 1.001514734464552,
+      "geomean": 1.1216127267683589,
+      "ci_lo": 0.8990879752960883,
+      "ci_hi": 1.2384812493532544,
+      "wilcoxon_p": 0.42120361328125,
+      "rank_biserial_r": 0.25,
+      "frac_lut_faster": 0.5333333333333333,
+      "bootstrap": "iid"
+    },
+    {
+      "condition": "  only subnets from a working LUT cost (H618 search)",
+      "n": 12,
+      "mean": 1.1616589527009755,
+      "median": 1.0019574898873111,
+      "geomean": 1.098984782242964,
+      "ci_lo": 0.888218509885725,
+      "ci_hi": 1.344175692168184,
+      "wilcoxon_p": 0.38037109375,
+      "rank_biserial_r": 0.3076923076923077,
+      "frac_lut_faster": 0.5833333333333334,
+      "bootstrap": "iid"
+    }
+  ],
+  "a1_dominance_int8": [
+    {
+      "device": "h618",
+      "dataset": "ferplus",
+      "n_lut": 6,
+      "n_flops": 6,
+      "flops_dominated_by_lut": 0,
+      "lut_dominated_by_flops": 1
+    },
+    {
+      "device": "h618",
+      "dataset": "expw",
+      "n_lut": 11,
+      "n_flops": 6,
+      "flops_dominated_by_lut": 2,
+      "lut_dominated_by_flops": 1
+    },
+    {
+      "device": "t527",
+      "dataset": "ferplus",
+      "n_lut": 6,
+      "n_flops": 6,
+      "flops_dominated_by_lut": 0,
+      "lut_dominated_by_flops": 2
+    },
+    {
+      "device": "t527",
+      "dataset": "expw",
+      "n_lut": 11,
+      "n_flops": 6,
+      "flops_dominated_by_lut": 2,
+      "lut_dominated_by_flops": 2
+    }
+  ],
+  "a1_robustness": [
+    {
+      "condition": "INT8 nearest-neighbour",
+      "n": 34,
+      "mean": 1.1747516255050439,
+      "median": 1.0003866707027353,
+      "geomean": 1.1066296555010668,
+      "ci_lo": 0.9075602326225422,
+      "ci_hi": 1.2254807692307692,
+      "wilcoxon_p": 0.35160549916327,
+      "rank_biserial_r": 0.1865546218487395,
+      "frac_lut_faster": 0.5,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "INT8 frontier (cheapest FLOPs point with acc>=LUT)",
+      "n": 24,
+      "mean": 1.4030765420822198,
+      "median": 1.1787281620641812,
+      "geomean": 1.3065121110801547,
+      "ci_lo": 1.0018628427847334,
+      "ci_hi": 1.7557207820000937,
+      "wilcoxon_p": 0.005897641181945801,
+      "rank_biserial_r": 0.6266666666666667,
+      "frac_lut_faster": 0.75,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "FP32 nearest-neighbour",
+      "n": 34,
+      "mean": 1.1927888641149527,
+      "median": 1.0103755248304718,
+      "geomean": 1.114886747566006,
+      "ci_lo": 0.9126570640514865,
+      "ci_hi": 1.2760063770426464,
+      "wilcoxon_p": 0.22142491699196398,
+      "rank_biserial_r": 0.24369747899159663,
+      "frac_lut_faster": 0.5588235294117647,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "FP32 frontier (cheapest FLOPs point with acc>=LUT)",
+      "n": 24,
+      "mean": 1.4400651732641283,
+      "median": 1.1083170432897798,
+      "geomean": 1.3128551941634012,
+      "ci_lo": 1.000132240148109,
+      "ci_hi": 1.7810124766958269,
+      "wilcoxon_p": 0.006516098976135254,
+      "rank_biserial_r": 0.62,
+      "frac_lut_faster": 0.75,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "AUTO nearest-neighbour",
+      "n": 34,
+      "mean": 1.1970133003718122,
+      "median": 1.0103755248304718,
+      "geomean": 1.1176182770126855,
+      "ci_lo": 0.9126570640514865,
+      "ci_hi": 1.2760063770426464,
+      "wilcoxon_p": 0.22142491699196398,
+      "rank_biserial_r": 0.24369747899159663,
+      "frac_lut_faster": 0.5588235294117647,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "AUTO frontier (cheapest FLOPs point with acc>=LUT)",
+      "n": 24,
+      "mean": 1.445228462552251,
+      "median": 1.1083170432897798,
+      "geomean": 1.3160878410728731,
+      "ci_lo": 1.000132240148109,
+      "ci_hi": 1.7810124766958269,
+      "wilcoxon_p": 0.006516098976135254,
+      "rank_biserial_r": 0.62,
+      "frac_lut_faster": 0.75,
+      "bootstrap": "cluster(LUT subnet)"
+    },
+    {
+      "condition": "INT8 frontier, FLOPs-anchored (cheapest LUT point with acc>=FLOPs)",
+      "n": 24,
+      "mean": 0.902417264486537,
+      "median": 0.7483885095936569,
+      "geomean": 0.8296874012100467,
+      "ci_lo": 0.6449130192397843,
+      "ci_hi": 0.9875695661414525,
+      "wilcoxon_p": 0.009575724601745605,
+      "rank_biserial_r": -0.5933333333333334,
+      "frac_lut_faster": 0.16666666666666666,
+      "bootstrap": "cluster(LUT subnet)"
+    }
+  ],
+  "a2_int8": [
+    {
+      "condition": "H618 / FER+",
+      "n": 6,
+      "mean_pp": 0.6131726398139322,
+      "median_pp": 0.4440215667618097,
+      "ci_lo_pp": -0.3964478274659067,
+      "ci_hi_pp": 1.7919441801458935,
+      "wilcoxon_p": 0.3125,
+      "rank_biserial_r": 0.5238095238095238,
+      "frac_lut_better": 0.6666666666666666
+    },
+    {
+      "condition": "H618 / ExpW",
+      "n": 11,
+      "mean_pp": 0.1129615930583603,
+      "median_pp": 0.120958873982846,
+      "ci_lo_pp": -0.08797009016934254,
+      "ci_hi_pp": 0.32988783813503453,
+      "wilcoxon_p": 0.193359375,
+      "rank_biserial_r": 0.4909090909090909,
+      "frac_lut_better": 0.6363636363636364
+    },
+    {
+      "condition": "T527 / FER+",
+      "n": 6,
+      "mean_pp": 0.22201078338090485,
+      "median_pp": -0.03171582619727609,
+      "ci_lo_pp": -1.0941960038059029,
+      "ci_hi_pp": 1.7919441801458935,
+      "wilcoxon_p": 1.0,
+      "rank_biserial_r": 0.047619047619047616,
+      "frac_lut_better": 0.5
+    },
+    {
+      "condition": "T527 / ExpW",
+      "n": 11,
+      "mean_pp": 0.1129615930583603,
+      "median_pp": 0.120958873982846,
+      "ci_lo_pp": -0.08797009016934254,
+      "ci_hi_pp": 0.32988783813503453,
+      "wilcoxon_p": 0.193359375,
+      "rank_biserial_r": 0.4909090909090909,
+      "frac_lut_better": 0.6363636363636364
+    },
+    {
+      "condition": "Pooled (34 pairs, cluster bootstrap)",
+      "n": 34,
+      "mean_pp": 0.22047810548391025,
+      "median_pp": 0.12391108938596407,
+      "ci_lo_pp": -0.08797009016934254,
+      "ci_hi_pp": 0.32988783813503453,
+      "wilcoxon_p": 0.0887250832968698,
+      "rank_biserial_r": 0.3446969696969697,
+      "frac_lut_better": 0.6176470588235294
+    }
+  ],
+  "a2_int8_frontier": [
+    {
+      "condition": "H618 / FER+",
+      "n": 6,
+      "mean_pp": 0.41230574056453917,
+      "median_pp": 0.30130034887408397,
+      "ci_lo_pp": -0.03171582619727609,
+      "ci_hi_pp": 0.9673326990168096,
+      "wilcoxon_p": 0.15625,
+      "rank_biserial_r": 0.7142857142857143,
+      "frac_lut_better": 0.8333333333333334
+    },
+    {
+      "condition": "H618 / ExpW",
+      "n": 10,
+      "mean_pp": 0.3804706399824054,
+      "median_pp": 0.33538596877061844,
+      "ci_lo_pp": 0.1869364416098529,
+      "ci_hi_pp": 0.6432812843633173,
+      "wilcoxon_p": 0.005859375,
+      "rank_biserial_r": 0.9272727272727272,
+      "frac_lut_better": 0.9
+    },
+    {
+      "condition": "T527 / FER+",
+      "n": 6,
+      "mean_pp": 0.28544243577544964,
+      "median_pp": 0.2854424357754459,
+      "ci_lo_pp": -0.3964478274659067,
+      "ci_hi_pp": 0.9673326990168096,
+      "wilcoxon_p": 0.4375,
+      "rank_biserial_r": 0.42857142857142855,
+      "frac_lut_better": 0.6666666666666666
+    },
+    {
+      "condition": "T527 / ExpW",
+      "n": 10,
+      "mean_pp": 0.35078073455025227,
+      "median_pp": 0.33538596877061844,
+      "ci_lo_pp": 0.07697382889817472,
+      "ci_hi_pp": 0.6432812843633173,
+      "wilcoxon_p": 0.01171875,
+      "rank_biserial_r": 0.9111111111111111,
+      "frac_lut_better": 0.8
+    },
+    {
+      "condition": "Pooled (34 pairs, cluster bootstrap)",
+      "n": 32,
+      "mean_pp": 0.3593438376052034,
+      "median_pp": 0.33538596877061844,
+      "ci_lo_pp": 0.12686330478908214,
+      "ci_hi_pp": 0.4948317572025518,
+      "wilcoxon_p": 0.00011254674519484224,
+      "rank_biserial_r": 0.7943548387096774,
+      "frac_lut_better": 0.8125
+    }
+  ],
+  "a2_robustness": [
+    {
+      "condition": "INT8 nearest-neighbour",
+      "n": 34,
+      "mean_pp": 0.22047810548391025,
+      "median_pp": 0.12391108938596407,
+      "ci_lo_pp": -0.08797009016934254,
+      "ci_hi_pp": 0.32988783813503453,
+      "wilcoxon_p": 0.0887250832968698,
+      "rank_biserial_r": 0.3446969696969697,
+      "frac_lut_better": 0.6176470588235294
+    },
+    {
+      "condition": "INT8 frontier (best FLOPs acc with lat<=LUT)",
+      "n": 32,
+      "mean_pp": 0.3593438376052034,
+      "median_pp": 0.33538596877061844,
+      "ci_lo_pp": 0.12686330478908214,
+      "ci_hi_pp": 0.4948317572025518,
+      "wilcoxon_p": 0.00011254674519484224,
+      "rank_biserial_r": 0.7943548387096774,
+      "frac_lut_better": 0.8125
+    },
+    {
+      "condition": "FP32 nearest-neighbour",
+      "n": 34,
+      "mean_pp": 0.1773230985161235,
+      "median_pp": 0.12391108938596407,
+      "ci_lo_pp": -0.14295139652518163,
+      "ci_hi_pp": 0.32988783813503453,
+      "wilcoxon_p": 0.1904141070266444,
+      "rank_biserial_r": 0.26515151515151514,
+      "frac_lut_better": 0.5882352941176471
+    },
+    {
+      "condition": "FP32 frontier (best FLOPs acc with lat<=LUT)",
+      "n": 33,
+      "mean_pp": 0.347862063086307,
+      "median_pp": 0.32988783813503453,
+      "ci_lo_pp": 0.14295139652518163,
+      "ci_hi_pp": 0.4440215667618097,
+      "wilcoxon_p": 2.992265645848864e-05,
+      "rank_biserial_r": 0.8324420677361853,
+      "frac_lut_better": 0.8181818181818182
+    },
+    {
+      "condition": "AUTO nearest-neighbour",
+      "n": 34,
+      "mean_pp": 0.1773230985161235,
+      "median_pp": 0.12391108938596407,
+      "ci_lo_pp": -0.14295139652518163,
+      "ci_hi_pp": 0.32988783813503453,
+      "wilcoxon_p": 0.1904141070266444,
+      "rank_biserial_r": 0.26515151515151514,
+      "frac_lut_better": 0.5882352941176471
+    },
+    {
+      "condition": "AUTO frontier (best FLOPs acc with lat<=LUT)",
+      "n": 33,
+      "mean_pp": 0.347862063086307,
+      "median_pp": 0.32988783813503453,
+      "ci_lo_pp": 0.14295139652518163,
+      "ci_hi_pp": 0.4440215667618097,
+      "wilcoxon_p": 2.992265645848864e-05,
+      "rank_biserial_r": 0.8324420677361853,
+      "frac_lut_better": 0.8181818181818182
+    },
+    {
+      "condition": "INT8 frontier, FLOPs-anchored (best LUT acc with lat<=FLOPs)",
+      "n": 21,
+      "mean_pp": -0.3893536421439837,
+      "median_pp": -0.2639102705080276,
+      "ci_lo_pp": -0.602600697748179,
+      "ci_hi_pp": -0.08797009016934254,
+      "wilcoxon_p": 0.0018244927329179636,
+      "rank_biserial_r": -0.7748917748917749,
+      "frac_lut_better": 0.19047619047619047
+    }
+  ],
+  "a2_unpaired_test_se_pp": {
+    "ferplus": 0.847001764214398,
+    "expw": 0.6625530863787487
+  },
+  "audit": {
+    "t527_expw_search_pred_us_unique": 9,
+    "t527_expw_search_pred_us_range": [
+      881.7786789073256,
+      888.2229820973474
+    ],
+    "t527_root_cause": "train/search_subnets_lut.py load_lut() keeps only backend=='h618_ncnn' rows and reads column p50_us; lut/ops_t527_v4_full.csv uses backend=ncnn_cpu and latency_us_p50, so the T527 table is empty and cost == H618 affine bias.",
+    "ferplus_t527_search_exists": false,
+    "lut_subnet_sources": {
+      "ferplus|w0.5_d3332_s64g": [
+        "h618"
+      ],
+      "ferplus|w0.5_d3242_s96c": [
+        "h618"
+      ],
+      "ferplus|w0.5_d3333_s96c": [
+        "h618"
+      ],
+      "ferplus|w0.75_d3333_s112c": [
+        "h618"
+      ],
+      "ferplus|w1_d4342_s112c": [
+        "h618"
+      ],
+      "ferplus|w0.35_d3222_s64g": [
+        "h618"
+      ],
+      "expw|w0.5_d3332_s64g": [
+        "h618"
+      ],
+      "expw|w0.5_d3322_s96c": [
+        "h618"
+      ],
+      "expw|w0.5_d3324_s96c": [
+        "h618"
+      ],
+      "expw|w0.75_d3332_s96c": [
+        "h618"
+      ],
+      "expw|w1_d4432_s112c": [
+        "h618",
+        "t527"
+      ],
+      "expw|w0.35_d2222_s64g": [
+        "h618"
+      ],
+      "expw|w0.5_d4322_s112c": [
+        "t527"
+      ],
+      "expw|w1_d4332_s112c": [
+        "t527"
+      ],
+      "expw|w1_d4442_s112c": [
+        "t527"
+      ],
+      "expw|w1_d4444_s112c": [
+        "t527"
+      ],
+      "expw|w1_d2222_s96c": [
+        "t527"
+      ]
+    },
+    "outlier_pairs_ratio_gt_1_5": [
+      {
+        "device": "h618",
+        "dataset": "ferplus",
+        "lut_key": "w0.5_d3333_s96c",
+        "flops_key": "w0.75_d3432_s96c",
+        "ratio": 1.617816091954023,
+        "lut_source": "h618"
+      },
+      {
+        "device": "h618",
+        "dataset": "expw",
+        "lut_key": "w1_d2222_s96c",
+        "flops_key": "w1_d4342_s112c",
+        "ratio": 2.1837632776934752,
+        "lut_source": "t527"
+      },
+      {
+        "device": "h618",
+        "dataset": "expw",
+        "lut_key": "w0.75_d3332_s96c",
+        "flops_key": "w1_d4342_s112c",
+        "ratio": 2.136113997328188,
+        "lut_source": "h618"
+      },
+      {
+        "device": "t527",
+        "dataset": "ferplus",
+        "lut_key": "w0.5_d3332_s64g",
+        "flops_key": "w0.75_d3322_s64g",
+        "ratio": 1.522511023439313,
+        "lut_source": "h618"
+      },
+      {
+        "device": "t527",
+        "dataset": "ferplus",
+        "lut_key": "w0.5_d3333_s96c",
+        "flops_key": "w0.75_d3432_s96c",
+        "ratio": 1.6601314378419998,
+        "lut_source": "h618"
+      },
+      {
+        "device": "t527",
+        "dataset": "expw",
+        "lut_key": "w0.75_d3332_s96c",
+        "flops_key": "w1_d4342_s112c",
+        "ratio": 2.2621607424268957,
+        "lut_source": "h618"
+      },
+      {
+        "device": "t527",
+        "dataset": "expw",
+        "lut_key": "w1_d2222_s96c",
+        "flops_key": "w1_d4342_s112c",
+        "ratio": 2.256471163586824,
+        "lut_source": "t527"
+      }
+    ]
+  }
+}
